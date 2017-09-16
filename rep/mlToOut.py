@@ -1,6 +1,7 @@
 import csv
 
-global defaultReputations = {
+global defaultReputations
+defaultReputations = {
     'Trump' : -1,
     'Buzzfeed' : -.96,
     'Breitbart' : -.92,
