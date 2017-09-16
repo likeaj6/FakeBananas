@@ -69,7 +69,7 @@ class source:
         this.sourceName = sourceName
         this.reputation = reputation
     def addArticle(articleId, articleValidity):
-        if !articles.contains(opinion.articleId):
+        if not articles.contains(opinion.articleId):
             reputation = (reputation*size+articleValidity)/(size+1)
             articles.append(articleId)
             size++
@@ -134,7 +134,7 @@ def compareStance(opinion, opinions):
 
 def update(opinions):
     for op in opinions:
-        if !sources.contains(op.sourceName):
+        if not sources.contains(op.sourceName):
             sources.add(op.sourceName, source(op.sourceName, 0))
         sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
