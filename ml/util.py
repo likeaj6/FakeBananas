@@ -279,7 +279,7 @@ def load_model(sess):
     """
     print("Loading model...")
     saver = tf.train.Saver()
-    saver.restore(sess, './teamB/model.ckpt') # specify here which model to load
+    saver.restore(sess, 'ml/teamB/model.ckpt') # specify here which model to load
 
 
 def save_predictions(pred, file):
