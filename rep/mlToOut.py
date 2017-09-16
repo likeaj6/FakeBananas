@@ -61,9 +61,9 @@ class opinion:
         self.stance = stance
 
 class source:
-    articles #list of strings
+    """articles #list of strings
     size #int
-    reputation #number between -1 and 1 inclusive
+    reputation #number between -1 and 1 inclusive"""
     def __init__(self, sourceName, reputation):
         this.size = 0 #number of articles from source
         this.sourceName = sourceName
@@ -78,7 +78,7 @@ def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
     :param mlOut: a panda dataframe
     """
-    opinions #list of type opinion
+    """opinions #list of type opinion"""
     for count, element in enumerate(mlOut.size):
         stance = mlOut.loc[count, 'Stances']
         articleId = mlOut.loc[count, 'BodyID']
@@ -92,7 +92,7 @@ def avgStance(opinions):
     """takes a list of opinions and calculates the final stance
     :param opinions: a list<opinion> of all opinions to average
     """
-    finalStance #to hold our final stance
+    """finalStance #to hold our final stance"""
     for op in opinions:
         #disagree
         if op.stance == 0:
@@ -115,7 +115,7 @@ def compareStance(opinion, opinions):
     :param opinion: the article who's validity is to be determined
     :param opinions: the articles to check the article in question against
     """
-    finalStance
+    """finalStance"""
     for op in opinions:
         #disagree
         if op.stance == 0:
