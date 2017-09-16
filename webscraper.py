@@ -76,6 +76,7 @@ for query in params:
     df = pd.concat([df,get_articles(query)])
 
 df = df.drop(df.index[[0,1]])
-
 df = df.reset_index(drop=True)
 df.to_json(orient='index')
+
+
