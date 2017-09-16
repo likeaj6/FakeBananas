@@ -72,7 +72,7 @@ class source:
         if not articles.contains(opinion.articleId):
             reputation = (reputation*size+articleValidity)/(size+1)
             articles.append(articleId)
-            size++
+            size += 1
 
 def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
