@@ -1,6 +1,11 @@
 # Fake Bananas
 Fake news detection made simple and scalable for real people. 
 
+> **Note:**
+
+> - This project is ***a work in progress*** for HackMIT. We'll be done soon.
+> - If you would like to contribute please reach out to one of us through GitHub! You're more then welcome.
+> - If you experience any problems, please create an Issue.
 
 ## Working information
 
