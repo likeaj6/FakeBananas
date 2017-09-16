@@ -52,7 +52,7 @@ defaultReputations = {
     "New York Times" : .1,
 }
 
-sources
+global sources
 
 class opinion:
     def __init__(self, sourceName, articleId, stance):
