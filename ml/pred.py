@@ -140,3 +140,5 @@ def mlPred():
 
     # Save predictions
     save_predictions(test_pred, file_predictions)
+
+    return test_pred

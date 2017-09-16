@@ -3,8 +3,6 @@
 
 import execnet
 
-result = call_python_version("2.7", )
-
 '''
 example usage:
 
