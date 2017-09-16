@@ -6,12 +6,15 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.13",
-    "semantic-ui-react": "^0.73.0"
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.73.0",
+    "sweetalert": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
