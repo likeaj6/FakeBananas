@@ -14,7 +14,7 @@ defaultReputations = {
     "The Sean Hannity Show" : -.5,
     "The Blaze" : -.45,
     "People Magazine" : -.4,
-    "The Rush Limbaugh Show" : -.3
+    "The Rush Limbaugh Show" : -.3,
     "ABC" : -.25,
     "MSNBC" : -.2,
     "Drudge Report" : -.1,
