@@ -153,4 +153,4 @@ def writeToDisk():
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for k,v in reputations.items():
-            writer.writerow({'source': k, 'reputation', v})
+            writer.writerow({'source': k, 'reputation': v})
