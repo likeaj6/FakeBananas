@@ -149,8 +149,8 @@ def readFromDisk():
 
 def writeToDisk():
     with open('reputationDict.csv', 'w') as csvfile:
-    fieldnames = ['source', 'reputation']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
-    for k,v in reputations.items():
-        writer.writerow({'source': k, 'reputation', v})
+        fieldnames = ['source', 'reputation']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for k,v in reputations.items():
+            writer.writerow({'source': k, 'reputation', v})
