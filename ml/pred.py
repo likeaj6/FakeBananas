@@ -14,7 +14,6 @@
 
 
 # Import relevant packages and modules
-# from util import *
 from ml.util import *
 # ex: from test.add import add
 import random
@@ -26,11 +25,11 @@ def mlPred():
 
 
     # Set file names
-    file_train_instances = "train_stances.csv"
-    file_train_bodies = "train_bodies.csv"
-    file_test_instances = "test_stances_unlabeled.csv"
-    file_test_bodies = "test_bodies.csv"
-    file_predictions = 'predictions_test.csv'
+    file_train_instances = "ml/train_stances.csv"
+    file_train_bodies = "ml/train_bodies.csv"
+    file_test_instances = "ml/test_stances_unlabeled.csv"
+    file_test_bodies = "ml/test_bodies.csv"
+    file_predictions = 'ml/predictions_test.csv'
 
 
     # Initialise hyperparameters
@@ -91,7 +90,7 @@ def mlPred():
         with tf.Session() as sess:
             load_model(sess)
             print("Model loaded.")
-            print("Now running predictions")
+            print("Now running predictions...")
             # Predict
             test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
             # run predictions
@@ -131,7 +130,7 @@ def mlPred():
                     total_loss += current_loss
 
             # save model to disk
-            save_path = saver.save(sess, "./teamB/model.ckpt")
+            save_path = saver.save(sess, "ml/teamB/model.ckpt")
             print("Model saved in file: %s" % save_path)
 
             # Predict
