@@ -103,8 +103,7 @@ def avgStance(opinions):
             if reputations.contains(op.sourceName):
                 finalOpinion += sources.get(op.sourceName).reputation
         #unrelated
-        if op.stance == 2:
-            #do nothing
+        #if op.stance == 2 do nothing
         #discuss
         if op.stance == 3:
             if reputations.contains(op.sourceName):
