@@ -7,7 +7,7 @@ defaultReputations = {
     "Infowars" : -.7,
     "Yahoo" : -.6,
     "Occupy Democrats" : -6,
-    "The Onion" : -.6;
+    "The Onion" : -.6,
     "Huffington Post" : -.55,
     "Blaze" : -.55,
     "Fox" : -.5,
@@ -38,9 +38,9 @@ defaultReputations = {
     "Politico" : .75,
     "Seattle Times" : .75,
     "Local" : .75,
-    "Dallas Morning News" : .75
-    "LaTimes" : .76
-    "Wall Street Journal" : .76
+    "Dallas Morning News" : .75,
+    "LaTimes" : .76,
+    "Wall Street Journal" : .76,
     "Guardian" : .77,
     "PBS" : .8,
     "BBC" : .8,
@@ -141,7 +141,7 @@ def update(opinions):
 def loadReputations(reputations):
     for k,v in reputations.items():
         sources.add(k, source(k, v))
-        
+
 def readFromDisk():
     with open('reputationDict.csv') as csvfile:
         reader = csv.DictReader(csvfile)
