@@ -1,4 +1,5 @@
 from eventregistry import *
+from newspaper import Article
 import numpy as np
 import pandas as pd
 import random
