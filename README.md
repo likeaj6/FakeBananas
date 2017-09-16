@@ -1,6 +1,13 @@
 # Fake Bananas
 Fake news detection made simple and scalable for real people. 
 
+
+## Working information
+
+1. Only file to be run is `pipeline.py` in root director. 
+2. All discrete portions of code are contained in respective directories.
+
+
 ## How this works
 
 Our fake news detection is based on the concept of ***stance detection***.  Fake news is tough to identify. Many 'facts' are are highly complex and difficult to check, or exist on a 'continum of truth' or are compound sentences with fact and fiction overlapping.  The best way to attack this problem is not through fact checking, but by comparing how reputible sources feel about a claim.
