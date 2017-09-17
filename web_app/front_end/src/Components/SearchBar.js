@@ -56,7 +56,7 @@ class SearchBar extends Component {
 
     sendClaim(claim: String, type: String, source: String) {
         try {
-            fetch('http://localhost:3001/claims', {
+            fetch('http://127.0.0.1:5000/claims', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -105,7 +105,6 @@ class SearchBar extends Component {
             searchOpen: true,
             isLoading: valid ? true:false,
             isEnabled: valid ? false:true,
-            isURL: valid
         })
         //continue query
         if (valid) {
@@ -113,6 +112,7 @@ class SearchBar extends Component {
             let source = this.extractSourceFromURL(url: url)
             this.sendClaim(url, isURL, source)
             this.setState({
+                isURL: this.validateURL(url: url),
                 source: source,
             })
             // setTimeout(() => {
@@ -176,7 +176,7 @@ class SearchBar extends Component {
         let sourcesTable =
         <div>
         <Divider/>
-        <Label style={{'backgroundColor': '#ffe400', 'color': '#FFFFFF'}}>Your claim: {source}</Label>
+        <Label style={{'backgroundColor': '#ffe400', 'color': '#FFFFFF'}}>Your {isURL ? "source: ": "claim: "} {source}</Label>
         <Divider/>
         <br/>
         <br/>
