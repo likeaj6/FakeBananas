@@ -42,7 +42,7 @@ def returnOutput(mlOut):
             opinions.append(op)
     stance = avgStance(opinions)
     updateRep(opinions)
-    writeToDisk()
+    # writeToDisk()
     return stance
 
 def avgStance(opinions):
@@ -104,18 +104,20 @@ def loadReputations(reputations):
         globals.sources.update({k : source(k, v)})
 
 def loadRepsFromDisk(filepath):
-    with open('./rep/reputationDict.csv') as csvfile:
+    with open('rep/reputationDict.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             globals.sources.update({row['source'] : row['reputation']})
 
 def writeToDisk():
-    with open('./rep/reputationDict.csv', 'w') as csvfile:
+    with open('rep/reputationDict.csv', 'w') as csvfile:
         fieldnames = ['source', 'reputation']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for k,v in globals.sources.items():
-            writer.writerow({'source': k, 'reputation': v})
+        for k in globals.sources.keys():
+            writer.writerow({'source': k, 'reputation':
+            globals.sources.get(k).reputation})
 
-loadRepsFromDisk(FILEPATH)
+#loadRepsFromDisk(FILEPATH)
+#writeToDisk()
 # print(globals.sources)

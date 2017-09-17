@@ -58,7 +58,17 @@ class SearchBar extends Component {
         var urlR = '(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9]\.[^\s]{2,})'
         return url.match(urlR)
     }
-
+    getStances(number) {
+       if (number== 0) {
+           return 'Disagree'
+       } else if (number == 1) {
+           return 'Agree'
+       } else if (number ==3) {
+           return 'Discuss'
+       } else {
+           return 'Unrelated'
+       }
+    }
     renderSourcesRow(sources) {
         console.log(sources)
         const {expandedRows} = this.state
@@ -77,20 +87,22 @@ class SearchBar extends Component {
         sources.forEach(source => {
             const clickCallback = () => this.handleRowClick(source.source);
             if (first) {
+                let stance = this.getStances(source.Stances)
                 var row = <Table.Row key={source.id} onClick={clickCallback}>
-                      <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
-                      <Table.Cell>{source.Stance}</Table.Cell>
-                      <Table.Cell>{source.disagree}</Table.Cell>
+                      <Table.Cell><a href={source.URL} target="_blank">{source.SourceName}</a></Table.Cell>
+                      <Table.Cell>{stance}</Table.Cell>
+                      <Table.Cell><a href={source.URL} target="_blank">{source.URL}</a></Table.Cell>
                     </Table.Row>
                 bodyRows.push(row)
                 first = false
             } else {
-                if (expandedRows.contains(source.source)) {
+                if (expandedRows.contains(source.SourceName)) {
+                    let stance = this.getStances(source.Stances)
                     let row = <Table.Row key={source.id} onClick={clickCallback}>
-                          <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
-                          <Table.Cell>test</Table.Cell>
-                          <Table.Cell>test</Table.Cell>
-                        </Table.Row>
+                    <Table.Cell><a href={source.URL} target="_blank">{source.SourceName}</a></Table.Cell>
+                    <Table.Cell>{stance}</Table.Cell>
+                    <Table.Cell><a href={source.URL} target="_blank">{source.URL}</a></Table.Cell>
+                    </Table.Row>
                     bodyRows.push(row)
                 }
             }
@@ -117,14 +129,17 @@ class SearchBar extends Component {
           .then(res => res.json())
           .then(foundSources => {
                 var sourcesMap = []
+                // foundSources
                 foundSources.forEach(source => {
-                    if (sourcesMap.hasOwnProperty(source.source)) {
-                        var values = sourcesMap[source.source]
+                    if (source == foundSources[0]) {
+
+                    } else if (sourcesMap.hasOwnProperty(source.SourceName)) {
+                        var values = sourcesMap[source.SourceName]
                         if (typeof(values) == 'object') {
-                            sourcesMap[source.source] = values.push(source)
+                            sourcesMap[source.SourceName] = values.push(source)
                         }
                     } else {
-                        sourcesMap[source.source] = [source]
+                        sourcesMap[source.SourceName] = [source]
                     }
                 })
               this.setState({
@@ -134,7 +149,7 @@ class SearchBar extends Component {
                   isEnabled: true,
                   showSources: true
               })
-              let random = Math.random()
+              let random = foundSources[0]
               var confidence = ""
               confidence = random > 0.5 && random < 0.7 ? "likely to be ": "most likely "
               if (random < 0.5 ? 0 : 1) {
@@ -238,7 +253,7 @@ class SearchBar extends Component {
         <br/>
         <br/>
         <Label><Icon name="newspaper"/>Sources we used to predict your article:</Label>
-        <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Stance:</Segment><Segment color="red" compact>Sentiment:</Segment></Segment.Group>
+        <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Stance:</Segment><Segment color="red" compact>Article:</Segment></Segment.Group>
         </div>
 
         let allBodyRows = [];
@@ -254,17 +269,17 @@ class SearchBar extends Component {
 
         return (
             <div>
-            <Input style={{'height': '20%'}} type='text' disabled={!isEnabled} error={!isURL} size="massive" onChange={this.handleChange} fluid placeholder="Enter the article claim or link to be checked: " action>
+            <Input style={{'height': '20%'}} type='text' disabled={!isEnabled} error={!isURL && !this.validateClaim(url)} size="massive" onChange={this.handleChange} fluid placeholder="Enter the article claim or link to be checked: " action>
                 <input />
                 <Loader active={isLoading} size='large'>Checking your article...</Loader>
                  <Popup trigger={<Button disabled={isLoading || url !== "" && !searchOpen} onClick={this.handleSourcesClick} size='small'><l>Sources</l><Icon size="large" name={showSources ? "caret up":"caret down"}/></Button>} content="After you validate your claim, click here to show the sources we used to predict it's credibility"/>
                 <Button disabled={url === "" || !isEnabled} size='small' onClick={this.handleSearch} style={{'backgroundColor': '#ffe400', 'color':'#FFFFFF', 'width':'12.5%'}} type='submit'><Icon size="large" name="search"/><l>Search</l></Button>
             </Input>
             <p style={{'color':'#ccc'}}>*'* We'll use this claim to find similar articles and see where they stand against this claim. </p>
-            {isURL ? <div></div> : invalidLabel}
+            {isURL || this.validateClaim(url) ? <div></div> : invalidLabel}
             {showNull ? nullLabel: <div></div>}
             {showSources ? sourcesTable:<div></div>}
-            {true ?<Table fixed singleLine celled><Table.Body children={allBodyRows}></Table.Body></Table>:<div></div>}
+            {showSources ?<Table fixed singleLine celled><Table.Body children={allBodyRows}></Table.Body></Table>:<div></div>}
             </div>
         );
     }

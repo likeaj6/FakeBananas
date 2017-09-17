@@ -60,8 +60,46 @@ def foo():
 
         response = ml_output.reset_index(drop=True)
         response = response.to_dict(orient='records')
+        final_score = mlToOut.returnOutput(ml_output)
+        final_score = (final_score + 1)/2
+        print("final score: %d", final_score)
+
+        response[0] = final_score
+    else:
+        arg1 = userInput
+        exit_code = call("python2 watson_scraper.py claim " + userInput, shell=True)
+        print("Finished")
+        # result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
+        # print(result)
+
+        # Stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+
+
+        newsData = pd.read_csv('url.csv')
+        URLs = newsData['url'].tolist()
+        SourceName = newsData['source'].tolist()
+        BodyID = newsData['id'].tolist()
+
+        # stances is a <List> of 0-3 classifications
+        Stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+        BodyID = range(len(Stances))
+        ml_output = pd.DataFrame(
+            {'BodyID': BodyID,
+            'Stances': Stances,
+            'SourceName': SourceName,
+            'URL': URLs
+        })
+
+        response = ml_output.reset_index(drop=True)
+        response = response.to_dict(orient='records')
+        final_score = mlToOut.returnOutput(ml_output)
+        final_score = (final_score + 1)/2
+        print("final score: %d", final_score)
+
+        response[0] = final_score
 
     # data = [{'name': "CLAIM!!!", 'agree': "99%", 'disagree': "1%" }, { 'name': "Response #2", 'agree': "55%", 'disagree': "45%"}]
+    print(response)
     response = app.response_class(
         response=json.dumps(response),
         status=200,
@@ -69,10 +107,10 @@ def foo():
     )
 
     ########### Josh's Algs ############
-    final_score = mlToOut.returnOutput(ml_output)
-    final_score = (final_score + 1)/2
+
     # outputs final confidence from 0 to 1
-    print("final score: %d", final_score)
+    # response['answer'] = final_score
+    # print(response)
     # response['answer']
     return response
 if __name__ == '__main__':
