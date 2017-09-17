@@ -56,7 +56,7 @@ class SearchBar extends Component {
 
     sendClaim(claim: String, type: String, source: String) {
         try {
-            fetch('http://localhost:3001/claims', {
+            fetch('http://127.0.0.1:5000/claims', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
