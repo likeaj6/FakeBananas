@@ -3,6 +3,7 @@ from ml.util import *
 # ex: from test.add import add
 import random
 import tensorflow as tf
+import time
 
 def loadML():
     # Set file names
@@ -29,6 +30,7 @@ def loadML():
     raw_train = util.FNCData(file_train_instances, file_train_bodies)
     raw_test = util.FNCData(file_test_instances, file_test_bodies)
     n_train = len(raw_train.instances)
+
 
 
     # Process data sets <-- this is a real time succ?
