@@ -14,7 +14,6 @@ def loadML():
     file_test_bodies = "ml/bodies.csv"
     file_predictions = 'ml/ML_predictions.csv'
 
-
     # Initialise hyperparameters
     r = random.Random()
     lim_unigram = 5000
@@ -29,16 +28,16 @@ def loadML():
 
 
     # Load data sets
-    raw_train = FNCData(file_train_instances, file_train_bodies)
-    raw_test = FNCData(file_test_instances, file_test_bodies)
+    raw_train = util.FNCData(file_train_instances, file_train_bodies)
+    raw_test = util.FNCData(file_test_instances, file_test_bodies)
     n_train = len(raw_train.instances)
 
 
     # Process data sets
     train_set, train_stances, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer = \
-        pipeline_train(raw_train, raw_test, lim_unigram=lim_unigram)
+        util.pipeline_train(raw_train, raw_test, lim_unigram=lim_unigram)
     feature_size = len(train_set[0])
-    test_set = pipeline_test(raw_test, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+    test_set = util.pipeline_test(raw_test, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
 
     # Define model
 
@@ -65,18 +64,15 @@ def loadML():
     # Define prediction
     softmaxed_logits = tf.nn.softmax(logits)
     predict = tf.arg_max(softmaxed_logits, 1)
-    global sess
-    with tf.Session() as sess:
-        # Load model
-        load_model(sess)
-        return sess, test_set, keep_prob_pl, predict, features_pl
+    sess = tf.Session()
+    util.load_model(sess)
+    return sess, test_set, keep_prob_pl, predict, features_pl
 
 def runModel(sess, test_set, keep_prob_pl, predict, features_pl):
     print("Now running predictions...")
-    with tf.Session as sess:
-        # idk what this does really
-        test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
-        # run predictions
-        test_pred = sess.run(predict, feed_dict=test_feed_dict)
+    # idk what this does really
+    test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
+    # run predictions
+    test_pred = sess.run(predict, feed_dict=test_feed_dict)
     print("Preditions complete.")
     return test_pred
