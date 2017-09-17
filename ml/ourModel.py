@@ -8,9 +8,11 @@ def loadML():
     # Set file names
     file_train_instances = "ml/train_stances.csv"
     file_train_bodies = "ml/train_bodies.csv"
-    file_test_instances = "ml/test_stances_unlabeled.csv"
-    file_test_bodies = "ml/test_bodies.csv"
-    file_predictions = 'ml/predictions_test.csv'
+    # file_test_instances = "ml/test_stances_unlabeled.csv"
+    # file_test_bodies = "ml/test_bodies.csv"
+    file_test_instances = "ml/claims2.csv"
+    file_test_bodies = "ml/bodies.csv"
+    file_predictions = 'ml/ML_predictions.csv'
 
 
     # Initialise hyperparameters
@@ -64,19 +66,16 @@ def loadML():
     softmaxed_logits = tf.nn.softmax(logits)
     predict = tf.arg_max(softmaxed_logits, 1)
     with tf.Session() as sess:
+        # Load model
         load_model(sess)
-        return sess, test_set, test_feed_dict, keep_prob_pl, predict
+        return sess, test_set, keep_prob_pl, predict, features_pl
 
-def runModel(sess, test_set, test_feed_dict, keep_prob_p1, predict):
-    # Load model
-    # with tf.Session() as sess:
-    #    load_model(sess)
-    print("Model loaded.")
+def runModel(sess, test_set, keep_prob_pl, predict, features_pl):
     print("Now running predictions...")
-    # Predict
-    test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
-    # run predictions
-    test_pred = sess.run(predict, feed_dict=test_feed_dict)
-
-    print("Test_pred:", test_pred)
+    with tf.Session as sess:
+        # idk what this does really
+        test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
+        # run predictions
+        test_pred = sess.run(predict, feed_dict=test_feed_dict)
     print("Preditions complete.")
+    return test_pred

@@ -6,7 +6,7 @@ import pandas as pd
 import ml
 # import rep
 # import webscraper
-from ml import ourModel.py
+from ml import ourModel
 print("Pipeline running...")
 
 ##################
@@ -29,9 +29,9 @@ url = 'http://abcnews.go.com/US/wireStory/hurricanes-teach-us-ap-finds-fast-coas
 # predictions is a list of 0-4 for agree/dis..etc.
 
 # lots of returns from loadML()
-sess, test_set, test_feed_dict, keep_prob_pl, predict = loadML()
+sess, test_set, keep_prob_pl, predict, features_pl = ourModel.loadML()
 
-stances = runModel(sess, test_set, test_feed_dict, keep_prob_pl, predict)
+stances = ourModel.runModel(sess, test_set, keep_prob_pl, predict, features_pl )
 # stances = [1,2,3,2,3,3,2,2,3,1,0,0,2,3]
 # bodyID = range(len(stances))
 # sourceNames = range(len(stances))
