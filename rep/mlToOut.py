@@ -1,6 +1,6 @@
 import csv
 
-FILEPATH = "/reputationDict.csv"
+FILEPATH = "rep/reputationDict.csv"
 
 class opinion:
     def __init__(self, sourceName, articleId, stance):
@@ -104,13 +104,13 @@ def loadReputations(reputations):
         globals.sources.update({k : source(k, v)})
 
 def loadRepsFromDisk(filepath):
-    with open('reputationDict.csv') as csvfile:
+    with open('rep/reputationDict.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             globals.sources.update({row['source'] : row['reputation']})
 
 def writeToDisk():
-    with open('reputationDict.csv', 'w') as csvfile:
+    with open('rep/reputationDict.csv', 'w') as csvfile:
         fieldnames = ['source', 'reputation']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
