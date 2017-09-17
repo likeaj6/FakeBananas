@@ -1,6 +1,8 @@
 # Fake Bananas
 Fake news detection made simple and scalable for real people. 
 
+![alt](https://user-images.githubusercontent.com/13607221/30521745-822c4900-9b92-11e7-9fcf-d8ec6ad4a186.png)
+
 ## Getting Started 
 I would strongly recommend a `conda` environment in order to easily install our older version of TensorFlow. We used `TensorFlow 0.12.1` for backwards compatibility with previous work in the field.
 Newer versions of TensorFlow may work, but certainly not 'out of the box'.
