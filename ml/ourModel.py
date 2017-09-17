@@ -65,6 +65,7 @@ def loadML():
     # Define prediction
     softmaxed_logits = tf.nn.softmax(logits)
     predict = tf.arg_max(softmaxed_logits, 1)
+    global sess
     with tf.Session() as sess:
         # Load model
         load_model(sess)
