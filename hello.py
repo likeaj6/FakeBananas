@@ -69,11 +69,11 @@ def foo():
     )
 
     ########### Josh's Algs ############
-    final_score = mlToOut.mlToOut(ml_output)
+    final_score = mlToOut.returnOutput(ml_output)
     final_score = (final_score + 1)/2
     # outputs final confidence from 0 to 1
     print("final score: %d", final_score)
-
+    # response['answer']
     return response
 if __name__ == '__main__':
     app.run()

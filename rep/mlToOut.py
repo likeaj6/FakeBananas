@@ -26,11 +26,11 @@ class source:
 class globals:
     sources = {'New York Times' : source('New York Times', 1)}
 
-def mlToOut(mlOut):
+def returnOutput(mlOut):
     """takes the output of our ml and turns it into a final stances
     :param mlOut: a panda dataframe
     """
-    loadRepsFromDisk(reputationDict)
+    loadRepsFromDisk(FILEPATH)
     for index, row in mlOut.iterrows():
         stance = row['Stances']
         articleId = row['BodyID']
@@ -104,18 +104,18 @@ def loadReputations(reputations):
         globals.sources.update({k : source(k, v)})
 
 def loadRepsFromDisk(filepath):
-    with open('rep/reputationDict.csv') as csvfile:
+    with open('./rep/reputationDict.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             globals.sources.update({row['source'] : row['reputation']})
 
 def writeToDisk():
-    with open('rep/reputationDict.csv', 'w') as csvfile:
+    with open('./rep/reputationDict.csv', 'w') as csvfile:
         fieldnames = ['source', 'reputation']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for k,v in globals.sources.items():
-            writer.writerow({'source': k, 'reputation': v.reputation})
+            writer.writerow({'source': k, 'reputation': v})
 
 loadRepsFromDisk(FILEPATH)
 # print(globals.sources)
