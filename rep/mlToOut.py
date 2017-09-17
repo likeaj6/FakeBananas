@@ -84,7 +84,7 @@ def mlToOut(mlOut):
         sourceName = mlOut.loc[count, 'SourceName']
         opinions.append(opinion(sourceName, articleId, stance))
     stance = avgStance(opinions)
-    reputations.update(opinions)
+    reputations.updateRep(opinions)
     return stance
 
 def avgStance(opinions):
@@ -130,15 +130,15 @@ def compareStance(opinion, opinions):
                 finalOpinion -= globals.sources.get(op.sourceName).reputation
     return finalStance/opinions.size
 
-def update(opinions):
+def updateRep(opinions):
     for op in opinions:
         if not globals.sources.contains(op.sourceName):
-            globals.sources.update(op.sourceName, source(op.sourceName, 0))
+            globals.sources.update({op.sourceName: source(op.sourceName, 0)})
         globals.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
 def loadReputations(reputations):
     for k,v in reputations.items():
-        globals.sources.update(k, source(k, v))
+        globals.sources.update({k : source(k, v)})
 
 def loadDefaultReputations():
     loadReputations(globals.defaultReputations)
