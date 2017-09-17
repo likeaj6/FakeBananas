@@ -2,8 +2,6 @@ from eventregistry import *
 from threading import Thread, Lock
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 import watson_developer_cloud.natural_language_understanding.features.v1 as Features
-from py_ms_cognitive import PyMsCognitiveWebSearch
-import nltk
 import pandas as pd
 import json
 
@@ -18,7 +16,6 @@ def get_articles(keywords):
     global global_df
     q = QueryArticlesIter(keywords=QueryItems.AND(keywords))
     q.setRequestedResult(RequestArticlesInfo(count= 199, sortBy="sourceImportance"))
-    print keywords
 
     x = 0
 
@@ -71,6 +68,27 @@ class myThread(threading.Thread):
     def run(self):
         get_articles(self.query)
 
+def watson_scrape(url):
+    global global_df
+    keywords = watson(url)
+
+    index = 0
+    threads = []
+
+    for query in keywords:
+        threads.append(myThread(query))
+        threads[index].start()
+        index += 1
+    for thread in threads:
+        thread.join()
+    global_df = global_df.reset_index(drop=True)
+    # global_df.to_csv('watson_articles.csv')
+    global_df['uid'] = range(len(global_df.index))
+    return global_df.to_dict(orient='records')
+
+from py_ms_cognitive import PyMsCognitiveWebSearch
+import nltk
+
 def azure_search(claim):
     search_term = claim
     search_service = PyMsCognitiveWebSearch('75d1a40af4bf4ba4bdf561ae25b5db5c', claim)
@@ -106,6 +124,8 @@ def run_azure(claim):
         watson_azure_scrape(claim)
     else:
         watson_azure_scrape(azure_claim(azure_search(claim)))
+run_azure(claim)
+
 
 def azure_claim(urls):
     keywords = []
@@ -113,29 +133,10 @@ def azure_claim(urls):
         keywords.append(watson(url))
     return keywords
 
-def watson_scrape(url):
-    global global_df
-    keywords = watson(url)
-
-    index = 0
-    threads = []
-
-    for query in keywords:
-        threads.append(myThread(query))
-        threads[index].start()
-        index += 1
-    for thread in threads:
-        thread.join()
-    global_df = global_df.reset_index(drop=True)
-    # global_df.to_csv('watson_articles.csv')
-    global_df['uid'] = range(len(global_df.index))
-    return global_df.to_dict(orient='records')
-
 def main(args):
-    if args[1] == 'url':
-        watson_scrape(args[1])
+    if args[1] is 'url':
+        watson_scrape(args[2])
     else:
-        run_azure(args[1])
-
+        run_azure(args[2])
 if __name__ == '__main__':
     main(sys.argv)
