@@ -143,6 +143,9 @@ def loadReputations(reputations):
     for k,v in reputations.items():
         sources.add(k, source(k, v))
 
+def loadDefaultReputations():
+    loadReputations(defaultReputations)
+
 def readFromDisk():
     with open('reputationDict.csv') as csvfile:
         reader = csv.DictReader(csvfile)
