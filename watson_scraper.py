@@ -12,6 +12,7 @@ er = EventRegistry(apiKey = api_key)
 global_df = pd.DataFrame()
 mutex = Lock()
 
+# Given keywords, this funciton appends the article metadata to the global pandas dataframe
 def get_articles(keywords):
     global global_df
     q = QueryArticlesIter(keywords=QueryItems.AND(keywords))
@@ -38,6 +39,7 @@ def get_articles(keywords):
     finally:
         mutex.release()
 
+# Given a url, this function returns up to 15 keywords
 def watson(user_url):
     natural_language_understanding = NaturalLanguageUnderstandingV1(
       username="09b56387-57ee-4390-9365-a07a37706fb4",
@@ -124,8 +126,6 @@ def run_azure(claim):
         watson_azure_scrape(claim)
     else:
         watson_azure_scrape(azure_claim(azure_search(claim)))
-run_azure(claim)
-
 
 def azure_claim(urls):
     keywords = []
