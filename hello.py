@@ -3,10 +3,10 @@ from flask import request
 from flask import json
 from flask_cors import CORS
 import pandas as pd
-# import webscraper
 # our own packages
 from ml import ourModel
 from ml import execnet
+from rep import mlToOut
 
 
 app = Flask(__name__)
@@ -30,11 +30,14 @@ def foo():
         # sources = webscraper.web_scrape(userInput)
         result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
         print(result)
+
+        ############# ALL ML #############
         newsData = pd.read_csv('url.csv')
         URLs = newsData['url'].tolist()
         SourceName = newsData['source'].tolist()
         BodyID = newsData['id'].tolist()
 
+        # stances is a <List> of 0-3 classifications
         Stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
         BodyID = range(len(Stances))
         ml_output = pd.DataFrame(
@@ -43,9 +46,7 @@ def foo():
             'SourceName': SourceName,
             'URL': URLs
             })
-
-
-    print(Stances)
+        print(Stances)
 
     # data = [{'name': "CLAIM!!!", 'agree': "99%", 'disagree': "1%" }, { 'name': "Response #2", 'agree': "55%", 'disagree': "45%"}]
     response = app.response_class(
@@ -54,9 +55,10 @@ def foo():
         mimetype='application/json'
     )
 
-    # run ML!
-    # stances is a <List> of 0-3 classifications
-
+    ########### Josh's Algs ############
+    # returns a final confidence between -1 and 1
+    final_score = mlToOut.mlToOut(ml_output)
+    print("final score: %d", final_score)
 
     return response
 if __name__ == '__main__':
