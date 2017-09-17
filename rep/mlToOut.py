@@ -70,9 +70,8 @@ class globals:
         'Associated Press' : .9,
         'Reuters' : .9,
         'Economist' : 1,
-        'New York Times' : .1,
     }
-    sources
+    sources = {'New York Times' : source('New York Times', 1)}
 
 def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
