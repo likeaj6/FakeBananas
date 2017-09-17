@@ -68,9 +68,6 @@ Some teams try to granularly check the truth of each fact in an article. This is
 2. No databases of what's true or false
 3. Many facts in a single article existing on all sides of the truth spectrum -- is that article true or false?  
 
-##### 2. 'Fake News Style' Detection
-Some teams try to train machine learning models on sets of 'fake' articles and sets of 'real' articles.  This method is terrible because fake news can appear in well written articles and vice versa!  Style is not equal to content and we care about finding true content.
-
 ## Team Members
 - [Kastan Day](https://github.com/KastanDay)
 - [Josh Frier](https://github.com/jfreier1)
