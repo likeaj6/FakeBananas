@@ -3,8 +3,9 @@ from threading import Thread, Lock
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 from py_ms_cognitive import PyMsCognitiveWebSearch
 import watson_developer_cloud.natural_language_understanding.features.v1 as Features
-from nltk import word_tokenize
+import nltk
 import pandas as pd
+import json
 
 # Print a list of recently added articles mentioning entered words
 api_key = 'eda39267-9017-481a-860d-0b565c6d8bf3'
@@ -115,7 +116,7 @@ def watson_azure_scrape(keywords):
 
 # Call this function with a claim to query event registry
 def run_azure(claim):
-    claim_tokens = word_tokenize(claim)
+    claim_tokens = nltk.word_tokenize(claim)
     if len(claim_tokens) == 3:
         # Go straight to event registry with claim
         watson_azure_scrape(claim)
@@ -141,19 +142,31 @@ def watson_scrape(url):
     # global_df.to_csv('watson_articles.csv')
     global_df['id'] = range(len(global_df.index))
     bodies = global_df.loc[:,['id','text']]
+    bodies.columns = ['BodyID','text']
     bodies.to_csv('ml/bodies.csv')
     claim = [global_claim] * len(global_df.index)
     claims = pd.DataFrame(claim)
+    claims['BodyID'] = range(len(global_df.index))
+    claims.columns = ['Headlines','BodyID']
     claims.to_csv('ml/claims.csv')
     urls = global_df.loc[:,['id','source','url']]
     urls.to_csv('url.csv')
+    print("asdfasdfa")
 
+
+    print(global_df)
     return global_df.to_dict(orient='records')
 
 def main(args):
+    print("args 1")
+    print(args[1])
     if args[1] == 'url':
+        print("args 2")
+        print(args[2])
         watson_scrape(args[2])
-    else:
-        run_azure(args[2])
+        print("asdfasdfaffdsafasdfasdf")
+
+    # else:
+        # run_azure(args[2])
 if __name__ == '__main__':
     main(sys.argv)
