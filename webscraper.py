@@ -1,5 +1,6 @@
 from eventregistry import *
 from newspaper import Article
+from threading import Thread, Lock
 import numpy as np
 import pandas as pd
 import random
@@ -8,14 +9,18 @@ import random
 api_key = 'eda39267-9017-481a-860d-0b565c6d8bf3'
 er = EventRegistry(apiKey = api_key)
 
+global_df = pd.DataFrame()
+mutex = Lock()
+
 def get_articles(keywords):
+    global global_df
     q = QueryArticlesIter(keywords=QueryItems.AND(keywords))
     q.setRequestedResult(RequestArticlesInfo(count= 199, sortBy="sourceImportance"))
     print keywords
 
     x = 0
-    df = pd.DataFrame({'source':'test','url':'testing','text':'placeholers'}, index=[0])
-    df.columns = ['source','url','text']
+
+    local_df = pd.DataFrame()
 
     res = er.execQuery(q)
     for article in res['articles']['results']:
@@ -25,10 +30,14 @@ def get_articles(keywords):
             'url' : article['url'].encode('utf-8'),
             'text' : article['body'].encode('utf-8')
         }
-        df_temp = pd.DataFrame(data,index=[x])
-        df = pd.concat([df,df_temp])
+        local_df = pd.concat([local_df, pd.DataFrame(data,index=[x])])
         x += 1
-    return df
+
+    mutex.acquire()
+    try:
+        global_df = pd.concat([global_df,local_df])
+    finally:
+        mutex.release()
 
 def get_search_params(keywords):
     search_params = []
@@ -69,18 +78,30 @@ def get_keywords(user_url):
         kl.append(word.encode('utf-8'))
     return kl
 
+class myThread(threading.Thread):
+    def __init__(self, query):
+        threading.Thread.__init__(self)
+        self.query = query
+
+    def run(self):
+        get_articles(self.query)
+
 def web_scrape(url):
+    global global_df
     kl = get_keywords(url)
     params = get_search_params(kl)
 
-    df = pd.DataFrame({'source':'test','url':'testing','text':'placeholers'}, index=[0])
-    df.columns = ['source','url','text']
+    index = 0
+    threads = []
 
     for query in params:
-        df = pd.concat([df,get_articles(query)])
+        threads.append(myThread(query))
+        threads[index].start()
+        index += 1
+    for thread in threads:
+        thread.join()
 
-    df = df.drop(df.index[[0,1]])
-    df = df.reset_index(drop=True)
+    global_df = global_df.reset_index(drop=True)
 #     df.to_json(orient='index')
-    df.to_csv('articles.csv')
-    print df
+    global_df.to_csv('articles.csv')
+    print global_df
