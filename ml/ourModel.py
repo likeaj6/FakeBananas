@@ -1,6 +1,4 @@
-# Import relevant packages and modules
 from ml.util import *
-# ex: from test.add import add
 import random
 import tensorflow as tf
 import time
@@ -11,7 +9,9 @@ def loadML():
     file_train_bodies = "ml/train_bodies.csv"
     file_test_instances = "ml/test_stances_unlabeled.csv"
     file_test_bodies = "ml/test_bodies.csv"
+
     file_predictions = 'ml/ML_predictions.csv'
+
 
     # Initialise hyperparameters
     r = random.Random()
@@ -29,16 +29,16 @@ def loadML():
     # Load data sets
     raw_train = util.FNCData(file_train_instances, file_train_bodies)
     raw_test = util.FNCData(file_test_instances, file_test_bodies)
-    n_train = len(raw_train.instances)
+    # n_train = len(raw_train.instances)
 
 
+    # TODO OH DUDE JUST LET THIS THING DO IT'S SHIT IN THE INITILIZATION!!! Use the test and train sets provided then just use the vectors created!
 
-    # Process data sets <-- this is a real time succ?
-    # TODO RUN TIME TRIAL ON THIS
-    train_set, train_stances, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer = \
-        util.pipeline_train(raw_train, raw_test, lim_unigram=lim_unigram)
-    feature_size = len(train_set[0])
-    test_set = util.pipeline_test(raw_test, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+    # Process data sets - THIS TAKES 17 SECONDS!
+    train_set, train_stances, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer = util.pipeline_train(raw_train, raw_test, lim_unigram=lim_unigram)
+    # feature_size = len(train_set[0])
+    # fix feature_size at 10001
+    feature_size = 10001
 
     # Define model
 
@@ -67,18 +67,23 @@ def loadML():
     predict = tf.arg_max(softmaxed_logits, 1)
     sess = tf.Session()
     util.load_model(sess)
-    return sess, test_set, keep_prob_pl, predict, features_pl
+    return sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer
 
-def runModel(sess, test_set, keep_prob_pl, predict, features_pl):
-    # set file names
-    file_test_instances = "ml/claims2.csv"
-    file_test_bodies = "ml/bodies.csv"
-
-
+def runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer):
+    start_time = time.time()
     print("Now running predictions...")
+    # THIS is the info from Henry
+    userClaims = "ml/claims2.csv"
+    userBodies = "ml/bodies.csv"
+    # parse that info
+    raw_test = util.FNCData(userClaims, userBodies)
+    # need more stuff for this
+    test_set = util.pipeline_test(raw_test, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
     # idk what this does really
     test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
     # run predictions
     test_pred = sess.run(predict, feed_dict=test_feed_dict)
+    # timing
+    print("ML 'runModel': --- %s seconds ---" % (time.time() - start_time))
     print("Preditions complete.")
     return test_pred
