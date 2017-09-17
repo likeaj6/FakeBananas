@@ -8,7 +8,7 @@
     "react-scripts": "1.0.13",
     "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.73.0",
-    "sweetalert": "^2.0.3"
+    "sweetalert": "^1.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://127.0.0.1:5000/"
 }
