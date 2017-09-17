@@ -11,14 +11,15 @@ class source:
     size #int
     reputation #number between -1 and 1 inclusive"""
     def __init__(self, sourceName, reputation):
-        self.size = 0 #number of articles from source
         self.sourceName = sourceName
         self.reputation = reputation
-    def addArticle(articleId, articleValidity):
-        if not articles.contains(opinion.articleId):
-            reputation = (reputation*size+articleValidity)/(size+1)
-            articles.append(articleId)
-            size += 1
+        self.size = 0
+        self.articles = []
+    def addArticle(self, articleId, articleValidity):
+        if not articleId in self.articles:
+            self.reputation = (self.reputation*self.size+articleValidity)/(self.size+1)
+            self.articles.append(articleId)
+            self.size += 1
 
 class globals:
     defaultReputations = {
@@ -77,15 +78,17 @@ def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
     :param mlOut: a panda dataframe
     """
-    """opinions #list of type opinion"""
-    for row in mlOut.rows:
+    for index, row in mlOut.iterrows():
         stance = row['Stances']
         articleId = row['BodyID']
         sourceName = row['SourceName']
         op = opinion(sourceName, articleId, stance)
-        opinions.append(op)
+        if index == 0:
+            opinions = [op]
+        else:
+            opinions.append(op)
     stance = avgStance(opinions)
-    reputations.updateRep(opinions)
+    updateRep(opinions)
     return stance
 
 def avgStance(opinions):
@@ -93,49 +96,53 @@ def avgStance(opinions):
     :param opinions: a list<opinion> of all opinions to average
     """
     """finalStance #to hold our final stance"""
+    finalStance = 0
     for op in opinions:
         print(type(op))
         #disagree
         if op.stance == 0:
-            if reputations.contains(op.sourceName):
-                finalOpinion -= globals.sources.get(op.sourceName).reputation
+            if op.sourceName in globals.sources:
+                finalStance -= globals.sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
-            if reputations.contains(op.sourceName):
-                finalOpinion += globals.sources.get(op.sourceName).reputation
+            if op.sourceName in globals.sources:
+                finalStance += globals.sources.get(op.sourceName).reputation
         #unrelated
         #if op.stance == 2 do nothing
         #discuss
         if op.stance == 3:
-            if reputations.contains(op.sourceName):
-                finalOpinion += globals.sources.get(op.sourceName).reputation/4
-    return finalStance/opinions.size
+            if op.sourceName in globals.sources:
+                finalStance += globals.sources.get(op.sourceName).reputation/4
+    finalStance = finalStance/len(opinions)
+    return finalStance
 
 def compareStance(opinion, opinions):
     """compares an article with other articles to determine its reputability
     :param opinion: the article who's validity is to be determined
     :param opinions: the articles to check the article in question against
     """
-    """finalStance"""
+    finalStance = 0
     for op in opinions:
-        #disagree
-        if op.stance == 0:
-            if opinion.stance == 0:
-                finalOpinion += globals.sources.get(op.sourceName).reputation
-            elif opinion.stance == 1:
-                finalOpinion -= globals.sources.get(op.sourceName).reputation
-        #agree
-        if op.stance == 1:
-            if opinion.stance == 1:
-                finalOpinion += globals.sources.get(op.sourceName).reputation
-            elif opinion.stance == 0:
-                finalOpinion -= globals.sources.get(op.sourceName).reputation
-    return finalStance/opinions.size
+        if op.sourceName in globals.sources:
+            #disagree
+            if op.stance == 0:
+                if opinion.stance == 0:
+                    finalStance += globals.sources.get(op.sourceName).reputation
+                elif opinion.stance == 1:
+                    finalStance -= globals.sources.get(op.sourceName).reputation
+            #agree
+            if op.stance == 1:
+                if opinion.stance == 1:
+                    finalStance += globals.sources.get(op.sourceName).reputation
+                elif opinion.stance == 0:
+                    finalStance -= globals.sources.get(op.sourceName).reputation
+    finalStance = finalStance/len(opinions)
+    return finalStance
 
 def updateRep(opinions):
     for op in opinions:
-        if not globals.sources.contains(op.sourceName):
-            globals.sources.update({op.sourceName: source(op.sourceName, 0)})
+        if not op.sourceName in globals.sources:
+            globals.sources.update({op.sourceName : source(op.sourceName, 0)})
         globals.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
 def loadReputations(reputations):

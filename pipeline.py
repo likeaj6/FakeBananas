@@ -45,6 +45,7 @@ print(ml_output.loc[1,'Stances'])
 ## REPUTATION SYSTEMS ##
 ########################
 rep.loadDefaultReputations()
+rep.mlToOut(ml_output)
 
 
 print("Pipeline complete")
