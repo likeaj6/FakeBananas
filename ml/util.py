@@ -79,10 +79,10 @@ class FNCData:
 
         # Process instances
         for instance in self.instances:
-            if instance['Headline'] not in self.heads:
+            if instance['claim'] not in self.heads:
                 head_id = len(self.heads)
-                self.heads[instance['Headline']] = head_id
-            instance['Body ID'] = int(instance['Body ID'])
+                self.heads[instance['Headlines']] = head_id
+            instance['BodyID'] = int(instance['BodyID'])
 
         # Process bodies
         for body in bodies:
