@@ -11,9 +11,9 @@ class source:
     size #int
     reputation #number between -1 and 1 inclusive"""
     def __init__(self, sourceName, reputation):
-        this.size = 0 #number of articles from source
-        this.sourceName = sourceName
-        this.reputation = reputation
+        self.size = 0 #number of articles from source
+        self.sourceName = sourceName
+        self.reputation = reputation
     def addArticle(articleId, articleValidity):
         if not articles.contains(opinion.articleId):
             reputation = (reputation*size+articleValidity)/(size+1)
