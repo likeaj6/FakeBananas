@@ -66,6 +66,10 @@ class FNCData:
     """
 
     def __init__(self, file_instances, file_bodies):
+        # so there's
+        # self.instances (aka stances)
+        # self.heads (aka headlines)
+        # self.bodies (article bodies)
 
         # Load data
         self.instances = self.read(file_instances)
