@@ -103,5 +103,3 @@ def web_scrape(url):
 
     global_df = global_df.reset_index(drop=True)
 #     df.to_json(orient='index')
-    global_df.to_csv('articles.csv')
-    print global_df
