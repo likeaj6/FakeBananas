@@ -109,10 +109,10 @@ def web_scrape(url):
     #     f.write(json.dumps(global_df, ensure_ascii=False))
     global_df['id'] = range(len(global_df.index))
     bodies = global_df.loc[:,['id','text']]
-    bodies.to_csv('bodies.csv')
+    bodies.to_csv('ml/bodies.csv')
     claim = [claim] * len(global_df.index)
     claims = pd.DataFrame(claim)
-    claims.to_csv('claims.csv')
+    claims.to_csv('ml/claims.csv')
     urls = global_df.loc[:,['id','source','url']]
     urls.to_csv('url.csv')
     return global_df.to_dict(orient='records')

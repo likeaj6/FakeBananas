@@ -6,8 +6,7 @@ import execnet
 '''
 example usage:
 
-result = call_python_version("2.7", "my_module", "my_function",
-                             ["Mr", "Bear"])
+result = call_python_version("2.7", "my_module", "my_function", ["Mr", "Bear"])
 print(result)
 
 my_module = the name of the folder your code is in

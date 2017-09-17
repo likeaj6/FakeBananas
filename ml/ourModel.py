@@ -1,4 +1,4 @@
-from ml.util import *
+from ml import util
 import random
 import tensorflow as tf
 import time
