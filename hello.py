@@ -12,9 +12,8 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 # INIT ALL ML
-sess, test_set, keep_prob_pl, predict, features_pl = ml.loadML()
-
-sess = loadML()
+sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer \
+ = ml.loadML()
 
 @app.route("/")
 def hello():
@@ -37,7 +36,7 @@ def foo():
 
     # run ML!
     # stances is a <List> of 0-3 classifications
-    stances = ml.runModel(sess, test_set, keep_prob_pl, predict, features_pl)
+    stances = ml.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
 
     return response
 if __name__ == '__main__':
