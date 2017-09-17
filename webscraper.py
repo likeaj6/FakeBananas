@@ -3,6 +3,7 @@ from newspaper import Article
 from threading import Thread, Lock
 import numpy as np
 import pandas as pd
+import io, json
 import random
 
 # Print a list of recently added articles mentioning entered words
@@ -15,8 +16,8 @@ mutex = Lock()
 def get_articles(keywords):
     global global_df
     q = QueryArticlesIter(keywords=QueryItems.AND(keywords))
-    q.setRequestedResult(RequestArticlesInfo(count= 199, sortBy="sourceImportance"))
-    print keywords
+    q.setRequestedResult(RequestArticlesInfo(count= 10, sortBy="sourceImportance"))
+    # print keywords
 
     x = 0
 
@@ -28,7 +29,7 @@ def get_articles(keywords):
             'source': article['source']['title'].encode('utf-8'),
 #             'title' : article['title'].encode('utf-8'),
             'url' : article['url'].encode('utf-8'),
-            'text' : article['body'].encode('utf-8')
+            # 'text' : article['body'].encode('utf-8')
         }
         local_df = pd.concat([local_df, pd.DataFrame(data,index=[x])])
         x += 1
@@ -101,5 +102,19 @@ def web_scrape(url):
     for thread in threads:
         thread.join()
 
-    global_df = global_df.reset_index(drop=True)
-    return global_df.to_json(orient='index')
+
+
+    # global_df = global_df.reset_index(drop=True)
+    # with io.open('data.json', 'w', encoding='utf-8') as f:
+    #     f.write(json.dumps(global_df, ensure_ascii=False))
+    global_df['id'] = range(len(global_df.index))
+    bodies = global_df.loc[:,['id','text']]
+    bodies.to_csv('bodies.csv')
+    claim = [claim] * len(global_df.index)
+    claims = pd.DataFrame(claim)
+    claims.to_csv('claims.csv')
+    urls = global_df.loc[:,['id','source','url']]
+    urls.to_csv('url.csv')
+    return global_df.to_dict(orient='records')
+
+    # return global_df.to_json(orient='records')

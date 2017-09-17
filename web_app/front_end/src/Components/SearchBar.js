@@ -21,10 +21,25 @@ class SearchBar extends Component {
             isEnabled: true,
             isURL: true,
             url: "",
+            foundSources: [{'uid': 0, 'url':'', 'source':'New York Times'}, {'uid': 1, 'url':'', 'source':'New York Times'}, {'uid': 2, 'url':'', 'source':'New York Times'},{'uid': 3, 'url':'', 'source':'New York Times'}],
+            sourcesMap: [],
             source: "",
-            foundSources: [{name: "New York Times", agree: "", disagree: ""}, {name: "BBC", agree: "", disagree: ""}],
-            showSources: false
+            showSources: false,
+            expandedRows: []
         };
+    }
+
+    handleRowClick(source) {
+        var currentExpandedRows = this.state.expandedRows;
+        const isRowCurrentlyExpanded = currentExpandedRows.includes(source);
+        currentExpandedRows = []
+        const newExpandedRows = isRowCurrentlyExpanded ?
+			currentExpandedRows.filter(source => source !== source) :
+			currentExpandedRows.concat(source);
+        console.log(`clicked ${source}'th row'`)
+        this.setState({
+            expandedRows : newExpandedRows,
+        });
     }
 
     handleChange = (e, { value }) => {
@@ -44,15 +59,46 @@ class SearchBar extends Component {
         return url.match(urlR)
     }
 
-    renderSourcesRow(source) {
-        let row =
-        <Table.Row key={source.name}>
-          <Table.Cell>{source.name}</Table.Cell>
-          <Table.Cell>{source.agree}</Table.Cell>
-          <Table.Cell>{source.disagree}</Table.Cell>
-        </Table.Row>
-        return row
+    renderSourcesRow(sources) {
+        console.log(sources)
+        const {expandedRows} = this.state
+
+        let bodyRows = []
+        //     row = <Table.Row key={"row-expanded-" + source.uid}>
+        //             <Table.HeaderCell />
+        //             <Table.HeaderCell />
+        //             <Table.HeaderCell />
+        //         </Table.Row>
+        // // } else {
+        var first = true
+        if (typeof(sources) != 'object') {
+            return bodyRows
+        }
+        sources.forEach(source => {
+            const clickCallback = () => this.handleRowClick(source.source);
+            if (first) {
+                var row = <Table.Row key={source.uid} onClick={clickCallback}>
+                      <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
+                      <Table.Cell>{source.agree}</Table.Cell>
+                      <Table.Cell>{source.disagree}</Table.Cell>
+                    </Table.Row>
+                bodyRows.push(row)
+                first = false
+            } else {
+                if (expandedRows.contains(source.source)) {
+                    let row = <Table.Row key={source.uid} onClick={clickCallback}>
+                          <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
+                          <Table.Cell>test</Table.Cell>
+                          <Table.Cell>test</Table.Cell>
+                        </Table.Row>
+                    bodyRows.push(row)
+                }
+            }
+        })
+        return bodyRows
+        // }
     }
+
 
     sendClaim(claim: String, type: String, source: String) {
         try {
@@ -70,9 +116,20 @@ class SearchBar extends Component {
             })
           .then(res => res.json())
           .then(foundSources => {
-              foundSources = typeof(foundSources) == 'object' ? foundSources : []
+                var sourcesMap = []
+                foundSources.forEach(source => {
+                    if (sourcesMap.hasOwnProperty(source.source)) {
+                        var values = sourcesMap[source.source]
+                        if (typeof(values) == 'object') {
+                            sourcesMap[source.source] = values.push(source)
+                        }
+                    } else {
+                        sourcesMap[source.source] = [source]
+                    }
+                })
               this.setState({
                   foundSources: foundSources,
+                  sourcesMap: sourcesMap,
                   isLoading: false,
                   isEnabled: true,
                   showSources: true
@@ -170,7 +227,7 @@ class SearchBar extends Component {
     }
 
     render() {
-        const { isEnabled, isLoading, isURL, url, showSources, foundSources, source, showNull, searchOpen} = this.state
+        const { isEnabled, isLoading, isURL, url, expandedRows, showSources, foundSources, sourcesMap , source, showNull, searchOpen} = this.state
         let invalidLabel = <Label content="Invalid claim or link" size="big" basic color='red' hidden={true} pointing/>
         let nullLabel = <Label content="Please enter a claim or link!" size="big" basic color='red' hidden={true} pointing/>
         let sourcesTable =
@@ -183,11 +240,18 @@ class SearchBar extends Component {
         <Label><Icon name="newspaper"/>Sources we used to predict your article:</Label>
         <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Agree:</Segment><Segment color="red" compact>Disagree:</Segment></Segment.Group>
         </div>
-        let bodyRows = []
-        foundSources.forEach(item => {
-            let row = this.renderSourcesRow(item);
-            bodyRows.push(row)
-        })
+
+        let allBodyRows = [];
+
+        for (var key in sourcesMap) {
+            if (sourcesMap.hasOwnProperty(key)) {
+                var first = true
+                let sources = sourcesMap[key]
+                const bodyRows = this.renderSourcesRow(sources)
+                allBodyRows = allBodyRows.concat(bodyRows);
+            }
+        }
+
         return (
             <div>
             <Input style={{'height': '20%'}} type='text' disabled={!isEnabled} error={!isURL} size="massive" onChange={this.handleChange} fluid placeholder="Enter the article claim or link to be checked: " action>
@@ -200,7 +264,7 @@ class SearchBar extends Component {
             {isURL ? <div></div> : invalidLabel}
             {showNull ? nullLabel: <div></div>}
             {showSources ? sourcesTable:<div></div>}
-            {showSources ?<Table fixed singleLine celled><Table.Body children={bodyRows}></Table.Body></Table>:<div></div>}
+            {true ?<Table fixed singleLine celled><Table.Body children={allBodyRows}></Table.Body></Table>:<div></div>}
             </div>
         );
     }
