@@ -1,5 +1,7 @@
 import csv
 
+FILEPATH = "/reputationDict.csv"
+
 class opinion:
     def __init__(self, sourceName, articleId, stance):
         self.sourceName = sourceName
@@ -22,56 +24,6 @@ class source:
             self.size += 1
 
 class globals:
-    defaultReputations = {
-        'trump' : -1,
-        'buzzfeed' : -.96,
-        'breitbart' : -.92,
-        'infowars' : -.7,
-        'yahoo' : -.6,
-        'occupy democrats' : -6,
-        'the onion' : -.6,
-        'huffington post' : -.55,
-        'blaze' : -.55,
-        'fox' : -.5,
-        'the sean hannity show' : -.5,
-        'the blaze' : -.45,
-        'people magazine' : -.4,
-        'the rush limbaugh show' : -.3,
-        'abc' : -.25,
-        'msnbc' : -.2,
-        'drudge report' : -.1,
-        'nbc' : -.1,
-        'cbs' : 0,
-        'the daily show' : 0,
-        'google news' : .05,
-        'the atlantic' : .23,
-        'usa today' : .27,
-        'the colbert report' : .3,
-        'slate' : .4,
-        'thinkprogress' : .45,
-        'kansas city star' : .5,
-        'cnn' : .5,
-        'the ed shultz show' : .5,
-        'time' : .6,
-        'washington post' : .64,
-        'mother jones' : .65,
-        'denver post' : .66,
-        'bloomberg' : .7,
-        'politico' : .75,
-        'seattle times' : .75,
-        'local' : .75,
-        'dallas morning news' : .75,
-        'latimes' : .76,
-        'wall street journal' : .76,
-        'guardian' : .77,
-        'pbs' : .8,
-        'bbc' : .8,
-        'al jazeera' : .85,
-        'npr' : .9,
-        'associated press' : .9,
-        'reuters' : .9,
-        'economist' : 1,
-    }
     sources = {'New York Times' : source('New York Times', 1)}
 
 def mlToOut(mlOut):
@@ -149,19 +101,19 @@ def loadReputations(reputations):
     for k,v in reputations.items():
         globals.sources.update({k : source(k, v)})
 
-def loadDefaultReputations():
-    loadReputations(globals.defaultReputations)
-
-def readFromDisk():
+def loadRepsFromDisk(filepath):
     with open('reputationDict.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            reputations.update(row['source'], row['reputation'])
+            globals.sources.update({row['source'] : row['reputation']})
 
 def writeToDisk():
     with open('reputationDict.csv', 'w') as csvfile:
         fieldnames = ['source', 'reputation']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for k,v in reputations.items():
-            writer.writerow({'source': k, 'reputation': v})
+        for k,v in globals.sources.items():
+            writer.writerow({'source': k, 'reputation': v.reputation})
+
+loadRepsFromDisk(FILEPATH)
+print(globals.sources)
