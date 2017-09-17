@@ -86,7 +86,7 @@ class FNCData:
 
         # Process bodies
         for body in bodies:
-            self.bodies[int(body['Body ID'])] = body['articleBody']
+            self.bodies[int(body['BodyID'])] = body['text']
 
     def read(self, filename):
 
@@ -154,8 +154,8 @@ def pipeline_train(train, test, lim_unigram):
 
     # Identify unique heads and bodies
     for instance in train.instances:
-        head = instance['Headline']
-        body_id = instance['Body ID']
+        head = instance['Headlines']
+        body_id = instance['BodyID']
         if head not in heads_track:
             heads.append(head)
             heads_track[head] = 1
@@ -166,7 +166,7 @@ def pipeline_train(train, test, lim_unigram):
 
     for instance in test.instances:
         head = instance['Headline']
-        body_id = instance['Body ID']
+        body_id = instance['BodyID']
         if head not in test_heads_track:
             test_heads.append(head)
             test_heads_track[head] = 1
@@ -191,8 +191,8 @@ def pipeline_train(train, test, lim_unigram):
 
     # Process train set
     for instance in train.instances:
-        head = instance['Headline']
-        body_id = instance['Body ID']
+        head = instance['Headlines']
+        body_id = instance['BodyID']
         head_tf = tfreq[id_ref[head]].reshape(1, -1)
         body_tf = tfreq[id_ref[body_id]].reshape(1, -1)
         if head not in head_tfidf_track:
@@ -242,8 +242,8 @@ def pipeline_test(test, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer):
 
     # Process test set
     for instance in test.instances:
-        head = instance['Headline']
-        body_id = instance['Body ID']
+        head = instance['Headlines']
+        body_id = instance['BodyID']
         if head not in heads_track:
             head_bow = bow_vectorizer.transform([head]).toarray()
             head_tf = tfreq_vectorizer.transform(head_bow).toarray()[0].reshape(1, -1)
