@@ -1,60 +1,5 @@
 import csv
 
-global defaultReputations
-defaultReputations = {
-    'Trump' : -1,
-    'Buzzfeed' : -.96,
-    'Breitbart' : -.92,
-    'Infowars' : -.7,
-    'Yahoo' : -.6,
-    'Occupy Democrats' : -6,
-    'The Onion' : -.6,
-    'Huffington Post' : -.55,
-    'Blaze' : -.55,
-    'Fox' : -.5,
-    'The Sean Hannity Show' : -.5,
-    'The Blaze' : -.45,
-    'People Magazine' : -.4,
-    'The Rush Limbaugh Show' : -.3,
-    'ABC' : -.25,
-    'MSNBC' : -.2,
-    'Drudge Report' : -.1,
-    'NBC' : -.1,
-    'CBS' : 0,
-    'The Daily Show' : 0,
-    'Google News' : .05,
-    'The Atlantic' : .23,
-    'USA Today' : .27,
-    'The Colbert Report' : .3,
-    'Slate' : .4,
-    'ThinkProgress' : .45,
-    'Kansas City Star' : .5,
-    'CNN' : .5,
-    'The Ed Shultz Show' : .5,
-    'Time' : .6,
-    'Washington Post' : .64,
-    'Mother Jones' : .65,
-    'Denver Post' : .66,
-    'Bloomberg' : .7,
-    'Politico' : .75,
-    'Seattle Times' : .75,
-    'Local' : .75,
-    'Dallas Morning News' : .75,
-    'LaTimes' : .76,
-    'Wall Street Journal' : .76,
-    'Guardian' : .77,
-    'PBS' : .8,
-    'BBC' : .8,
-    'Al Jazeera' : .85,
-    'NPR' : .9,
-    'Associated Press' : .9,
-    'Reuters' : .9,
-    'Economist' : 1,
-    'New York Times' : .1,
-}
-
-global sources
-
 class opinion:
     def __init__(self, sourceName, articleId, stance):
         self.sourceName = sourceName
@@ -74,6 +19,62 @@ class source:
             reputation = (reputation*size+articleValidity)/(size+1)
             articles.append(articleId)
             size += 1
+
+def loadGlobals():
+    global defaultReputations
+    defaultReputations = {
+        'Trump' : -1,
+        'Buzzfeed' : -.96,
+        'Breitbart' : -.92,
+        'Infowars' : -.7,
+        'Yahoo' : -.6,
+        'Occupy Democrats' : -6,
+        'The Onion' : -.6,
+        'Huffington Post' : -.55,
+        'Blaze' : -.55,
+        'Fox' : -.5,
+        'The Sean Hannity Show' : -.5,
+        'The Blaze' : -.45,
+        'People Magazine' : -.4,
+        'The Rush Limbaugh Show' : -.3,
+        'ABC' : -.25,
+        'MSNBC' : -.2,
+        'Drudge Report' : -.1,
+        'NBC' : -.1,
+        'CBS' : 0,
+        'The Daily Show' : 0,
+        'Google News' : .05,
+        'The Atlantic' : .23,
+        'USA Today' : .27,
+        'The Colbert Report' : .3,
+        'Slate' : .4,
+        'ThinkProgress' : .45,
+        'Kansas City Star' : .5,
+        'CNN' : .5,
+        'The Ed Shultz Show' : .5,
+        'Time' : .6,
+        'Washington Post' : .64,
+        'Mother Jones' : .65,
+        'Denver Post' : .66,
+        'Bloomberg' : .7,
+        'Politico' : .75,
+        'Seattle Times' : .75,
+        'Local' : .75,
+        'Dallas Morning News' : .75,
+        'LaTimes' : .76,
+        'Wall Street Journal' : .76,
+        'Guardian' : .77,
+        'PBS' : .8,
+        'BBC' : .8,
+        'Al Jazeera' : .85,
+        'NPR' : .9,
+        'Associated Press' : .9,
+        'Reuters' : .9,
+        'Economist' : 1,
+        'New York Times' : .1,
+    }
+
+    global sources
 
 def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
@@ -98,17 +99,17 @@ def avgStance(opinions):
         #disagree
         if op.stance == 0:
             if reputations.contains(op.sourceName):
-                finalOpinion -= self.sources.get(op.sourceName).reputation
+                finalOpinion -= sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
             if reputations.contains(op.sourceName):
-                finalOpinion += self.sources.get(op.sourceName).reputation
+                finalOpinion += sources.get(op.sourceName).reputation
         #unrelated
         #if op.stance == 2 do nothing
         #discuss
         if op.stance == 3:
             if reputations.contains(op.sourceName):
-                finalOpinion += self.sources.get(op.sourceName).reputation/4
+                finalOpinion += sources.get(op.sourceName).reputation/4
     return finalStance/opinions.size
 
 def compareStance(opinion, opinions):
@@ -121,26 +122,26 @@ def compareStance(opinion, opinions):
         #disagree
         if op.stance == 0:
             if opinion.stance == 0:
-                finalOpinion += self.sources.get(op.sourceName).reputation
+                finalOpinion += sources.get(op.sourceName).reputation
             elif opinion.stance == 1:
-                finalOpinion -= self.sources.get(op.sourceName).reputation
+                finalOpinion -= sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
             if opinion.stance == 1:
-                finalOpinion += self.sources.get(op.sourceName).reputation
+                finalOpinion += sources.get(op.sourceName).reputation
             elif opinion.stance == 0:
-                finalOpinion -= self.sources.get(op.sourceName).reputation
+                finalOpinion -= sources.get(op.sourceName).reputation
     return finalStance/opinions.size
 
 def update(opinions):
     for op in opinions:
-        if not self.sources.contains(op.sourceName):
-            self.sources.add(op.sourceName, source(op.sourceName, 0))
-        self.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
+        if not sources.contains(op.sourceName):
+            sources.add(op.sourceName, source(op.sourceName, 0))
+        sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
 def loadReputations(reputations):
     for k,v in reputations.items():
-        self.sources.add(k, source(k, v))
+        sources.add(k, source(k, v))
 
 def readFromDisk():
     with open('reputationDict.csv') as csvfile:
