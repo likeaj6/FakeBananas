@@ -92,7 +92,8 @@ def avgStance(opinions):
     :param opinions: a list<opinion> of all opinions to average
     """
     """finalStance #to hold our final stance"""
-    for op in opinions.items():
+    for op in opinions:
+        print(type(op))
         #disagree
         if op.stance == 0:
             if reputations.contains(op.sourceName):
