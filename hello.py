@@ -6,11 +6,8 @@ import pandas as pd
 # our own packages
 from ml import ourModel
 from ml import execnet
-<<<<<<< HEAD
 from rep import mlToOut
-=======
 from subprocess import call
->>>>>>> 0c159c7466da483265eeb84f30818c8fe6f77be2
 
 
 app = Flask(__name__)
@@ -33,23 +30,19 @@ def foo():
     if isURL:
         print("Calling webscraper!")
         # sources = webscraper.web_scrape(userInput)
-<<<<<<< HEAD
         result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
         print(result)
 
         ############# ALL ML #############
-=======
         arg1 = userInput
         exit_code = call("python2 watson_scraper.py url " + userInput, shell=True)
         print("Finished")
         # result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
         # print(result)
 
-        # stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+        # Stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
 
-    # print(stances)
 
->>>>>>> 0c159c7466da483265eeb84f30818c8fe6f77be2
         newsData = pd.read_csv('url.csv')
         URLs = newsData['url'].tolist()
         SourceName = newsData['source'].tolist()
@@ -64,14 +57,8 @@ def foo():
             'SourceName': SourceName,
             'URL': URLs
             })
-<<<<<<< HEAD
         print(Stances)
 
-=======
-
-
-    print(Stances)
->>>>>>> 0c159c7466da483265eeb84f30818c8fe6f77be2
     # data = [{'name': "CLAIM!!!", 'agree': "99%", 'disagree': "1%" }, { 'name': "Response #2", 'agree': "55%", 'disagree': "45%"}]
     response = app.response_class(
         response=json.dumps(sources),
