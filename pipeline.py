@@ -5,12 +5,18 @@ import pandas as pd
 # import local packages
 # import ml
 import rep
+import webscraper
 print("Pipeline running...")
 
 ##################
 ## WEB SCRAPING ##
 ##################
 
+# the following line take a url in a string as input
+# example:
+# url = 'http://abcnews.go.com/US/wireStory/hurricanes-teach-us-ap-finds-fast-coastal-growth-49893843'
+# webscraper.web_scrape(url)
+webscraper.web_scrape()
 # example call to python2 file:
 # result = call_python_version("2.7", "module(folder_name)", "filename.py", "function_name", ["param1", "param2"])
 
