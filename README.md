@@ -51,7 +51,7 @@ To determine if a claim is true or false, we go out and see where sources which 
 2. We search databases, and scrape web pages, to find other articles on that issue.
 3. Then run our 'stance detection' machine learning algorithm to determine if reputable sources generally agree or generally disagree with that claim.  *If many reputable sources all agree with a claim, then it's probably true!*
  
-Our stance detection is run by (Google's Tensorflow)[https://www.tensorflow.org/] and our model is built off of the work of the fantastic people at University College London's (UCL) (Machine Reading group)[http://mr.cs.ucl.ac.uk/].  -@Kastan
+Our stance detection is run by [Google's Tensorflow](https://www.tensorflow.org/) and our model is built off of the work of the fantastic people at University College London's (UCL) [Machine Reading group](http://mr.cs.ucl.ac.uk/).  -@Kastan
  
 ### Frontend/backend info
 Our backend is written on a Flask python server which connects to our front-end written in JavaScript. 
@@ -70,14 +70,14 @@ Some teams try to granularly check the truth of each fact in an article. This is
 Some teams try to train machine learning models on sets of 'fake' articles and sets of 'real' articles.  This method is terrible because fake news can appear in well written articles and vice versa!  Style is not equal to content and we care about finding true content.
 
 ## Team Members
-- (Kastan Day)[https://github.com/KastanDay]
-- (Josh Frier)[https://github.com/jfreier1]
-- (Henry Han)[https://github.com/hanksterhan]
-- (Jason Jin)[https://github.com/likeaj6]
+- [Kastan Day](https://github.com/KastanDay)
+- [Josh Frier](https://github.com/jfreier1)
+- [Henry Han](https://github.com/hanksterhan)
+- [Jason Jin](https://github.com/likeaj6)
 
 
 ### Acknowledgements
-(fakenewschallenge.com)[fakenewschallenge.com] provided great inspiration for our project and guiding principles for tackling the task.
+[The Fake News Challenge](fakenewschallenge.com) provided great inspiration for our project and guiding principles for tackling the task.
 
 
 The University of College London's short paper on the topic:
