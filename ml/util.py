@@ -165,7 +165,7 @@ def pipeline_train(train, test, lim_unigram):
             body_ids.append(body_id)
 
     for instance in test.instances:
-        head = instance['Headline']
+        head = instance['Headlines']
         body_id = instance['BodyID']
         if head not in test_heads_track:
             test_heads.append(head)
