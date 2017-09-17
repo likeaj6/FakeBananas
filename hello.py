@@ -2,11 +2,10 @@ from flask import Flask
 from flask import request
 from flask import json
 from flask_cors import CORS
+import pandas as pd
 # import webscraper
-import tensorflow as tf
 # our own packages
 from ml import ourModel
-from ml import util
 from ml import execnet
 
 
@@ -31,10 +30,22 @@ def foo():
         # sources = webscraper.web_scrape(userInput)
         result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
         print(result)
+        newsData = pd.read_csv('url.csv')
+        URLs = newsData['url'].tolist()
+        SourceName = newsData['source'].tolist()
+        BodyID = newsData['id'].tolist()
 
-        stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+        Stances = ourModel.runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer)
+        BodyID = range(len(Stances))
+        ml_output = pd.DataFrame(
+            {'BodyID': BodyID,
+            'Stances': Stances,
+            'SourceName': SourceName,
+            'URL': URLs
+            })
 
-    print(stances)
+
+    print(Stances)
 
     # data = [{'name': "CLAIM!!!", 'agree': "99%", 'disagree': "1%" }, { 'name': "Response #2", 'agree': "55%", 'disagree': "45%"}]
     response = app.response_class(
