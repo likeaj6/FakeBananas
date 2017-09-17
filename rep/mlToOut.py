@@ -98,17 +98,17 @@ def avgStance(opinions):
         #disagree
         if op.stance == 0:
             if reputations.contains(op.sourceName):
-                finalOpinion -= sources.get(op.sourceName).reputation
+                finalOpinion -= self.sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
             if reputations.contains(op.sourceName):
-                finalOpinion += sources.get(op.sourceName).reputation
+                finalOpinion += self.sources.get(op.sourceName).reputation
         #unrelated
         #if op.stance == 2 do nothing
         #discuss
         if op.stance == 3:
             if reputations.contains(op.sourceName):
-                finalOpinion += sources.get(op.sourceName).reputation/4
+                finalOpinion += self.sources.get(op.sourceName).reputation/4
     return finalStance/opinions.size
 
 def compareStance(opinion, opinions):
@@ -121,26 +121,26 @@ def compareStance(opinion, opinions):
         #disagree
         if op.stance == 0:
             if opinion.stance == 0:
-                finalOpinion += sources.get(op.sourceName).reputation
+                finalOpinion += self.sources.get(op.sourceName).reputation
             elif opinion.stance == 1:
-                finalOpinion -= sources.get(op.sourceName).reputation
+                finalOpinion -= self.sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
             if opinion.stance == 1:
-                finalOpinion += sources.get(op.sourceName).reputation
+                finalOpinion += self.sources.get(op.sourceName).reputation
             elif opinion.stance == 0:
-                finalOpinion -= sources.get(op.sourceName).reputation
+                finalOpinion -= self.sources.get(op.sourceName).reputation
     return finalStance/opinions.size
 
 def update(opinions):
     for op in opinions:
-        if not sources.contains(op.sourceName):
-            sources.add(op.sourceName, source(op.sourceName, 0))
-        sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
+        if not self.sources.contains(op.sourceName):
+            self.sources.add(op.sourceName, source(op.sourceName, 0))
+        self.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
 def loadReputations(reputations):
     for k,v in reputations.items():
-        sources.add(k, source(k, v))
+        self.sources.add(k, source(k, v))
 
 def readFromDisk():
     with open('reputationDict.csv') as csvfile:
