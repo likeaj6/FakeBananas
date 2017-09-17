@@ -6,6 +6,7 @@ import pandas as pd
 import ml
 # import rep
 # import webscraper
+from ml import ourModel.py
 print("Pipeline running...")
 
 ##################
@@ -27,18 +28,21 @@ url = 'http://abcnews.go.com/US/wireStory/hurricanes-teach-us-ap-finds-fast-coas
 # runs predictions and outputs a .csv file
 # predictions is a list of 0-4 for agree/dis..etc.
 
-stances = ml.mlPred()
-stances = [1,2,3,2,3,3,2,2,3,1,0,0,2,3]
-bodyID = range(len(stances))
-sourceNames = range(len(stances))
-urls = range(len(stances))
+# lots of returns from loadML()
+sess, test_set, test_feed_dict, keep_prob_pl, predict = loadML()
 
-ml_output = pd.DataFrame(
-    {'BodyID': bodyID,
-     'Stances': stances,
-     'SourceName': sourceNames,
-     'URL': urls
-    })
+stances = runModel(sess, test_set, test_feed_dict, keep_prob_pl, predict)
+# stances = [1,2,3,2,3,3,2,2,3,1,0,0,2,3]
+# bodyID = range(len(stances))
+# sourceNames = range(len(stances))
+# urls = range(len(stances))
+
+# ml_output = pd.DataFrame(
+#     {'BodyID': bodyID,
+#      'Stances': stances,
+#      'SourceName': sourceNames,
+#      'URL': urls
+#     })
 
 # print(ml_output)
 
