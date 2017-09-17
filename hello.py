@@ -3,9 +3,18 @@ from flask import request
 from flask import json
 from flask_cors import CORS
 import webscraper
+import tensorflow as tf
+# our own packages
+from ml import ourModel
+from ml import util
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
+
+# INIT ALL ML
+sess, test_set, keep_prob_pl, predict, features_pl = ml.loadML()
+
+sess = loadML()
 
 @app.route("/")
 def hello():
@@ -25,6 +34,11 @@ def foo():
         status=200,
         mimetype='application/json'
     )
+
+    # run ML!
+    # stances is a <List> of 0-3 classifications
+    stances = ml.runModel(sess, test_set, keep_prob_pl, predict, features_pl)
+
     return response
 if __name__ == '__main__':
     app.run()
