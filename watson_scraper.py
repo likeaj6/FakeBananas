@@ -145,7 +145,8 @@ def watson_scrape(url):
     bodies.to_csv('ml/bodies.csv')
     claim = [global_claim] * len(global_df.index)
     claims = pd.DataFrame(claim)
-    claims.columns = ['Headlines']
+    claims['BodyID'] = range(len(global_df.index))
+    claims.columns = ['Headlines','BodyID']
     claims.to_csv('ml/claims.csv')
     urls = global_df.loc[:,['id','source','url']]
     urls.to_csv('url.csv')
