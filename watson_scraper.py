@@ -2,6 +2,8 @@ from eventregistry import *
 from threading import Thread, Lock
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 import watson_developer_cloud.natural_language_understanding.features.v1 as Features
+from py_ms_cognitive import PyMsCognitiveWebSearch
+import nltk
 import pandas as pd
 import json
 
@@ -69,6 +71,48 @@ class myThread(threading.Thread):
     def run(self):
         get_articles(self.query)
 
+def azure_search(claim):
+    search_term = claim
+    search_service = PyMsCognitiveWebSearch('75d1a40af4bf4ba4bdf561ae25b5db5c', claim)
+    first_three_result = search_service.search(limit=3, format='json') #1-50
+
+    urls = []
+   # To get individual result json:
+    for i in first_three_result:
+        urls.append(i.url.encode('utf-8'))
+    return urls
+
+def watson_azure_scrape(keywords):
+    global global_df
+
+    index = 0
+    threads = []
+
+    for query in keywords:
+        threads.append(myThread(query))
+        threads[index].start()
+        index += 1
+    for thread in threads:
+        thread.join()
+    global_df = global_df.reset_index(drop=True)
+    global_df.to_csv('watson_articles.csv')
+#     global_df['uid'] = range(len(global_df.index))
+#     return global_df.to_dict(orient='records')
+
+def run_azure(claim):
+    claim_tokens = nltk.word_tokenize(claim)
+    if len(claim_tokens) is 3:
+        # Go straight to event registry with claim
+        watson_azure_scrape(claim)
+    else:
+        watson_azure_scrape(azure_claim(azure_search(claim)))
+
+def azure_claim(urls):
+    keywords = []
+    for url in urls:
+        keywords.append(watson(url))
+    return keywords
+
 def watson_scrape(url):
     global global_df
     keywords = watson(url)
@@ -86,3 +130,12 @@ def watson_scrape(url):
     # global_df.to_csv('watson_articles.csv')
     global_df['uid'] = range(len(global_df.index))
     return global_df.to_dict(orient='records')
+
+def main(args):
+    if args[1] == 'url':
+        watson_scrape(args[1])
+    else:
+        run_azure(args[1])
+
+if __name__ == '__main__':
+    main(sys.argv)

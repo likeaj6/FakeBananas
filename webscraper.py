@@ -1,10 +1,10 @@
 from eventregistry import *
-from newspaper import Article
 from threading import Thread, Lock
+from py_ms_cognitive import PyMsCognitiveWebSearch
+import nltk
 import numpy as np
 import pandas as pd
 import io, json
-import random
 
 # Print a list of recently added articles mentioning entered words
 api_key = 'eda39267-9017-481a-860d-0b565c6d8bf3'
@@ -39,45 +39,6 @@ def get_articles(keywords):
         global_df = pd.concat([global_df,local_df])
     finally:
         mutex.release()
-
-def get_search_params(keywords):
-    search_params = []
-    while len(keywords) != 0:
-        # Randomly select 3 words
-        rm = random.sample(keywords,3)
-        # add the list of 3 words to the searchable list
-        search_params.append(rm)
-        # remove words from the list
-        for word in rm:
-            keywords.remove(word)
-
-        # put 1 or 2 random words back
-        # if 3 words left just append to search_params
-        if len(keywords) is 3:
-            search_params.append(keywords)
-            keywords = []
-        # if no words left just exit
-        elif len(keywords) is 0:
-            keywords = []
-        # if 1 word left, append 2 and search_params
-        elif len(keywords) is 1:
-            keywords.append(random.sample(rm,2)[0:2])
-        else:
-            keywords.append(random.sample(rm,1)[0])
-    return search_params
-
-def get_keywords(user_url):
-    url = user_url.decode('utf-8')
-    article = Article(url)
-    article.download()
-    article.parse()
-    article.nlp()
-
-    keywords = article.keywords
-    kl = []
-    for word in keywords:
-        kl.append(word.encode('utf-8'))
-    return kl
 
 class myThread(threading.Thread):
     def __init__(self, query):
@@ -117,4 +78,8 @@ def web_scrape(url):
     urls.to_csv('url.csv')
     return global_df.to_dict(orient='records')
 
-    # return global_df.to_json(orient='records')
+def main(args):
+    web_scrape(args[1])
+
+if __name__ == '__main__':
+    web_scrape(sys.argv)
