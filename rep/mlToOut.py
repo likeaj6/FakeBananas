@@ -20,8 +20,7 @@ class source:
             articles.append(articleId)
             size += 1
 
-def loadGlobals():
-    global defaultReputations
+class globals:
     defaultReputations = {
         'Trump' : -1,
         'Buzzfeed' : -.96,
@@ -73,8 +72,7 @@ def loadGlobals():
         'Economist' : 1,
         'New York Times' : .1,
     }
-
-    global sources
+    sources
 
 def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
@@ -99,17 +97,17 @@ def avgStance(opinions):
         #disagree
         if op.stance == 0:
             if reputations.contains(op.sourceName):
-                finalOpinion -= sources.get(op.sourceName).reputation
+                finalOpinion -= global.sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
             if reputations.contains(op.sourceName):
-                finalOpinion += sources.get(op.sourceName).reputation
+                finalOpinion += global.sources.get(op.sourceName).reputation
         #unrelated
         #if op.stance == 2 do nothing
         #discuss
         if op.stance == 3:
             if reputations.contains(op.sourceName):
-                finalOpinion += sources.get(op.sourceName).reputation/4
+                finalOpinion += global.sources.get(op.sourceName).reputation/4
     return finalStance/opinions.size
 
 def compareStance(opinion, opinions):
@@ -122,29 +120,29 @@ def compareStance(opinion, opinions):
         #disagree
         if op.stance == 0:
             if opinion.stance == 0:
-                finalOpinion += sources.get(op.sourceName).reputation
+                finalOpinion += global.sources.get(op.sourceName).reputation
             elif opinion.stance == 1:
-                finalOpinion -= sources.get(op.sourceName).reputation
+                finalOpinion -= global.sources.get(op.sourceName).reputation
         #agree
         if op.stance == 1:
             if opinion.stance == 1:
-                finalOpinion += sources.get(op.sourceName).reputation
+                finalOpinion += global.sources.get(op.sourceName).reputation
             elif opinion.stance == 0:
-                finalOpinion -= sources.get(op.sourceName).reputation
+                finalOpinion -= global.sources.get(op.sourceName).reputation
     return finalStance/opinions.size
 
 def update(opinions):
     for op in opinions:
-        if not sources.contains(op.sourceName):
-            sources.add(op.sourceName, source(op.sourceName, 0))
-        sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
+        if not global.sources.contains(op.sourceName):
+            global.sources.add(op.sourceName, source(op.sourceName, 0))
+        global.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
 def loadReputations(reputations):
     for k,v in reputations.items():
-        sources.add(k, source(k, v))
+        global.sources.add(k, source(k, v))
 
 def loadDefaultReputations():
-    loadReputations(defaultReputations)
+    loadReputations(global.defaultReputations)
 
 def readFromDisk():
     with open('reputationDict.csv') as csvfile:
