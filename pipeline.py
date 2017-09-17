@@ -44,7 +44,6 @@ print(ml_output.loc[1,'Stances'])
 ########################
 ## REPUTATION SYSTEMS ##
 ########################
-rep.loadGlobals()
 rep.loadDefaultReputations()
 
 
