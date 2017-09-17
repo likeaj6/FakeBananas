@@ -13,10 +13,13 @@ er = EventRegistry(apiKey = api_key)
 
 global_df = pd.DataFrame()
 mutex = Lock()
+global_claim = ''
+
 
 # Given keywords, this funciton appends the article metadata to the global pandas dataframe
 def get_articles(keywords):
     global global_df
+    global global_claim
     q = QueryArticlesIter(keywords=QueryItems.AND(keywords))
     q.setRequestedResult(RequestArticlesInfo(count= 199, sortBy="sourceImportance"))
 
@@ -26,9 +29,10 @@ def get_articles(keywords):
 
     res = er.execQuery(q)
     for article in res['articles']['results']:
+        if x is 0:
+            global_claim = article['title'].encode('utf-8')
         data = {
             'source': article['source']['title'].encode('utf-8'),
-#             'title' : article['title'].encode('utf-8'),
             'url' : article['url'].encode('utf-8'),
             'text' : article['body'].encode('utf-8')
         }
@@ -122,6 +126,7 @@ def run_azure(claim):
 # Call this function with a url to query event registry
 def watson_scrape(url):
     global global_df
+    global global_claim
     keywords = watson(url)
 
     index = 0
@@ -135,13 +140,30 @@ def watson_scrape(url):
         thread.join()
     global_df = global_df.reset_index(drop=True)
     # global_df.to_csv('watson_articles.csv')
-    global_df['uid'] = range(len(global_df.index))
+    global_df['id'] = range(len(global_df.index))
+    bodies = global_df.loc[:,['id','text']]
+    bodies.to_csv('ml/bodies.csv')
+    claim = [global_claim] * len(global_df.index)
+    claims = pd.DataFrame(claim)
+    claims.to_csv('ml/claims.csv')
+    urls = global_df.loc[:,['id','source','url']]
+    urls.to_csv('url.csv')
+    print("asdfasdfa")
+
+
+    print(global_df)
     return global_df.to_dict(orient='records')
 
 def main(args):
-    if args[0] is 'url':
-        watson_scrape(args[1])
-    else:
-        run_azure(args[1])
+    print("args 1")
+    print(args[1])
+    if args[1] == 'url':
+        print("args 2")
+        print(args[2])
+        watson_scrape(args[2])
+        print("asdfasdfaffdsafasdfasdf")
+
+    # else:
+        # run_azure(args[2])
 if __name__ == '__main__':
     main(sys.argv)
