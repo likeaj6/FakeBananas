@@ -73,7 +73,7 @@ def runModel(sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vec
     start_time = time.time()
     print("Now running predictions...")
     # THIS is the info from Henry
-    userClaims = "ml/claims2.csv"
+    userClaims = "ml/claims.csv"
     userBodies = "ml/bodies.csv"
     # parse that info
     raw_test = util.FNCData(userClaims, userBodies)

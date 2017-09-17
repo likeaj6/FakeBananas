@@ -79,7 +79,7 @@ class SearchBar extends Component {
             if (first) {
                 var row = <Table.Row key={source.id} onClick={clickCallback}>
                       <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
-                      <Table.Cell>{source.agree}</Table.Cell>
+                      <Table.Cell>{source.Stance}</Table.Cell>
                       <Table.Cell>{source.disagree}</Table.Cell>
                     </Table.Row>
                 bodyRows.push(row)
@@ -238,7 +238,7 @@ class SearchBar extends Component {
         <br/>
         <br/>
         <Label><Icon name="newspaper"/>Sources we used to predict your article:</Label>
-        <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Agree:</Segment><Segment color="red" compact>Sentiment:</Segment></Segment.Group>
+        <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Stance:</Segment><Segment color="red" compact>Sentiment:</Segment></Segment.Group>
         </div>
 
         let allBodyRows = [];

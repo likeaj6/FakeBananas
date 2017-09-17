@@ -1,327 +1,1066 @@
 ,id,source,url
-0,0,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/is-it-time-to-quit-your-job.html
-1,1,The Motley Fool,https://www.fool.com/investing/2017/09/16/is-it-time-to-quit-your-job.aspx?source=iedfolrf0000001
-2,2,PostBulletin.com,http://www.postbulletin.com/news/local/omc-seeks-to-replace-three-transformative-leaders/article_add4eaa3-822e-5197-bfb4-4983825ecee0.html
-3,3,Medical News Today,https://www.medicalnewstoday.com/releases/317142.php
-4,4,Medical News Today,https://www.medicalnewstoday.com/releases/317731.php
-5,5,Punch Newspapers,http://punchng.com/why-more-kids-now-wear-eyeglasses/
-6,6,Daily News,http://www.nydailynews.com/new-york/nyc-crime/manhattan-man-scammed-15g-burning-man-pal-article-1.3498264
-7,7,openDemocracy,https://www.opendemocracy.net/nil-mutluer-philipp-schwartz/power-relations-in-new-turkey-and-naked-truth
-8,8,WA Today,http://www.watoday.com.au/world/nasabacked-research-subjects-end-eight-months-of-isolation-in-marslike-habitat-20170915-gyiou6.html
-9,9,The Age,http://www.theage.com.au/world/nasabacked-research-subjects-end-eight-months-of-isolation-in-marslike-habitat-20170915-gyiou6.html
-10,10,The Sydney Morning Herald,http://www.smh.com.au/world/nasabacked-research-subjects-end-eight-months-of-isolation-in-marslike-habitat-20170915-gyiou6.html
-11,11,Coshocton Tribune,http://www.coshoctontribune.com/story/news/local/2017/09/15/community-news-notes/105595174/
-12,12,Wall Street Daily,https://www.wallstreetdaily.com/2017/09/08/chaos-is-a-ladder/
-13,13,lifestyle.inquirer.net,http://lifestyle.inquirer.net/273321/blue-light-cell-phone-laptop-may-causing-skin-damage/
-14,14,Los Angeles Times,http://www.latimes.com/entertainment/movies/la-et-mn-toronto-diary-justin-chang-20170908-htmlstory.html
-15,15,Gadget Now,http://www.gadgetsnow.com/tech-news/apple-spaceship-nestled-in-earthly-oasis/articleshow/60516029.cms
-16,16,military-technologies.net,http://www.military-technologies.net/2017/09/14/drug-designing-tools-market-size-to-grow-steadily-during-forecast-period-2017-2027/
-17,17,http://www.livemint.com/,http://www.livemint.com/Companies/6KItnwT5Pzd0QAby0JcHBK/Apple-spaceship-headquarters-reflect-companys-values-say.html
-18,18,The Star Online,http://www.thestar.com.my/tech/tech-news/2017/09/14/apple-spaceship-nestled-in-earthly-oasis/
-19,19,The New Zealand Herald,http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11922103
-20,20,The New Yorker,https://www.newyorker.com/culture/richard-brody/frederick-wisemans-utopian-vision-of-libraries-in-ex-libris
-21,21,Global News,http://globalnews.ca/news/3740533/ottawa-mom-library-computer-pornography/
-22,22,uk.news.yahoo.com,https://uk.news.yahoo.com/apple-spaceship-nestled-earthly-oasis-020726919.html
-23,23,Boing Boing,https://boingboing.net/2017/09/13/weakening-security-for-securit.html
-24,24,Mail Online,http://www.dailymail.co.uk/~/article-4879904/index.html
-25,25,The Ringer,https://www.theringer.com/2017/9/13/16299136/jemele-hill-espn-michael-smith-sportscenter-the-six
-26,26,http://www.hindustantimes.com/,http://www.hindustantimes.com/tech/think-iphone-x-stole-the-show-apple-s-new-spaceship-is-equally-stunning/story-6jl415ELwfZYiYFOl32R0O.html
-27,27,Citizen,http://www.thecitizen.co.tz/News/Apple--spaceship--nestled-in-Earthly-oasis/1840386-4094128-kes360/index.html
-28,28,phys.org,https://phys.org/news/2017-09-apple-spaceship-nestled-earthly-oasis.html
-29,29,The Nation,http://www.nationmultimedia.com/detail/Startup_and_IT/30326555
-30,30,Channel NewsAsia,http://www.channelnewsasia.com/news/business/apple-spaceship-nestled-in-earthly-oasis-9211376
-31,31,The Citizen,http://citizen.co.za/lifestyle/your-life-technology/1651311/us-internet-lifestyle-architecture-computers-apple/
-32,32,themalaymailonline.com,http://www.themalaymailonline.com/tech-gadgets/article/apple-spaceship-nestled-in-earthly-oasis
-33,33,Mail Online,http://www.dailymail.co.uk/~/article-4878822/index.html
-34,34,The Sun,https://www.thesun.co.uk/news/4452882/computers-replace-doctors-jeremy-hunt/
-35,35,ryeandbattleobserver.co.uk,http://www.ryeandbattleobserver.co.uk/news/national/illnesses-diagnosed-by-computer-in-little-more-than-10-years-says-jeremy-hunt-1-8147410
-36,36,Market Rasen Mail,http://www.marketrasenmail.co.uk/news/national/illnesses-diagnosed-by-computer-in-little-more-than-10-years-says-jeremy-hunt-1-8147410
-37,37,Haverhill Echo,http://www.haverhillecho.co.uk/news/national/illnesses-diagnosed-by-computer-in-little-more-than-10-years-says-jeremy-hunt-1-8147410
-38,38,Your Local Guardian,http://www.yourlocalguardian.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-39,39,Asian Image,http://www.asianimage.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-40,40,Hillingdon Times,http://www.hillingdontimes.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-41,41,Campaign Series,http://www.campaignseries.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-42,42,Dudley News,http://www.dudleynews.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-43,43,Lancaster And Morecambe Citizen,http://www.thelancasterandmorecambecitizen.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-44,44,Somerset County Gazette,http://www.somersetcountygazette.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-45,45,Hereford Times,http://www.herefordtimes.com/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-46,46,Belfast Telegraph,http://www.belfasttelegraph.co.uk/news/uk/illnesses-diagnosed-by-computer-in-little-more-than-10-years-says-jeremy-hunt-36126844.html
-47,47,Kidderminster Shuttle,http://www.kidderminstershuttle.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-48,48,Gazette & Herald,http://www.gazetteandherald.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-49,49,Watford Observer,http://www.watfordobserver.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-50,50,Daily Echo,http://www.dailyecho.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-51,51,Ilkley Gazette,http://www.ilkleygazette.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-52,52,Brentwood Live,http://www.brentwoodlive.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-53,53,Evesham Journal,http://www.eveshamjournal.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-54,54,Bournemouth Echo,http://www.bournemouthecho.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-55,55,Keighley News,http://www.keighleynews.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-56,56,Northwich Guardian,http://www.northwichguardian.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-57,57,St Albans & Harpenden Review,http://www.stalbansreview.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-58,58,Stourbridge News,http://www.stourbridgenews.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-59,59,Leigh Journal,http://www.leighjournal.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-60,60,Mail Online,http://www.dailymail.co.uk/~/article-4878122/index.html
-61,61,Ledbury Reporter,http://www.ledburyreporter.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-62,62,Southend Standard,http://www.southendstandard.co.uk/uk_national_news/15531008.Illnesses_diagnosed_by_computer_in_little_more_than_10_years__says_Jeremy_Hunt/
-63,63,The Guardian,http://www.theguardian.com/society/2017/sep/12/patients-illnesses-could-soon-be-diagnosed-by-ai-nhs-leaders-say
-64,64,Weekly Standard,http://www.weeklystandard.com/apples-iphone-x-will-it-be-enough-to-keep-tim-cook-on-top/article/2009641
-65,65,Chicago magazine,http://www.chicagomag.com/Chicago-Magazine/October-2017/Blago-His-Life-in-Prison/
-66,66,Refworld,http://www.refworld.org/docid/59b7f11b4.html
-67,67,Sun Herald,http://www.sunherald.com/news/business/article172786866.html
-68,68,star-telegram,http://www.star-telegram.com/news/politics-government/national-politics/article172786866.html
-69,69,The News Tribune,http://www.thenewstribune.com/news/business/article172786866.html
-70,70,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article172786866.html
-71,71,The  Olympian,http://www.theolympian.com/news/business/article172786866.html
-72,72,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article172786866.html
-73,73,The News&Observer,http://www.newsobserver.com/news/business/article172786866.html
-74,74,Metro.co.uk,http://metro.co.uk/2017/09/12/off-grid-parents-who-refused-medicine-and-let-children-roam-freely-are-evicted-6920485/
-75,75,Fast Company,https://www.fastcompany.com/40431777/the-us-just-picked-intel-ibm-nvidia-and-others-to-help-make-supercomputers-50-times-faster
-76,76,http://www.livemint.com/,http://www.livemint.com/Opinion/euQgrI41TVqQJqfbX6cQkO/The-hybrid-approach-to-true-knowledge.html
-77,77,Deccan Herald,http://www.deccanherald.com/content/632643/sciencetake.html
-78,78,The Indian Express,http://indianexpress.com/article/technology/tech-news-technology/chinas-ever-tighter-web-controls-jolt-companies-scientists-4838453/
-79,79,Washington Post,https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/09/11/daily-202-hurricane-irma-would-have-killed-vastly-more-people-in-the-past/59b6111930fb045176650bf9/
-80,80,The Independent,http://www.independent.co.uk/news/education/education-news/intelligent-machines-replace-teachers-classroom-10-years-ai-robots-sir-anthony-sheldon-wellington-a7939931.html
-81,81,Illawarra Mercury,http://www.illawarramercury.com.au/story/4906421/community-billboard/
-82,82,Proactiveinvestors UK,http://www.proactiveinvestors.co.uk/companies/market_reports/183721/ftse-100-seen-up-with-asia-as-easing-north-korea-tensions-offset-hurricane-irma-worries-183721.html
-83,83,Proactiveinvestors UK,http://www.proactiveinvestors.co.uk/companies/market_reports/183721/ftse-100-seen-up-with-asia-as-easing-north-korea-tensions-offset-irma-worries-183721.html
-84,84,Channel NewsAsia,http://www.channelnewsasia.com/news/lifestyle/the-burning-issue-6-sunscreens-to-save-your-skin-9194088
-85,85,xnewspress.com,http://xnewspress.com/2017/09/sara-netanyahu-to-be-indicted/
-86,86,Oman Observer,http://omanobserver.om/mobiles-modern-menace/
-87,87,Asbury Park Press,http://www.app.com/story/getpublished/2017/09/08/beware-ghouls-goblins-and-gangsters-scams-targeting-seniors/648739001/
-88,88,Medical Daily,http://www.medicaldaily.com/artificial-intelligence-better-humans-detecting-whos-gay-421968
-89,89,ITProPortal,http://www.itproportal.com/features/going-digital-build-a-digital-spine-for-your-enterprise/
-90,90,Hometown Headlines,http://johndruckenmiller.com/blog/2017/09/08/rome-board-of-education-15-candidate-profiles-qas-on-education-tax-school-systems-direction-technology/
-91,91,Mail Online,http://www.dailymail.co.uk/~/article-4863838/index.html
-92,92,Yahoo Finance,https://finance.yahoo.com/news/ibm-ponies-240-million-watson-040135281.html
-93,93,Star Tribune,http://www.startribune.com/how-russia-created-fake-americans-to-influence-the-election/443073113/
-94,94,theStar.com,https://www.thestar.com/news/world/2017/09/07/the-fake-americans-russia-created-to-influence-the-us-election.html
-95,95,msn.com,http://www.msn.com/en-us/money/other/on-facebook-and-twitter-a-hunt-for-russia%E2%80%99s-meddling-hand/ar-AArsWg2?srcref=rss
-96,96,Mail Online,http://www.dailymail.co.uk/~/article-4863194/index.html
-97,97,The New York Times,https://www.nytimes.com/2017/09/07/us/politics/russia-facebook-twitter-election.html
-98,98,Mondoweiss,http://mondoweiss.net/2017/09/barghoutis-reportedly-visiting/
-99,99,canada.com,http://www.canada.com/business/technoinfused+opera+about+steve+jobs+gets+backers/14581761/story.html
-100,100,morgancountycitizen.com,http://www.morgancountycitizen.com/obituaries-45/
-101,101,Philly.com,http://www.philly.com/philly/columnists/michael_smerconish/houston-dunkirk-fishing-boats-rafts-harvey-20170907.html
-102,102,Salisbury Post,http://www.salisburypost.com/2017/09/07/roundbout-whats-happening-sept-7-13/
-103,103,Outside Online,https://www.outsideonline.com/2238401/biomechatronic-man
-104,104,Fast Company,https://www.fastcompany.com/40431777/the-us-just-picked-intel-ibm-nvidia-and-others-to-help-make-supercomputers-50-times-faster
-105,105,Portsmouth News,http://www.portsmouth.co.uk/business/driver-within-a-whisker-of-falling-for-scam-refund-email-from-dvla-1-8137958
-106,106,The Age,http://www.theage.com.au/comment/the-age-letters/vaccination-helping-to-protect-all-in-the-community-20170905-gybn0s.html
-107,107,Canberra Times,http://www.canberratimes.com.au/technology/sci-tech/nobody-saw-it-breakthrough-claimed-by-unsws-quantum-computing-team-20170905-gybmph.html
-108,108,Times of Oman,http://timesofoman.com/article/116528/Opinion/Columnist/After-disasters-in-the-United-States-like-Hurricane-Harvey-lawyers-get-busy-with-lawsuits-seeking-to
-109,109,WA Today,http://www.watoday.com.au/technology/sci-tech/nobody-saw-it-breakthrough-claimed-by-unsws-quantum-computing-team-20170905-gybmph.html
-110,110,Mashable,http://mashable.com/2017/09/05/elon-musk-wrong-about-ai-wwiii/
-111,111,news.trust.org,http://news.trust.org/item/20170905173717-68rcn/
-112,112,The Times of India,http://timesofindia.indiatimes.com/business/international-business/hurricane-harveys-aftermath-could-see-pioneering-climate-lawsuits/articleshow/60382223.cms
-113,113,Mail Online,http://www.dailymail.co.uk/~/article-4855166/index.html
-114,114,Motherboard,https://motherboard.vice.com/en_us/article/j559b8/when-an-ai-invents-diseases-you-end-up-with-penis-arthritis
-115,115,Hometown Headlines,http://johndruckenmiller.com/blog/2017/09/05/rome-board-of-education-profiles-qas-on-education-tax-school-systems-direction-with-candidates-collins-dixon-ehrler-fisher-seifert-one-of-three-parts/
-116,116,INFORMATION NIGERIA,http://www.informationng.com/2017/09/keep-things-dark-lighten-breast-cancer-risk.html
-117,117,gpbnews.org,http://gpbnews.org/post/scanning-future-radiologists-see-their-jobs-risk
-118,118,KSMU FM 91.1,http://ksmu.org/post/scanning-future-radiologists-see-their-jobs-risk
-119,119,keranews.org,http://keranews.org/post/scanning-future-radiologists-see-their-jobs-risk
-120,120,kosu.org,http://kosu.org/post/scanning-future-radiologists-see-their-jobs-risk
-121,121,tpr.org,http://tpr.org/post/scanning-future-radiologists-see-their-jobs-risk
-122,122,publicradiotulsa.org,http://publicradiotulsa.org/post/scanning-future-radiologists-see-their-jobs-risk
-123,123,news.wsiu.org,http://news.wsiu.org/post/scanning-future-radiologists-see-their-jobs-risk
-124,124,nhpr.org,http://nhpr.org/post/scanning-future-radiologists-see-their-jobs-risk
-125,125,news.wbfo.org,http://news.wbfo.org/post/scanning-future-radiologists-see-their-jobs-risk
-126,126,wvpublic.org,http://wvpublic.org/post/scanning-future-radiologists-see-their-jobs-risk
-127,127,wshu.org,http://wshu.org/post/scanning-future-radiologists-see-their-jobs-risk
-128,128,wuwm.com,http://wuwm.com/post/scanning-future-radiologists-see-their-jobs-risk
-129,129,wemu.org,http://wemu.org/post/scanning-future-radiologists-see-their-jobs-risk
-130,130,wyso.org,http://wyso.org/post/scanning-future-radiologists-see-their-jobs-risk
-131,131,wrvo.org,http://wrvo.org/post/scanning-future-radiologists-see-their-jobs-risk
-132,132,kmuw.org,http://kmuw.org/post/scanning-future-radiologists-see-their-jobs-risk
-133,133,boisestatepublicradio.org,http://boisestatepublicradio.org/post/scanning-future-radiologists-see-their-jobs-risk
-134,134,iowapublicradio.org,http://iowapublicradio.org/post/scanning-future-radiologists-see-their-jobs-risk
-135,135,OsunDefender,http://www.osundefender.com/see-9-things-didnt-know-invented-women/
-136,136,NPR.org,http://www.npr.org/sections/alltechconsidered/2017/09/04/547882005/scanning-the-future-radiologists-see-their-jobs-at-risk
-137,137,Deccan Herald,http://www.deccanherald.com/content/631402/snippets-science.html
-138,138,MassLive,http://www.masslive.com/living/index.ssf/2017/09/senior_notes_for_hampshire_and_franklin_counties_and_metro_east_plus_september_6_2017.html
-139,139,Opensource.com,https://opensource.com/article/17/9/wikifundi-leader-florence-devouard
-140,140,CineVue | Award-winning UK film blog,http://www.cine-vue.com/2017/09/venice-2017-ex-libris-new-york-public.html
-141,141,Illawarra Mercury,http://www.illawarramercury.com.au/story/4890779/billboard-sept-6/
-142,142,BBC News,http://www.bbc.co.uk/news/world-40923649
-143,143,Chicago Tribune,http://www.chicagotribune.com/news/nationworld/politics/ct-harvey-aid-debt-ceiling-20170903-story.html
-144,144,Winston-Salem Journal,http://www.journalnow.com/news/nation_world/trump-administration-wants-to-tie-harvey-recovery-aid-to-debt/article_0e35f90b-0c18-52a5-82e6-f8631d7c541a.html
-145,145,Greensboro News & Record,http://www.greensboro.com/news/us_world/trump-administration-wants-to-tie-harvey-recovery-aid-to-debt/article_5653ddfb-1e8a-56fb-b57f-90ca98e20c8d.html
-146,146,Washington Post,https://www.washingtonpost.com/news/post-nation/wp/2017/09/03/trump-administration-wants-to-tie-harvey-recovery-aid-to-debt-ceiling-legislation/
-147,147,HoumaToday.com,http://www.houmatoday.com/news/20170903/video-extra-houston-becomes-city-in-recovery-after-harvey
-148,148,The Independent,http://www.independent.co.uk/life-style/health-and-families/why-understanding-how-a-childs-brain-works-at-different-ages-is-so-important-a7926111.html
-149,149,Times Colonist,http://www.timescolonist.com/life/islander/our-community-firm-pitches-in-for-woodwynn-farms-1.22388661
-150,150,Guyana Chronicle,http://guyanachronicle.com/2017/09/03/guyana-cuba-ties-deepening
-151,151,Metro.co.uk,http://metro.co.uk/2017/09/02/boy-16-jailed-for-setting-off-homemade-bomb-in-sainsburys-toilet-6898203/
-152,152,IOL,https://www.iol.co.za/business-report/technology/jobs-hands-over-reins-as-apple-thrives-1014298
-153,153,Fast Company,https://www.fastcompany.com/40431777/the-us-just-picked-intel-ibm-nvidia-and-others-to-help-make-supercomputers-50-times-faster
-154,154,Duluth Budgeteer News,http://www.duluthnewstribune.com/features/4321001-are-we-hard-wired-lie
-155,155,books.chantcd.com,http://books.chantcd.com/psychopharmacology-drugs-the-brain-and-behavior-2nd-edition-pdf/
-156,156,sunnewsonline.com,http://sunnewsonline.com/we-advise-govt-through-evidence-based-research-onuoha-president-nigerian-academy-of-science/
-157,157,DeseretNews.com,http://www.deseretnews.com/article/865687895/Sitting-is-the-new-smoking.html
-158,158,The Colorado Independent,http://www.coloradoindependent.com/166847/solitary-confinement-gray-box-isolation
-159,159,Forbes,https://www.forbes.com/sites/capitalone/2017/08/31/apps-with-smarts-the-story-behind-machine-learning/
-160,160,Fox News,http://www.foxnews.com/us/2017/08/31/harvey-scams-abound-as-crooks-prey-on-disaster-victims-and-altruistic-americans.html
-161,161,Trumbull Times,http://www.trumbulltimes.com/71200/spotlight-listing-of-upcoming-events-116/
-162,162,"The Island News - Beaufort, SC",http://www.yourislandnews.com/new-briefs-for-august-31st-september-6th/
-163,163,Quartz,https://qz.com/1066566/tedglobal-konikus-oshiorenoya-agabi-has-created-a-device-that-can-sniff-explosives-and-detect-cancer-cells/
-164,164,News | ERR,http://news.err.ee/615745/jaak-aaviksoo-our-and-research-s-common-concerns
-165,165,Proactiveinvestors UK,http://www.proactiveinvestors.co.uk/columns/guardian-cfds-newspaper-briefing/28503/in-the-papers-oxford-biomedica-vedanta-resources-cluff-natural-resources-28503.html
-166,166,yahoo.com,https://www.yahoo.com/news/fda-approves-first-gene-therapy-170010231.html
-167,167,Edmonton Journal,http://www.edmontonjournal.com/news/national/98doctors+under+attack+group+says+medical+offices/14459235/story.html
-168,168,The Vancouver Sun,http://www.vancouversun.com/news/national/98doctors+under+attack+group+says+medical+offices/14459235/story.html
-169,169,Quartz,https://qz.com/1066324/dave-pells-next-draft-august-30th-2017/
-170,170,Sun Herald,http://www.sunherald.com/news/business/article170237252.html
-171,171,Miami Herald,http://www.miamiherald.com/news/article170237252.html
-172,172,TIME,http://time.com/4921981/cancer-gene-threapy-fda/
-173,173,Motherboard,https://motherboard.vice.com/en_us/article/evvp34/p-vs-np-alleged-solution-nortbert-blum
-174,174,MarketWatch,http://www.marketwatch.com/story/labcyte-and-sengine-precision-medicine-collaborate-to-offer-functional-drug-screening-for-oncology-2017-08-30
-175,175,Business Wire,http://www.businesswire.com/news/home/20170830005430/en/Labcyte-SEngine-Precision-Medicine-Collaborate-Offer-Functional/?feedref=JjAwJuNHiystnCoBq_hl-YorNIXXeJUidDamMzBr2lUAKMtEGtRj-e8KfM-o9q9qrCOi9QzgjCezTS3Nw_X6kJUrpSBm-Hav1w-UkdSlG3miEx88JtThI8BEp2XznrHLRzAC4_rGwOLNoA4bcgbFNw==
-176,176,The Motley Fool,https://www.fool.com/investing/2017/08/30/ibm-watson-everything-you-ever-wanted-to-know.aspx?source=iedfolrf0000001
-177,177,Fox Business,http://www.foxbusiness.com/markets/2017/08/30/ibm-watson-everything-ever-wanted-to-know.html
-178,178,Mail Online,http://www.dailymail.co.uk/~/article-4835914/index.html
-179,179,deathrattlesports.com,http://deathrattlesports.com/in-new-leap-for-ai-computer-chips-that-can-smell/24645
-180,180,GeekWire,https://www.geekwire.com/2017/geekwire-summit-early-bird-tickets-end-thursday-hear-ceos-microsoft-starbucks-instacart/
-181,181,Economic Times,http://economictimes.indiatimes.com/small-biz/security-tech/technology/precise-blood-testing-from-a-fingerprick-tanay-tandon-deepika-bodapati-thinks-its-possible/articleshow/60289161.cms
-182,182,Daily News and Analysis (DNA) India,http://www.dnaindia.com/technology/report-meet-the-new-computer-chips-that-can-smell-2541648
-183,183,iAfrica.com,http://technology.iafrica.com/news/1054586.html
-184,184,Nature News & Comment,http://www.nature.com/naturejobs/science/articles/10.1038/nj7669-613a
-185,185,International Business Times,http://www.ibtimes.com/study-us-children-are-not-following-guidelines-prevent-obesity-2584042
-186,186,Southern Star,http://www.southernstar.ie/news/roundup/articles/2017/08/29/4145034-redhead-joleen-delighted-that-ginger-emoji-to-get-green-light/
-187,187,industryweek.com,http://www.industryweek.com/emerging-technologies/new-leap-ai-computer-chips-can-smell
-188,188,The Verge,https://www.theverge.com/2017/8/29/16219754/max-tegmark-life-book-artificial-intelligence-superintelligence-existential-risk
-189,189,TechSpot,https://www.techspot.com/news/70761-scientist-puts-neurons-silicon-chips-device-can-smell.html
-190,190,independent.ng,http://independent.ng/nigerias-agabi-invents-computer-chip-detects-explosives/
-191,191,pulse.ng,http://www.pulse.ng/news/tech/nigerian-oshi-agabi-invents-bomb-smelling-detection-device-id7223893.html
-192,192,Weekly Standard,http://www.weeklystandard.com/the-family-leave-dilemma/article/2009464
-193,193,msn.com,http://www.msn.com/en-gb/news/newslondon/martha-lane-fox-advances-in-technology-can-widen-the-health-gap-between-rich-and-poor/ar-AAqV7Gb
-194,194,Alphr,http://alphr.com/go/1006791
-195,195,Evening Standard,https://www.standard.co.uk/news/techandgadgets/martha-lane-fox-advances-in-technology-can-widen-the-gap-between-rich-and-poor-a3621846.html
-196,196,Channel NewsAsia,http://www.channelnewsasia.com/news/technology/in-new-leap-for-ai-computer-chips-that-can-smell-9164328
-197,197,Washington transit officer is charged with helping ISIS | theindependentbd.com,http://www.theindependentbd.com/post/111856
-198,198,The News International,https://www.thenews.com.pk/print/226739-Computer-chips-that-can-smell
-199,199,dailytimes.com.pk,http://dailytimes.com.pk/business/29-Aug-17/in-new-leap-for-ai-computer-chips-that-can-smell
-200,200,lifestyle.inquirer.net,http://lifestyle.inquirer.net/271881/take-stand-prevent-sitting-disease/
-201,201,Japan Today,https://japantoday.com/category/tech/in-new-leap-for-ai-computer-chips-that-can-smell
-202,202,WBUR FM 90.9,http://www.wbur.org/commonhealth/2017/08/28/sick-patients-were-once-healthy
-203,203,independent.ng,http://independent.ng/nigerian-sscientist-invents-computer-chip-can-smell/
-204,204,msn.com,http://www.msn.com/en-gb/news/techandscience/in-new-leap-for-ai-computer-chips-that-can-smell/ar-AAqQTp4
-205,205,cbn.co.za,http://www.cbn.co.za/news/the-role-of-big-data-in-discovering-new-minerals-in-south-africa
-206,206,The Hindu,http://www.thehindu.com/sci-tech/technology/gadgets/soon-computer-chips-that-can-smell/article19576858.ece
-207,207,CTV News,http://www.ctvnews.ca/sci-tech/in-new-leap-for-ai-computer-chips-that-can-smell-1.3564978
-208,208,yahoo.com,https://www.yahoo.com/tech/leap-ai-computer-chips-smell-140925052.html
-209,209,Bloomberg Business,https://www.bloomberg.com/news/articles/2017-08-28/no-turtlenecks-this-time-stanford-dropout-pitches-blood-startup
-210,210,enca.com,http://www.enca.com/technology/in-new-leap-for-ai-computer-chips-that-can-smell
-211,211,Arab News,http://www.arabnews.com/node/1151851/science-technology
-212,212,GULF NEWS,http://gulfnews.com/news/africa/in-new-leap-for-ai-computer-chips-that-can-smell-1.2081306
-213,213,The Jakarta Post,http://www.thejakartapost.com/life/2017/08/28/in-new-leap-for-ai-computer-chips-that-can-smell.html
-214,214,stgnews.com,http://www.stgnews.com/news/archive/2017/08/27/mgk-precision-genomics-unique-research-brings-hope-to-cancer-patients-who-are-out-of-options/
-215,215,Inc42 Media,https://inc42.com/buzz/healthtech-startup-doxper-funding/
-216,216,http://www.hindustantimes.com/,http://www.hindustantimes.com/world-news/nigerian-scientist-creates-neuron-based-ai-device-that-can-smell/story-6ra9sFunYGj8l6k1M24q8K.html
-217,217,Citizen,http://www.thecitizen.co.tz/News/In-new-leap-for-AI--computer-chips-that-can-smell/1840386-4074028-wrtjisz/index.html
-218,218,The Straits Times,http://www.straitstimes.com/world/africa/computers-that-can-smell-cancer-explosives-uses-human-biological-cells
-219,219,Agence France Presse (AFP),https://www.afp.com/en/news/2266/new-leap-ai-computer-chips-can-smell
-220,220,Modern Ghana,https://www.modernghana.com/news/798505/in-new-leap-for-ai-computer-chips-that-can-smell.html
-221,221,The Citizen,http://citizen.co.za/news/news-africa/1630079/tanzania-conference-technology-science-nigeria/
-222,222,BorneoPost Online,http://www.theborneopost.com/2017/08/28/in-new-leap-for-ai-computer-chips-that-can-smell/
-223,223,Free Malaysia Today,http://www.freemalaysiatoday.com/category/world/2017/08/28/in-new-leap-for-ai-computer-chips-that-can-smell/
-224,224,yahoo.com,https://www.yahoo.com/news/leap-ai-computer-chips-smell-085455230.html
-225,225,themalaymailonline.com,http://www.themalaymailonline.com/tech-gadgets/article/in-new-leap-for-ai-computer-chips-that-can-smell
-226,226,digitaljournal.com,http://www.digitaljournal.com/news/world/in-new-leap-for-ai-computer-chips-that-can-smell/article/501071
-227,227,Mail Online,http://www.dailymail.co.uk/~/article-4829464/index.html
-228,228,Newsweek,http://www.newsweek.com/quora-question-why-isnt-there-space-race-mars-654354
-229,229,Vindy.com,http://www.vindy.com/news/2017/aug/28/making-great-strides/
-230,230,Washington Post,https://www.washingtonpost.com/news/post-nation/wp/2017/08/27/here-are-the-stories-of-some-texans-trying-to-keep-their-heads-above-water/
-231,231,Fast Company,https://www.fastcompany.com/40431777/the-us-just-picked-intel-ibm-nvidia-and-others-to-help-make-supercomputers-50-times-faster
-232,232,CBS News,https://www.cbsnews.com/news/michael-bloombergs-net-worth-is-47b-how-will-he-use-it-2/
-233,233,St George News,http://www.stgeorgeutah.com/news/archive/2017/08/27/mgk-precision-genomics-unique-research-brings-hope-to-cancer-patients-who-are-out-of-options/
-234,234,St George News,http://www.stgeorgeutah.com/news/archive/2017/08/27/mgk-precision-gemonics-unique-research-brings-hope-to-cancer-patients-who-have-run-out-of-options/
-235,235,Asia Times,http://www.atimes.com/article/film-lays-bare-toxic-impact-dependence-tech-gadgets/
-236,236,uk.news.yahoo.com,https://uk.news.yahoo.com/quora-why-isn-apos-t-143002579.html
-237,237,Yahoo Finance,https://finance.yahoo.com/news/elon-musk-raised-27-million-194909420.html
-238,238,The Independent,http://www.independent.co.uk/news/uk/home-news/cyber-attacks-uk-nhs-lanarkshire-scotland-hospitals-affected-patients-operations-ransomware-wannacry-a7913896.html
-239,239,The Telegraph,http://www.telegraph.co.uk/technology/2017/08/26/godfather-ai-making-machines-clever-whether-robots-really-will/
-240,240,iran-daily.com,http://www.iran-daily.com/News/199354.html
-241,241,Business Insider Australia,https://www.businessinsider.com.au/elon-musk-neuralink-raises-27-million-2017-8
-242,242,UCLA Newsroom,http://newsroom.ucla.edu/in-the-news/ucla-in-the-news-august-25-2017
-243,243,Mail Online,http://www.dailymail.co.uk/~/article-4824484/index.html
-244,244,Business Insider,http://www.businessinsider.com/elon-musk-neuralink-raises-27-million-2017-8
-245,245,The Boston Globe,https://www.bostonglobe.com/news/nation/2017/08/25/behind-luxury-turmoil-and-shoddy-care-inside-five-star-addiction-treatment-centers/HzNBLYyMCIjSkaKyUZgfSN/story.html
-246,246,WIRED,https://www.wired.com/story/this-pill-promises-to-extend-life-for-a-nickel-a-pop/
-247,247,INFORMATION NIGERIA,http://www.informationng.com/2017/08/8-fall-tips-healthy-living.html
-248,248,itnewsafrica.com,http://www.itnewsafrica.com/2017/08/the-role-of-big-data-in-discovering-new-minerals-in-south-africa/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A%2Bitnewsafrica%2B%2528ITNewsAfrica.com%2529
-249,249,Irish Examiner,http://www.irishexaminer.com/lifestyle/features/environmental-factors-to-blame-for-modern-male-fertility-crisis-457729.html
-250,250,POLITICO,http://politi.co/2xidMnG
-251,251,Weekly Standard,http://www.weeklystandard.com/the-family-leave-dilemma/article/2009414
-252,252,The Independent,http://www.independent.co.uk/news/uk/crime/ian-watkins-lostprophets-paedophile-caught-earlier-independent-police-complaints-commission-south-a7911596.html
-253,253,Hays Post,https://www.hayspost.com/2017/08/24/artist-emerges-from-42-years-of-solitary-painting-to-share-work-in-hays/
-254,254,"IEEE Spectrum: Technology, Engineering, and Science News",http://spectrum.ieee.org/biomedical/devices/biocomputer-and-memory-built-inside-living-bacteria
-255,255,The Guardian,http://www.theguardian.com/science/2017/aug/24/roy-bentley-obituary
-256,256,itnewsafrica.com,http://www.itnewsafrica.com/2017/08/rwandan-hospital-gets-new-cancer-diagnosis-tech/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A%2Bitnewsafrica%2B%2528ITNewsAfrica.com%2529
-257,257,South Yorkshire Times,http://www.southyorkshiretimes.co.uk/news/doncaster-superkids-awards-there-s-still-time-to-nominate-the-search-is-on-for-our-young-stars-1-8719301
-258,258,Los Angeles Daily News,http://www.dailynews.com/social-affairs/20170823/charity-events-in-the-los-angeles-area-aug-21-sept-4
-259,259,allAfrica,http://allafrica.com/stories/201708240032.html
-260,260,The New Times Rwanda,http://www.newtimes.co.rw/section/read/218585/
-261,261,ABA Journal,http://www.abajournal.com/news/article/can_a_general_conquer_the_federal_prison_system1/
-262,262,East Penn Press,http://www.tnonline.com/2017/aug/23/local-organizations-are-need-volunteers
-263,263,SAP News Center,http://news.sap.com/how-to-improve-precision-medicine-with-machine-learning/
-264,264,The New Times Rwanda,http://www.newtimes.co.rw/section/read/218549/
-265,265,Metro.co.uk,http://metro.co.uk/2017/08/23/do-universities-actually-look-at-your-gcse-results-6873081/
-266,266,PR Newswire,http://www.prnewswire.com/news-releases/ibm-your-computer-can-help-scientists-study-connection-between-body-bacteria-and-autoimmune-diseases-300508260.html
-267,267,Fast Company,https://www.fastcompany.com/40431777/the-us-just-picked-intel-ibm-nvidia-and-others-to-help-make-supercomputers-50-times-faster
-268,268,Yahoo Finance,https://finance.yahoo.com/news/apple-reportedly-scaled-back-car-001449676.html
-269,269,Pacific Standard,https://psmag.com/education/scientists-not-politicians-are-the-biggest-threat-to-sciences-credibility
-270,270,dailypress.com,http://www.dailypress.com/news/politics/dp-nws-gerrymandering-panel-20170822-story.html
-271,271,The New Zealand Herald,http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11909221
-272,272,yahoo.com,https://www.yahoo.com/news/why-sole-resident-nebraska-town-staying-put-good-192058773.html
-273,273,The Orange County Register,http://www.ocregister.com/2017/08/22/summer-days-for-these-csuf-students-were-anything-but-lazy/
-274,274,Tablet Magazine,http://www.tabletmag.com/jewish-news-and-politics/242877/suzi-at-yale-2
-275,275,MedCity News,https://medcitynews.com/2017/08/life-sciences-biggest-big-data-conversation-crays-ted-slater/
-276,276,NWADG.com,http://www.nwaonline.com//news/2017/aug/22/horoscopes-by-holiday-20170822/
-277,277,ArkansasOnline,http://www.arkansasonline.com/news/2017/aug/22/horoscopes-by-holiday-20170822/
-278,278,Asbury Park Press,http://www.app.com/story/life/wellness/2017/08/22/obesity-questions-bariatric-surgeon-dr-seun-sowemimo/556444001/
-279,279,From the Trenches World Report,http://fromthetrenchesworldreport.com/want-outside-bedroom-window/205962
-280,280,Bradenton Herald,http://www.bradenton.com/news/business/article168469472.html
-281,281,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article168469472.html
-282,282,Miami Herald,http://www.miamiherald.com/news/business/article168469472.html
-283,283,The News Tribune,http://www.thenewstribune.com/news/business/article168469472.html
-284,284,MacRumors,https://www.macrumors.com/2017/08/21/apple-ai-ted-talk-full-version-youtube/
-285,285,Seattle Pi,http://www.seattlepi.com/business/article/Business-Highlights-11948091.php
-286,286,Brandon Sun,https://www.brandonsun.com/business/breaking-news/business-highlights-441326373.html
-287,287,San Francisco Gate,http://www.sfgate.com/business/article/Business-Highlights-11948091.php
-288,288,Associated Press,http://hosted2.ap.org/CARIE/7f780b0f92634e54be4b48f9179deaa4/Article_2017-08-21-US-Business-Highlights/id-bf63f7ec895641c5bfeca1e9f91e360e
-289,289,Hackaday,http://hackaday.com/2017/08/21/living-logic-biological-circuits-for-the-electrically-minded/
-290,290,Forbes,https://www.forbes.com/sites/sap/2017/08/21/how-to-improve-precision-medicine-with-machine-learning/
-291,291,Inc.com,https://www.inc.com/zoe-henry/elon-musk-killer-robots-letter.html
-292,292,Daily Republic,http://www.dailyrepublic.com/features/state-national-lifestyle-columnists/horoscope-aug-22-2017/
-293,293,military-technologies.net,http://www.military-technologies.net/2017/08/21/drug-designing-tools-market-revenue-opportunity-forecast-and-value-chain-2017-2027/
-294,294,Illawarra Mercury,http://www.illawarramercury.com.au/story/4859991/community-billboard/
-295,295,To Inform is to Influence,https://toinformistoinfluence.com/2017/08/20/russia-strategy-media-update-20-august-2017/
-296,296,Medium,https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12
-297,297,INFORMATION NIGERIA,http://www.informationng.com/2017/08/electro-smog-cell-damaging-pollution-cant-see.html
-298,298,Star Tribune,http://www.startribune.com/state-law-thwarts-adoptees-quest-to-know-their-roots/441039553/
-299,299,HTR Media,http://www.htrnews.com/story/life/2017/08/19/back/581359001/
-300,300,GeekWire,https://www.geekwire.com/2017/mike-sheward/
-301,301,Money Morning - We Make Investing Profitable,https://moneymorning.com/2017/08/18/this-tech-stock-to-buy-just-handed-us-20-in-1-day-thats-just-the-start/
-302,302,Trumbull Times,http://www.trumbulltimes.com/70889/spotlight-listing-of-upcoming-events-115/
-303,303,SunSentinel,http://www.sun-sentinel.com/news/politics/power-lunch/sfl-vp-compares-trump-to-teddy-gop-sens-say-he-lacks-competence-stability-20170818-htmlstory.html
-304,304,lifehacker.com.au,https://www.lifehacker.com.au/2017/08/why-maths-matters-more-than-nature-for-developers/
-305,305,NaturalNews,http://www.naturalnews.com/2017-08-17-living-beings-can-be-turned-into-programmable-computers-through-rna-circuits.html
-306,306,radioworld.com,http://www.radioworld.com/columns-and-views/0004/the-quiet-dignity-of-tom-osenkowsky/340243
-307,307,The Epoch Times,http://www.theepochtimes.com/n3/2282142-rudy-giuliani-already-working-from-hospital-after-unexpected-surgery-ordeal/
-308,308,nhpr.org,http://nhpr.org/post/how-nhs-medical-marijuana-sellers-are-preparing-major-uptick-customers
-309,309,Inc.com,https://www.inc.com/scott-mautz/elon-musk-and-mark-zuckerberg-exchange-heated-word.html
-310,310,Frontline,http://www.frontline.in/cover-story/space-flights-nuclear-power-and-a-missile-shield/article9820959.ece
-311,311,Proactiveinvestors UK,http://www.proactiveinvestors.co.uk/companies/news/182602/e-therapeutics-pioneering-the-development-of-improved-new-drugs-with-a-focus-on-cancer-182602.html
-312,312,PR Newswire,http://www.prnewswire.com/news-releases/ultracentrifuge-market-size-to-reach-usd-328-million-by-2024-hexa-research-640865113.html
-313,313,MarketWatch,http://www.marketwatch.com/story/ultracentrifuge-market-size-to-reach-usd-328-million-by-2024-hexa-research-2017-08-17
-314,314,PR Newswire,http://www.prnewswire.co.uk/news-releases/ultracentrifuge-market-size-to-reach-usd-328-million-by-2024-hexa-research-640865253.html
-315,315,military-technologies.net,http://www.military-technologies.net/2017/08/17/half-year-report-19/
-316,316,INFORMATION NIGERIA,http://www.informationng.com/2017/08/9-worst-eye-care-mistakes-youre-making.html
-317,317,Global News,http://globalnews.ca/news/3674446/b-c-parents-plead-for-return-of-stolen-photos-of-their-dead-son/
-318,318,bizcommunity.com,http://www.bizcommunity.com/Article/1/586/166128.html
-319,319,Yahoo Finance,https://finance.yahoo.com/news/microsoft-just-made-brilliant-acquisition-175452882.html
-320,320,The Guardian,http://www.theguardian.com/society/2017/aug/16/caring-elderly-parent
-321,321,Tor.com,http://www.tor.com/2017/08/15/live-as-one-of-them-kal-el-the-christopher-reeve-superman-movies/
-322,322,Business Insider,http://www.businessinsider.com/microsofts-acquires-cycle-computing-away-from-amazon-google-2017-8
-323,323,Scientific American,https://www.scientificamerican.com/article/sophisticated-digital-aids-could-help-determine-what-ails-you/
-324,324,ZDNet,http://www.zdnet.com/article/marenostrum-4-supercomputer-now-runs-at-11-petaflops-but-theres-more-to-come/
-325,325,MLive.com,http://www.mlive.com/news/ann-arbor/index.ssf/2017/08/dte_energy_shutting_off_power.html
+0,0,The New York Times,https://www.nytimes.com/interactive/2017/09/01/us/houston-damaged-buildings-in-fema-flood-zones.html
+1,1,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+2,2,ABC News,http://www.abc.net.au/news/2017-09-05/sydney-residents-not-taking-heatwave-warnings-seriously/8870222
+3,3,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+4,4,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+5,5,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+6,6,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+7,7,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+8,8,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+9,9,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+10,10,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+11,11,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+12,12,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+13,13,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+14,14,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+15,15,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+16,16,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+17,17,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+18,18,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+19,19,West Side Journal,https://www.abqjournal.com/1064759/us-coastal-growth-continues-despite-lessons-of-past-storms.html
+20,20,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+21,21,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+22,22,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+23,23,Seattle Pi,http://www.seattlepi.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+24,24,KHNL TV 8,http://www.hawaiinewsnow.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+25,25,The Sacramento Bee,http://www.sacbee.com/latest-news/article173700696.html
+26,26,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth.html
+27,27,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+28,28,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+29,29,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+30,30,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+31,31,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=TXMCA&SECTION=HOME&TEMPLATE=DEFAULT
+32,32,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+33,33,stamford advocate,http://www.stamfordadvocate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+34,34,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+35,35,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+36,36,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+37,37,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+38,38,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+39,39,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+40,40,MyMcMurray,http://www.mymcmurray.com/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+41,41,nwi.com,http://www.nwitimes.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_40fe60ab-0617-599a-90c0-091c8b8eccf2.html
+42,42,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173700696.html
+43,43,"3TV, azfamily.com",http://www.azfamily.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+44,44,Honolulu Star-Advertiser,http://www.staradvertiser.com/2017/09/16/business/business-breaking/u-s-coastal-growth-continues-despite-lessons-of-past-storms/
+45,45,Beaumont Enterprise,http://www.beaumontenterprise.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+46,46,NewsTimes,http://www.newstimes.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+47,47,WFXG FOX54,http://www.wfxg.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+48,48,Bradenton Herald,http://www.bradenton.com/news/business/article173700696.html
+49,49,Sun.Star,http://www.sunstar.com.ph/network/news/2017/09/17/us-coastal-growth-continues-despite-lessons-past-storms-564574
+50,50,WMC Action News 5,http://www.wmcactionnews5.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+51,51,Aurora Sentinel,http://www.aurorasentinel.com/news/nation-world/us-coastal-growth-continues-despite-lessons-past-storms/
+52,52,greenwich time,http://www.greenwichtime.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+53,53,WMC Action News 5,http://www.wmcactionnews5.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+54,54,star-telegram,http://www.star-telegram.com/news/state/texas/article173700696.html
+55,55,Sun Herald,http://www.sunherald.com/news/business/article173700696.html
+56,56,Aiken Standard,http://www.aikenstandard.com/news/us-coastal-growth-continues-despite-lessons-of-past-storms/article_4f9b22ad-fbdf-5705-ae91-af649980c73b.html
+57,57,ktre.com,http://www.ktre.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+58,58,ktre.com,http://www.ktre.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+59,59,missoulian.com,http://missoulian.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+60,60,missoulian.com,http://missoulian.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+61,61,WAFB,http://www.wafb.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+62,62,WAFB,http://www.wafb.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+63,63,The News&Observer,http://www.newsobserver.com/news/state/south-carolina/article173700696.html
+64,64,The News&Observer,http://www.newsobserver.com/news/business/article173700696.html
+65,65,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US-Hurricanes-Coastline-Growth/id-1c50c18ba80246efab0f665f1f8749dd
+66,66,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US--Hurricanes-Coastline%20Growth/id-664c3ecc200a42ffa9b0d8f96fd54e9b
+67,67,The Republic,http://www.therepublic.com/2017/09/16/us-hurricanes-coastline-growth/
+68,68,TimesDaily,http://www.timesdaily.com/news/nation/us-coastal-growth-continues-despite-lessons-of-past-storms/article_bc950ea6-5c39-5c33-b22d-eb9b96d58ef6.html
+69,69,San Francisco Chronicle,http://www.sfchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+70,70,Willoughby News-Herald,http://www.news-herald.com/article/HR/20170916/BUSINESS/170919523
+71,71,WJAX,http://www.actionnewsjax.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299911
+72,72,The News Tribune,http://www.thenewstribune.com/news/business/article173700696.html
+73,73,Houston Chronicle,http://www.houstonchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+74,74,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/state/south-carolina/article173700696.html
+75,75,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article173700696.html
+76,76,Muscatine Journal,http://muscatinejournal.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_c790f109-0789-5707-81b7-5b5cdc193043.html
+77,77,Daily Journal,http://www.dailyjournal.net/2017/09/16/us-hurricanes-coastline-growth/
+78,78,Owensboro Messenger-Inquirer,http://www.messenger-inquirer.com/news/national/u-s-coastal-growth-continues-despite-lessons-of-past-storms/article_f61819ed-3dec-5a24-b224-1de364c921a8.html
+79,79,WBOC TV 16,http://www.wboc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+80,80,Post Register,http://www.postregister.com/articles/nation-world/2017/09/17/coastal-growth-continues-despite-lessons-storms
+81,81,Eagle-Tribune,http://www.eagletribune.com/region/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_cf864e7a-a817-5d6e-b9c9-61b01757753c.html
+82,82,Winston-Salem Journal,http://www.journalnow.com/news/nation_world_ap/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_7d9dca57-ee53-5b7c-b44f-7d4814e8c60f.html
+83,83,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+84,84,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+85,85,LasVegasSun.com,https://lasvegassun.com/news/2017/sep/16/us-coastal-growth-continues-despite-lessons-of-pas/
+86,86,PostBulletin.com,http://www.postbulletin.com/business/us-coastal-growth-continues-despite-lessons-of-past-storms/article_350f493b-e1eb-5c81-be9e-6a99ea0efce1.html
+87,87,Brownsville Herald,http://www.brownsvilleherald.com/news/texas/article_a0f51431-9761-56a2-be6c-bfb46f3041f3.html
+88,88,Thegardenisland.com,http://thegardenisland.com/business/national-and-international/us-coastal-growth-continues-despite-lessons-of-past-storms/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+89,89,Thegardenisland.com,http://thegardenisland.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+90,90,East Oregonian,http://www.eastoregonian.com/us-coastal-growth-continues-despite-lessons-of-past-storms-eo-ap-webfeeds-news-nation-worldcd935bda33124a64a89f850483e935a3
+91,91,military-technologies.net,http://www.military-technologies.net/2017/08/18/uav-drones-market-demand-is-increasing-rapidly-in-2016-2024/
+92,92,Boston Herald,http://www.bostonherald.com/news/national/2017/09/us_coastal_growth_continues_despite_lessons_of_past_storms
+93,93,Fox News,http://www.foxnews.com/us/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth.html
+94,94,HeraldNet.com,http://www.heraldnet.com/nation-world/us-coastal-growth-continues-despite-lessons-of-past-storms/
+95,95,KIRO,http://www.kiro7.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/610406621
+96,96,tristateupdate.com,http://www.tristateupdate.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+97,97,CTPost,http://www.ctpost.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+98,98,National Post,http://nationalpost.com/pmn/news-pmn/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+99,99,Republican American,http://www.rep-am.com/news/2017/09/16/hurricanes-what-hurricanes-coasts-see-massive-development/
+100,100,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+101,101,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+102,102,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+103,103,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+104,104,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+105,105,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+106,106,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+107,107,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+108,108,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+109,109,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+110,110,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+111,111,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+112,112,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+113,113,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+114,114,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+115,115,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+116,116,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+117,117,West Side Journal,https://www.abqjournal.com/1064759/us-coastal-growth-continues-despite-lessons-of-past-storms.html
+118,118,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+119,119,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+120,120,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+121,121,Seattle Pi,http://www.seattlepi.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+122,122,The Sacramento Bee,http://www.sacbee.com/latest-news/article173700696.html
+123,123,KHNL TV 8,http://www.hawaiinewsnow.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+124,124,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth.html
+125,125,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+126,126,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+127,127,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+128,128,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+129,129,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=TXMCA&SECTION=HOME&TEMPLATE=DEFAULT
+130,130,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+131,131,stamford advocate,http://www.stamfordadvocate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+132,132,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+133,133,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+134,134,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+135,135,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+136,136,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+137,137,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+138,138,MyMcMurray,http://www.mymcmurray.com/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+139,139,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173700696.html
+140,140,Honolulu Star-Advertiser,http://www.staradvertiser.com/2017/09/16/business/business-breaking/u-s-coastal-growth-continues-despite-lessons-of-past-storms/
+141,141,Beaumont Enterprise,http://www.beaumontenterprise.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+142,142,"3TV, azfamily.com",http://www.azfamily.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+143,143,nwi.com,http://www.nwitimes.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_40fe60ab-0617-599a-90c0-091c8b8eccf2.html
+144,144,Sun.Star,http://www.sunstar.com.ph/network/news/2017/09/17/us-coastal-growth-continues-despite-lessons-past-storms-564574
+145,145,WFXG FOX54,http://www.wfxg.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+146,146,NewsTimes,http://www.newstimes.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+147,147,Bradenton Herald,http://www.bradenton.com/news/business/article173700696.html
+148,148,WMC Action News 5,http://www.wmcactionnews5.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+149,149,Aurora Sentinel,http://www.aurorasentinel.com/news/nation-world/us-coastal-growth-continues-despite-lessons-past-storms/
+150,150,WMC Action News 5,http://www.wmcactionnews5.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+151,151,greenwich time,http://www.greenwichtime.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+152,152,star-telegram,http://www.star-telegram.com/news/state/texas/article173700696.html
+153,153,Sun Herald,http://www.sunherald.com/news/business/article173700696.html
+154,154,Aiken Standard,http://www.aikenstandard.com/news/us-coastal-growth-continues-despite-lessons-of-past-storms/article_4f9b22ad-fbdf-5705-ae91-af649980c73b.html
+155,155,ktre.com,http://www.ktre.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+156,156,ktre.com,http://www.ktre.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+157,157,missoulian.com,http://missoulian.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+158,158,missoulian.com,http://missoulian.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+159,159,WAFB,http://www.wafb.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+160,160,WAFB,http://www.wafb.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+161,161,The News&Observer,http://www.newsobserver.com/news/state/south-carolina/article173700696.html
+162,162,The News&Observer,http://www.newsobserver.com/news/business/article173700696.html
+163,163,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US--Hurricanes-Coastline%20Growth/id-664c3ecc200a42ffa9b0d8f96fd54e9b
+164,164,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US-Hurricanes-Coastline-Growth/id-1c50c18ba80246efab0f665f1f8749dd
+165,165,The Republic,http://www.therepublic.com/2017/09/16/us-hurricanes-coastline-growth/
+166,166,San Francisco Chronicle,http://www.sfchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+167,167,TimesDaily,http://www.timesdaily.com/news/nation/us-coastal-growth-continues-despite-lessons-of-past-storms/article_bc950ea6-5c39-5c33-b22d-eb9b96d58ef6.html
+168,168,WJAX,http://www.actionnewsjax.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299911
+169,169,Willoughby News-Herald,http://www.news-herald.com/article/HR/20170916/BUSINESS/170919523
+170,170,The News Tribune,http://www.thenewstribune.com/news/business/article173700696.html
+171,171,Houston Chronicle,http://www.houstonchronicle.com/news/nation-world/nation/article/Coastal-growth-continues-undeterred-12203553.php
+172,172,Houston Chronicle,http://www.houstonchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+173,173,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/state/south-carolina/article173700696.html
+174,174,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article173700696.html
+175,175,Daily Journal,http://www.dailyjournal.net/2017/09/16/us-hurricanes-coastline-growth/
+176,176,Muscatine Journal,http://muscatinejournal.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_c790f109-0789-5707-81b7-5b5cdc193043.html
+177,177,WBOC TV 16,http://www.wboc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+178,178,Owensboro Messenger-Inquirer,http://www.messenger-inquirer.com/news/national/u-s-coastal-growth-continues-despite-lessons-of-past-storms/article_f61819ed-3dec-5a24-b224-1de364c921a8.html
+179,179,Post Register,http://www.postregister.com/articles/nation-world/2017/09/17/coastal-growth-continues-despite-lessons-storms
+180,180,Eagle-Tribune,http://www.eagletribune.com/region/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_cf864e7a-a817-5d6e-b9c9-61b01757753c.html
+181,181,Winston-Salem Journal,http://www.journalnow.com/news/nation_world_ap/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_7d9dca57-ee53-5b7c-b44f-7d4814e8c60f.html
+182,182,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+183,183,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+184,184,LasVegasSun.com,https://lasvegassun.com/news/2017/sep/16/us-coastal-growth-continues-despite-lessons-of-pas/
+185,185,Brownsville Herald,http://www.brownsvilleherald.com/news/texas/article_a0f51431-9761-56a2-be6c-bfb46f3041f3.html
+186,186,PostBulletin.com,http://www.postbulletin.com/business/us-coastal-growth-continues-despite-lessons-of-past-storms/article_350f493b-e1eb-5c81-be9e-6a99ea0efce1.html
+187,187,Thegardenisland.com,http://thegardenisland.com/business/national-and-international/us-coastal-growth-continues-despite-lessons-of-past-storms/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+188,188,Thegardenisland.com,http://thegardenisland.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+189,189,East Oregonian,http://www.eastoregonian.com/us-coastal-growth-continues-despite-lessons-of-past-storms-eo-ap-webfeeds-news-nation-worldcd935bda33124a64a89f850483e935a3
+190,190,canada.com,http://www.canada.com/business/coastal+growth+continues+despite+lessons+past+storms/14713020/story.html
+191,191,Boston Herald,http://www.bostonherald.com/news/national/2017/09/us_coastal_growth_continues_despite_lessons_of_past_storms
+192,192,HeraldNet.com,http://www.heraldnet.com/nation-world/us-coastal-growth-continues-despite-lessons-of-past-storms/
+193,193,CTPost,http://www.ctpost.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+194,194,KIRO,http://www.kiro7.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/610406621
+195,195,Fox News,http://www.foxnews.com/us/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth.html
+196,196,Republican American,http://www.rep-am.com/news/2017/09/16/hurricanes-what-hurricanes-coasts-see-massive-development/
+197,197,National Post,http://nationalpost.com/pmn/news-pmn/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+198,198,tristateupdate.com,http://www.tristateupdate.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+199,199,Mail Online,http://www.dailymail.co.uk/~/article-4892050/index.html
+200,200,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+201,201,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+202,202,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+203,203,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+204,204,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+205,205,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+206,206,The Kansas City Star,http://www.kansascity.com/news/nation-world/article173799046.html
+207,207,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+208,208,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+209,209,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+210,210,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+211,211,Portland Press Herald,http://www.pressherald.com/2017/09/16/u-s-population-grows-along-coasts-despite-storm-threat/
+212,212,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+213,213,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+214,214,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+215,215,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+216,216,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+217,217,Miami Herald,http://www.miamiherald.com/news/nation-world/article173799046.html
+218,218,Central Maine,http://www.centralmaine.com/2017/09/16/u-s-population-grows-along-coasts-despite-storm-threat/
+219,219,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+220,220,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+221,221,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+222,222,West Side Journal,https://www.abqjournal.com/1064759/us-coastal-growth-continues-despite-lessons-of-past-storms.html
+223,223,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+224,224,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+225,225,Seattle Pi,http://www.seattlepi.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+226,226,The Sacramento Bee,http://www.sacbee.com/latest-news/article173700696.html
+227,227,KHNL TV 8,http://www.hawaiinewsnow.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+228,228,Metro Toronto,http://www.metronews.ca/news/world/2017/09/17/ap-news-in-brief-at-12-04-a-m-edt.html
+229,229,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth.html
+230,230,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+231,231,stamford advocate,http://www.stamfordadvocate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+232,232,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+233,233,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+234,234,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+235,235,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+236,236,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+237,237,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+238,238,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+239,239,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+240,240,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=TXMCA&SECTION=HOME&TEMPLATE=DEFAULT
+241,241,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+242,242,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+243,243,Honolulu Star-Advertiser,http://www.staradvertiser.com/2017/09/16/business/business-breaking/u-s-coastal-growth-continues-despite-lessons-of-past-storms/
+244,244,nwi.com,http://www.nwitimes.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_40fe60ab-0617-599a-90c0-091c8b8eccf2.html
+245,245,"3TV, azfamily.com",http://www.azfamily.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+246,246,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173700696.html
+247,247,MyMcMurray,http://www.mymcmurray.com/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+248,248,MyMcMurray,http://www.mymcmurray.com/2017/09/16/ap-news-in-brief-at-1204-a-m-edt-37/
+249,249,Beaumont Enterprise,http://www.beaumontenterprise.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+250,250,The Charlotte Observer,http://www.charlotteobserver.com/news/nation-world/national/article173799046.html
+251,251,Bradenton Herald,http://www.bradenton.com/news/nation-world/national/article173672521.html
+252,252,Bradenton Herald,http://www.bradenton.com/news/business/article173700696.html
+253,253,NewsTimes,http://www.newstimes.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+254,254,Sun.Star,http://www.sunstar.com.ph/network/news/2017/09/17/us-coastal-growth-continues-despite-lessons-past-storms-564574
+255,255,WFXG FOX54,http://www.wfxg.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+256,256,WMC Action News 5,http://www.wmcactionnews5.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+257,257,WMC Action News 5,http://www.wmcactionnews5.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+258,258,greenwich time,http://www.greenwichtime.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+259,259,Aurora Sentinel,http://www.aurorasentinel.com/news/nation-world/us-coastal-growth-continues-despite-lessons-past-storms/
+260,260,star-telegram,http://www.star-telegram.com/news/state/texas/article173700696.html
+261,261,star-telegram,http://www.star-telegram.com/news/nation-world/national/article173799046.html
+262,262,Sun Herald,http://www.sunherald.com/news/business/article173700696.html
+263,263,Aiken Standard,http://www.aikenstandard.com/news/us-coastal-growth-continues-despite-lessons-of-past-storms/article_4f9b22ad-fbdf-5705-ae91-af649980c73b.html
+264,264,ktre.com,http://www.ktre.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+265,265,ktre.com,http://www.ktre.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+266,266,missoulian.com,http://missoulian.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+267,267,The State,http://www.thestate.com/news/nation-world/national/article173672521.html
+268,268,Idaho Statesman,http://www.idahostatesman.com/news/nation-world/article173672521.html
+269,269,missoulian.com,http://missoulian.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+270,270,WAFB,http://www.wafb.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+271,271,WAFB,http://www.wafb.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+272,272,The News&Observer,http://www.newsobserver.com/news/state/south-carolina/article173700696.html
+273,273,The News&Observer,http://www.newsobserver.com/news/business/article173700696.html
+274,274,The News&Observer,http://www.newsobserver.com/news/nation-world/national/article173799046.html
+275,275,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US--Hurricanes-Coastline%20Growth/id-664c3ecc200a42ffa9b0d8f96fd54e9b
+276,276,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US-Hurricanes-Coastline-Growth/id-1c50c18ba80246efab0f665f1f8749dd
+277,277,San Francisco Chronicle,http://www.sfchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+278,278,TimesDaily,http://www.timesdaily.com/news/nation/us-coastal-growth-continues-despite-lessons-of-past-storms/article_bc950ea6-5c39-5c33-b22d-eb9b96d58ef6.html
+279,279,The Republic,http://www.therepublic.com/2017/09/16/us-hurricanes-coastline-growth/
+280,280,Willoughby News-Herald,http://www.news-herald.com/article/HR/20170916/BUSINESS/170919523
+281,281,centredaily,http://www.centredaily.com/news/nation-world/article173799046.html
+282,282,WJAX,http://www.actionnewsjax.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299911
+283,283,Belleville News-Democrat,http://www.bnd.com/news/nation-world/national/article173672521.html
+284,284,The News Tribune,http://www.thenewstribune.com/news/business/article173700696.html
+285,285,Houston Chronicle,http://www.houstonchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+286,286,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article173700696.html
+287,287,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/nation-world/national/article173799046.html
+288,288,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/state/south-carolina/article173700696.html
+289,289,Daily Journal,http://www.dailyjournal.net/2017/09/16/us-hurricanes-coastline-growth/
+290,290,Muscatine Journal,http://muscatinejournal.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_c790f109-0789-5707-81b7-5b5cdc193043.html
+291,291,WBOC TV 16,http://www.wboc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+292,292,The Tribune,http://www.sanluisobispo.com/news/nation-world/national/article173672521.html
+293,293,Owensboro Messenger-Inquirer,http://www.messenger-inquirer.com/news/national/u-s-coastal-growth-continues-despite-lessons-of-past-storms/article_f61819ed-3dec-5a24-b224-1de364c921a8.html
+294,294,The  Olympian,http://www.theolympian.com/news/nation-world/article173799046.html
+295,295,Post Register,http://www.postregister.com/articles/nation-world/2017/09/17/coastal-growth-continues-despite-lessons-storms
+296,296,Eagle-Tribune,http://www.eagletribune.com/region/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_cf864e7a-a817-5d6e-b9c9-61b01757753c.html
+297,297,Winston-Salem Journal,http://www.journalnow.com/news/nation_world_ap/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_7d9dca57-ee53-5b7c-b44f-7d4814e8c60f.html
+298,298,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+299,299,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+300,300,LasVegasSun.com,https://lasvegassun.com/news/2017/sep/16/us-coastal-growth-continues-despite-lessons-of-pas/
+301,301,Brownsville Herald,http://www.brownsvilleherald.com/news/texas/article_a0f51431-9761-56a2-be6c-bfb46f3041f3.html
+302,302,PostBulletin.com,http://www.postbulletin.com/business/us-coastal-growth-continues-despite-lessons-of-past-storms/article_350f493b-e1eb-5c81-be9e-6a99ea0efce1.html
+303,303,Thegardenisland.com,http://thegardenisland.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+304,304,Thegardenisland.com,http://thegardenisland.com/business/national-and-international/us-coastal-growth-continues-despite-lessons-of-past-storms/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+305,305,East Oregonian,http://www.eastoregonian.com/us-coastal-growth-continues-despite-lessons-of-past-storms-eo-ap-webfeeds-news-nation-worldcd935bda33124a64a89f850483e935a3
+306,306,canada.com,http://www.canada.com/business/coastal+growth+continues+despite+lessons+past+storms/14713020/story.html
+307,307,Boston Herald,http://www.bostonherald.com/news/national/2017/09/us_coastal_growth_continues_despite_lessons_of_past_storms
+308,308,KIRO,http://www.kiro7.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/610406621
+309,309,CTPost,http://www.ctpost.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+310,310,Fox News,http://www.foxnews.com/us/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth.html
+311,311,tristateupdate.com,http://www.tristateupdate.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+312,312,National Post,http://nationalpost.com/pmn/news-pmn/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+313,313,Republican American,http://www.rep-am.com/news/2017/09/16/hurricanes-what-hurricanes-coasts-see-massive-development/
+314,314,HeraldNet.com,http://www.heraldnet.com/nation-world/us-coastal-growth-continues-despite-lessons-of-past-storms/
+315,315,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+316,316,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+317,317,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+318,318,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+319,319,San Francisco Gate,http://www.sfgate.com/news/article/Town-struggles-to-rebuild-its-beach-in-a-changing-12203164.php
+320,320,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+321,321,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+322,322,WHNT.com,http://whnt.com/2017/09/06/thursday-morning-lows-in-record-territory-warm-and-dry-in-the-afternoon/
+323,323,WHNT.com,http://whnt.com/2017/09/07/thursday-afternoon-long-look-toward-how-irma-may-impact-the-us-mainland/
+324,324,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+325,325,The Kansas City Star,http://www.kansascity.com/news/politics-government/national-politics/article173701501.html
+326,326,WFTV,http://www.wftv.com/news/florida/town-struggles-to-rebuild-its-beach-in-a-changing-climate/610312424
+327,327,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+328,328,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+329,329,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+330,330,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+331,331,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+332,332,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+333,333,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+334,334,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+335,335,KSHB,http://www.kshb.com/news/eclipse/icymi-the-moment-the-moon-eclipsed-the-sun
+336,336,abc15 Arizona,http://www.abc15.com/news/eclipse/icymi-the-moment-the-moon-eclipsed-the-sun
+337,337,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+338,338,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+339,339,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+340,340,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+341,341,West Side Journal,https://www.abqjournal.com/1064759/us-coastal-growth-continues-despite-lessons-of-past-storms.html
+342,342,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+343,343,Seattle Pi,http://www.seattlepi.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+344,344,The Sacramento Bee,http://www.sacbee.com/news/nation-world/national/article173701501.html
+345,345,KHNL TV 8,http://www.hawaiinewsnow.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+346,346,The Sacramento Bee,http://www.sacbee.com/latest-news/article173700696.html
+347,347,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth.html
+348,348,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/town-struggles-to-rebuild-its-beach-in-a-changing-climate.html
+349,349,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=TXMCA&SECTION=HOME&TEMPLATE=DEFAULT
+350,350,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+351,351,stamford advocate,http://www.stamfordadvocate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+352,352,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+353,353,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+354,354,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+355,355,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+356,356,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+357,357,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+358,358,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+359,359,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+360,360,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+361,361,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+362,362,"3TV, azfamily.com",http://www.azfamily.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+363,363,nwi.com,http://www.nwitimes.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_40fe60ab-0617-599a-90c0-091c8b8eccf2.html
+364,364,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173701501.html
+365,365,Honolulu Star-Advertiser,http://www.staradvertiser.com/2017/09/16/business/business-breaking/u-s-coastal-growth-continues-despite-lessons-of-past-storms/
+366,366,MyMcMurray,http://www.mymcmurray.com/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+367,367,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173700696.html
+368,368,Beaumont Enterprise,http://www.beaumontenterprise.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+369,369,chicagonow.com,http://www.chicagonow.com/chicago-weather-watch/2017/09/so-far-its-been-an-active-hurricane-season/
+370,370,NewsTimes,http://www.newstimes.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+371,371,WFXG FOX54,http://www.wfxg.com/story/36250937/irma-moving-away-from-northernmost-virgin-islands-latest-track-shows-closer-to-se-of-us
+372,372,Sun.Star,http://www.sunstar.com.ph/network/news/2017/09/17/us-coastal-growth-continues-despite-lessons-past-storms-564574
+373,373,Bradenton Herald,http://www.bradenton.com/news/business/article173700696.html
+374,374,WFXG FOX54,http://www.wfxg.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+375,375,WMC Action News 5,http://www.wmcactionnews5.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+376,376,greenwich time,http://www.greenwichtime.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+377,377,Aurora Sentinel,http://www.aurorasentinel.com/news/nation-world/us-coastal-growth-continues-despite-lessons-past-storms/
+378,378,WMC Action News 5,http://www.wmcactionnews5.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+379,379,star-telegram,http://www.star-telegram.com/news/state/texas/article173700696.html
+380,380,star-telegram,http://www.star-telegram.com/news/politics-government/national-politics/article173701501.html
+381,381,Sun Herald,http://www.sunherald.com/news/business/article173700696.html
+382,382,Aiken Standard,http://www.aikenstandard.com/news/us-coastal-growth-continues-despite-lessons-of-past-storms/article_4f9b22ad-fbdf-5705-ae91-af649980c73b.html
+383,383,Aiken Standard,http://www.aikenstandard.com/news/town-struggles-to-rebuild-its-beach-in-a-changing-climate/article_1f4dbed6-4317-5d1f-abe9-043a921ce6a2.html
+384,384,ktre.com,http://www.ktre.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+385,385,ktre.com,http://www.ktre.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+386,386,The State,http://www.thestate.com/opinion/op-ed/article171627802.html
+387,387,missoulian.com,http://missoulian.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+388,388,missoulian.com,http://missoulian.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+389,389,WAFB,http://www.wafb.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+390,390,WAFB,http://www.wafb.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+391,391,The News&Observer,http://www.newsobserver.com/news/business/article173700696.html
+392,392,The News&Observer,http://www.newsobserver.com/news/state/south-carolina/article173700696.html
+393,393,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US--Hurricanes-Coastline%20Growth/id-664c3ecc200a42ffa9b0d8f96fd54e9b
+394,394,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US-Hurricanes-Coastline-Growth/id-1c50c18ba80246efab0f665f1f8749dd
+395,395,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/hurricane-irma-maintains-strength-as-cat-5-as-it-continues-across-atlantic
+396,396,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/powerful-hurricane-irma-makes-landfall-in-northern-caribbean
+397,397,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-11-am-update-on-powerful-hurricane-irma
+398,398,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-gov-mcmaster-declares-state-of-emergency-ahead-of-irma
+399,399,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-hurricane-irma-continuing-across-atlantic-as-category-5
+400,400,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-hurricane-irma-moving-away-from-northernmost-virgin-islands
+401,401,The Republic,http://www.therepublic.com/2017/09/16/us-hurricanes-coastline-growth/
+402,402,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-weather-cat-5-hurricane-irma-strengthens-tropical-storm-jose-forms
+403,403,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-weather-2-pm-update-cat-5-hurricane-irma-strengthens-again
+404,404,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-weather-5-pm-update-cat-5-hurricane-irma-continues-moving-west
+405,405,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/eye-of-hurricane-irma-continues-north-of-puerto-rico-tracks-still-show-close-to-se-of-us
+406,406,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/irma-moving-away-from-northernmost-virgin-islands-latest-track-shows-closer-to-se-of-us
+407,407,TimesDaily,http://www.timesdaily.com/news/nation/us-coastal-growth-continues-despite-lessons-of-past-storms/article_bc950ea6-5c39-5c33-b22d-eb9b96d58ef6.html
+408,408,San Francisco Chronicle,http://www.sfchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+409,409,tucsonnewsnow.com,http://www.tucsonnewsnow.com/story/36250937/first-alert-with-hurricane-irma-tropical-storm-jose-new-tropical-depression-forms
+410,410,centredaily,http://www.centredaily.com/news/politics-government/national-politics/article173701501.html
+411,411,WKBW,http://www.wkbw.com/news/eclipse/icymi-the-moment-the-moon-eclipsed-the-sun
+412,412,WJAX,http://www.actionnewsjax.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299911
+413,413,Willoughby News-Herald,http://www.news-herald.com/article/HR/20170916/BUSINESS/170919523
+414,414,The News Tribune,http://www.thenewstribune.com/news/business/article173700696.html
+415,415,wbtv.com,http://www.wbtv.com/story/36250937/irma-moving-away-from-northernmost-virgin-islands-latest-track-shows-closer-to-se-of-us
+416,416,wbtv.com,http://www.wbtv.com/story/36250937/hurricane-irma-maintains-strength-as-cat-5-as-it-continues-across-atlantic
+417,417,wbtv.com,http://www.wbtv.com/story/36250937/first-alert-gov-mcmaster-declares-state-of-emergency-ahead-of-irma
+418,418,wbtv.com,http://www.wbtv.com/story/36250937/first-alert-with-hurricane-irma-tropical-storm-jose-new-tropical-depression-forms
+419,419,Houston Chronicle,http://www.houstonchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+420,420,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/state/south-carolina/article173700696.html
+421,421,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article173700696.html
+422,422,Muscatine Journal,http://muscatinejournal.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_c790f109-0789-5707-81b7-5b5cdc193043.html
+423,423,Daily Journal,http://www.dailyjournal.net/2017/09/16/us-hurricanes-coastline-growth/
+424,424,Owensboro Messenger-Inquirer,http://www.messenger-inquirer.com/news/national/u-s-coastal-growth-continues-despite-lessons-of-past-storms/article_f61819ed-3dec-5a24-b224-1de364c921a8.html
+425,425,WBOC TV 16,http://www.wboc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+426,426,The  Olympian,http://www.theolympian.com/news/politics-government/national-politics/article173701501.html
+427,427,Post Register,http://www.postregister.com/articles/nation-world/2017/09/17/coastal-growth-continues-despite-lessons-storms
+428,428,Eagle-Tribune,http://www.eagletribune.com/region/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_cf864e7a-a817-5d6e-b9c9-61b01757753c.html
+429,429,Winston-Salem Journal,http://www.journalnow.com/news/nation_world_ap/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_7d9dca57-ee53-5b7c-b44f-7d4814e8c60f.html
+430,430,Dothan Eagle,http://www.dothaneagle.com/news/ap/state/town-struggles-to-rebuild-its-beach-in-a-changing-climate/article_c086407b-a3fc-541c-946a-08f5d6e10fee.html
+431,431,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+432,432,LasVegasSun.com,https://lasvegassun.com/news/2017/sep/16/us-coastal-growth-continues-despite-lessons-of-pas/
+433,433,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+434,434,Brownsville Herald,http://www.brownsvilleherald.com/news/texas/article_a0f51431-9761-56a2-be6c-bfb46f3041f3.html
+435,435,PostBulletin.com,http://www.postbulletin.com/business/us-coastal-growth-continues-despite-lessons-of-past-storms/article_350f493b-e1eb-5c81-be9e-6a99ea0efce1.html
+436,436,Thegardenisland.com,http://thegardenisland.com/business/national-and-international/us-coastal-growth-continues-despite-lessons-of-past-storms/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+437,437,Thegardenisland.com,http://thegardenisland.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+438,438,East Oregonian,http://www.eastoregonian.com/us-coastal-growth-continues-despite-lessons-of-past-storms-eo-ap-webfeeds-news-nation-worldcd935bda33124a64a89f850483e935a3
+439,439,Boston Herald,http://www.bostonherald.com/news/national/2017/09/us_coastal_growth_continues_despite_lessons_of_past_storms
+440,440,CTPost,http://www.ctpost.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+441,441,newsnet5,http://www.news5cleveland.com/news/eclipse/icymi-the-moment-the-moon-eclipsed-the-sun
+442,442,Fox News,http://www.foxnews.com/us/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth.html
+443,443,HeraldNet.com,http://www.heraldnet.com/nation-world/us-coastal-growth-continues-despite-lessons-of-past-storms/
+444,444,Republican American,http://www.rep-am.com/news/2017/09/16/hurricanes-what-hurricanes-coasts-see-massive-development/
+445,445,National Post,http://nationalpost.com/pmn/news-pmn/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+446,446,JerusalemOnline,http://www.jerusalemonline.com/news/world-news/around-the-globe/hurricane-damages-estimated-at-290-billion-dollars-31025
+447,447,KIRO,http://www.kiro7.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/610406621
+448,448,tristateupdate.com,http://www.tristateupdate.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+449,449,The New York Times,https://www.nytimes.com/2017/08/20/science/solar-eclipse.html
+450,450,The New York Times,https://www.nytimes.com/aponline/2017/09/10/us/ap-us-hurricane-irma-the-latest.html
+451,451,Mail Online,http://www.dailymail.co.uk/~/article-4806944/index.html
+452,452,Mail Online,http://www.dailymail.co.uk/~/article-4805420/index.html
+453,453,Mail Online,http://www.dailymail.co.uk/~/article-4808688/index.html
+454,454,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+455,455,Mail Online,http://www.dailymail.co.uk/~/article-4809242/index.html
+456,456,Mail Online,http://www.dailymail.co.uk/~/article-4872636/index.html
+457,457,Mail Online,http://www.dailymail.co.uk/~/article-4810056/index.html
+458,458,Washington Post,https://www.washingtonpost.com/politics/gop-doubts-and-anxieties-about-trump-burst-into-the-open/2017/08/19/934bbcb0-84fa-11e7-9e7a-20fa8d7a0db6_story.html
+459,459,Washington Post,https://www.washingtonpost.com/national/energy-environment/the-latest-people-save-manatees-marooned-in-drained-bay/2017/09/10/f0af18b0-9685-11e7-af6a-6555caaeb8dc_story.html
+460,460,Washington Post,https://www.washingtonpost.com/national/health-science/the-latest-clear-skies-predicted-for-most-of-eclipse-path/2017/08/21/caca87b0-8686-11e7-96a7-d178cf3524eb_story.html
+461,461,Washington Post,https://www.washingtonpost.com/national/thousands-without-power-in-coastal-georgia-from-severe-storm/2017/09/11/4be15888-96e5-11e7-af6a-6555caaeb8dc_story.html
+462,462,Washington Post,https://www.washingtonpost.com/national/the-latest-hurricane-irma-regains-category-4-strength/2017/09/10/c26a13e2-95ef-11e7-8482-8dc9a7af29f9_story.html
+463,463,Washington Post,https://www.washingtonpost.com/national/health-science/the-latest-car-strikes-2-women-watching-eclipse-1-dies/2017/08/21/f1e8810c-86cd-11e7-96a7-d178cf3524eb_story.html
+464,464,Washington Post,https://www.washingtonpost.com/news/capital-weather-gang/wp/2017/09/11/irmas-final-phase-flooding-in-the-southeast-is-biggest-concern/
+465,465,USA Today,https://www.usatoday.com/story/money/2017/09/08/hurricane-irma-gas-shortages-florida/645747001/
+466,466,Los Angeles Times,http://www.latimes.com/nation/la-updates-hurricane-irma-nearly-4-5-million-without-power-in-1505129289-htmlstory.html
+467,467,CBS News,https://www.cbsnews.com/news/tropical-storm-irma-florida-live-update-09-11-2017/
+468,468,CBS News,https://www.cbsnews.com/news/tropical-storm-irma-downgraded-hurricane-florida-live-update-09-11-2017/
+469,469,CBS News,https://www.cbsnews.com/news/irma-live-updates-florida-power-outages-09-11-2017/
+470,470,CBS News,https://www.cbsnews.com/news/florida-power-outage-irma-leaves-nearly-4-5-million-without-power/
+471,471,The New Zealand Herald,http://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=11909098
+472,472,TIME,http://time.com/4907850/gop-doubts-donald-trump-competency/
+473,473,Global News,http://globalnews.ca/news/3682835/republican-doubts-and-anxieties-about-donald-trump-burst-into-the-open/
+474,474,The New Zealand Herald,http://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=11908977
+475,475,TIME,http://time.com/4906568/solar-eclipse-monday-weather-forecast/
+476,476,Business Insider,http://www.businessinsider.com/ap-gop-doubts-and-anxieties-about-trump-burst-into-the-open-2017-8
+477,477,Bloomberg Business,https://www.bloomberg.com/news/articles/2017-09-07/carolinas-georgia-declare-emergencies-ahead-of-irma
+478,478,Chicago Tribune,http://www.chicagotribune.com/news/nationworld/ct-irma-georgia-20170911-story.html
+479,479,Chicago Tribune,http://www.chicagotribune.com/news/sns-bc-ga--irma-southeast-20170909-story.html
+480,480,Chicago Tribune,http://www.chicagotribune.com/news/nationworld/politics/ct-republicans-trump-anxiety-20170819-story.html
+481,481,Economic Times,http://economictimes.indiatimes.com/news/international/world-news/trumps-neo-nazi-rally-comments-thrust-gop-doubts-into-open/articleshow/60155417.cms
+482,482,CTV News,http://www.ctvnews.ca/world/the-latest-irma-weakens-to-tropical-depression-1.3583811
+483,483,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-damage-reported-on-georgia-s-tybee-island-1.3583811
+484,484,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-storm-knocks-out-power-to-7m-homes-businesses-1.3583811
+485,485,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-schools-close-across-alabama-as-storm-approaches-1.3583811
+486,486,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-aircraft-carrier-to-assist-irma-florida-recovery-1.3583811
+487,487,CTV News,http://www.ctvnews.ca/world/the-latest-on-hurricane-irma-florida-keys-swamped-by-storm-1.3582933
+488,488,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-electric-companies-get-pollution-waivers-1.3583811
+489,489,CTV News,http://www.ctvnews.ca/world/solar-eclipse-latest-couple-to-witness-their-13th-eclipse-1.3554641
+490,490,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-georgia-coast-sees-extensive-flooding-1.3583811
+491,491,CTV News,http://www.ctvnews.ca/world/the-latest-on-irma-authorities-report-1st-death-in-georgia-1.3583811
+492,492,CTV News,http://www.ctvnews.ca/world/the-latest-irma-blamed-for-6-deaths-in-florida-1.3583811
+493,493,CTV News,http://www.ctvnews.ca/world/the-latest-governor-says-lots-of-damage-in-keys-1.3583811
+494,494,CTV News,http://www.ctvnews.ca/world/the-latest-on-hurricane-irma-utility-says-it-will-take-weeks-to-restore-power-1.3582933
+495,495,CTV News,http://www.ctvnews.ca/world/the-latest-nearly-12-5-million-without-power-in-florida-1.3583811
+496,496,CTV News,http://www.ctvnews.ca/world/solar-eclipse-latest-first-coast-to-coast-total-eclipse-begins-1.3554641
+497,497,CTV News,http://www.ctvnews.ca/world/the-latest-irma-claims-3rd-life-in-georgia-1.3583811
+498,498,CTV News,http://www.ctvnews.ca/world/the-latest-universal-orlando-to-reopen-tuesday-1.3583811
+499,499,CTV News,http://www.ctvnews.ca/world/the-latest-authorities-confirms-1st-death-in-haiti-1.3583811
+500,500,CTV News,http://www.ctvnews.ca/world/the-latest-2nd-death-reported-in-georgia-1.3583811
+501,501,KHOU,http://www.khou.com/news/eclipse/coolest-thing-ever-eclipse-awes-millions-as-it-crosses-usa/466119442
+502,502,International Business Times UK,http://www.ibtimes.co.uk/donald-trump-loses-backing-republican-allies-over-unsustainable-presidency-1635813
+503,503,Philly.com,http://www.philly.com/philly/news/weather/irmas-final-phase-flooding-in-the-southeast-is-biggest-concern-20170911.html
+504,504,NOLA.com,http://www.nola.com/national_politics/2017/08/donald_trump_republican_backla.html
+505,505,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+506,506,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+507,507,MarketWatch,http://www.marketwatch.com/story/irma-disaster-relief-u-haul-offers-30-days-free-self-storage-in-south-carolina-2017-09-12
+508,508,yahoo.com,https://www.yahoo.com/news/latest-clear-skies-predicted-most-eclipse-path-153514111.html
+509,509,San Francisco Gate,http://www.sfgate.com/news/article/The-Latest-Georgia-s-one-way-Irma-escape-route-12185498.php
+510,510,PR Newswire,http://www.prnewswire.com/news-releases/irma-disaster-relief-u-haul-offers-30-days-free-self-storage-in-south-carolina-300517975.html
+511,511,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+512,512,San Francisco Gate,http://www.sfgate.com/news/politics/article/Trump-s-neo-Nazi-rally-comments-thrust-GOP-doubts-11946464.php
+513,513,San Francisco Gate,http://www.sfgate.com/news/us/article/Irma-moves-into-Georgia-bringing-strong-winds-12187959.php
+514,514,The Seattle Times,http://www.seattletimes.com/nation-world/weakened-irma-leaves-3-dead-in-georgia-1-in-south-carolina/
+515,515,San Francisco Gate,http://www.sfgate.com/news/science/article/The-Latest-Clear-skies-predicted-for-most-of-11947219.php
+516,516,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+517,517,Houston Chronicle,http://www.chron.com/news/science/article/The-Latest-Clear-skies-predicted-for-most-of-11947219.php
+518,518,Tampa Bay Times,http://preps.tampabay.com/news/weather/hurricanes/irma-moves-into-georgia-bringing-strong-winds-and-rain/2337037
+519,519,Houston Chronicle,http://www.chron.com/news/crime/article/The-Latest-Irma-weakens-to-Category-1-storm-12187624.php
+520,520,Houston Chronicle,http://www.chron.com/news/politics/article/GOP-doubts-and-anxieties-about-Trump-burst-into-11944396.php
+521,521,mySA,http://www.mysanantonio.com/news/science/article/The-Latest-Clear-skies-predicted-for-most-of-11947219.php
+522,522,mySA,http://www.mysanantonio.com/news/crime/article/The-Latest-Irma-weakens-to-Category-1-storm-12187624.php
+523,523,Houston Chronicle,http://www.chron.com/news/crime/article/The-Latest-Hurricane-Irma-regains-Category-4-12186195.php
+524,524,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+525,525,mySA,http://www.mysanantonio.com/news/crime/article/The-Latest-Hurricane-Irma-regains-Category-4-12186195.php
+526,526,Houston Chronicle,http://www.chron.com/news/us/article/Weakened-Irma-leaves-3-dead-in-Georgia-1-in-12190533.php
+527,527,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+528,528,The Kansas City Star,http://www.kansascity.com/news/politics-government/national-politics/article172256752.html
+529,529,WFTV,http://www.wftv.com/news/the-latest-clear-skies-predicted-for-most-of-eclipse-path/595968008
+530,530,Star Tribune,http://www.startribune.com/gop-doubts-and-anxieties-about-trump-burst-into-the-open/441081763/
+531,531,WFTV,http://www.wftv.com/news/florida/the-latest-irma-weakens-to-category-1-storm/607072124
+532,532,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+533,533,The Kansas City Star,http://www.kansascity.com/news/politics-government/national-politics/article172435302.html
+534,534,The Kansas City Star,http://www.kansascity.com/entertainment/article168358527.html
+535,535,WHNT.com,http://whnt.com/2017/09/10/more-than-3-3-million-are-without-power-in-florida-as-hurricane-irma-moves-up-the-coast/
+536,536,The Denver Post,http://www.denverpost.com/2017/08/19/republican-party-trump-anxieties/
+537,537,WFTV,http://www.wftv.com/news/florida/weakened-irma-leaves-3-dead-in-georgia-1-in-south-carolina/607822881
+538,538,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+539,539,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+540,540,Star Tribune,http://www.startribune.com/the-latest-clear-skies-predicted-for-most-of-eclipse-path/441299593/
+541,541,Star Tribune,http://www.startribune.com/trump-s-neo-nazi-rally-comments-thrust-gop-doubts-into-open/441237773/
+542,542,Star Tribune,http://www.startribune.com/summer-glory-index-irma-devastates-leeward-islands-aimed-at-southeast-usa-coast/442929193/
+543,543,Star Tribune,http://www.startribune.com/irma-moves-into-georgia-bringing-strong-winds-and-rain/443704613/
+544,544,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article172435302.html
+545,545,TribLIVE,http://triblive.com/usworld/world/12641173-74/gop-doubts-and-anxieties-about-trump-burst-into-the-open
+546,546,Daily Herald,http://www.dailyherald.com/article/20170821/news/308219932
+547,547,Daily Herald,http://www.dailyherald.com/news/20170910/the-latest-on-hurricane-irma-sc-island-firefighters-hunker-down-as-storm-hits
+548,548,Daily Herald,http://www.dailyherald.com/news/20170910/the-latest-on-hurricane-irma-utility-says-it-will-take-weeks-to-restore-power
+549,549,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+550,550,dailypress.com,http://www.dailypress.com/news/sns-bc-us--trump-republicans-20170819-story.html
+551,551,Daily Herald,http://www.dailyherald.com/news/20170910/the-latest-trump-us-may-have-gotten-a-little-bit-lucky
+552,552,Daily Herald,http://www.dailyherald.com/news/20170910/the-latest-on-hurricane-irma-landfall-on-marco-island
+553,553,Daily Herald,http://www.dailyherald.com/news/20170821/the-latest--1st-us-coast-to-coast-total-eclipse-begins-
+554,554,Portland Press Herald,http://www.pressherald.com/2017/08/19/republican-doubts-and-anxieties-about-trump-burst-into-the-open/
+555,555,Portland Press Herald,http://www.pressherald.com/2017/09/10/latest-marco-island-residents-urged-go-higher-floors/
+556,556,Daily Herald,http://www.dailyherald.com/news/20170910/the-latest-on-hurricane-irma-flooding-homes-evacuated-in-florida
+557,557,WRAL.com,http://www.wral.com/coastal-georgia-under-hurricane-watch-as-evacuations-begin/16937263/
+558,558,Daily Herald,http://www.dailyherald.com/news/20170821/the-latest-clouds-move-to-give-nashville-crowd-a-clear-view-
+559,559,WRAL.com,http://www.wral.com/the-latest-georgia-s-one-way-irma-escape-route-short-lived/16937544/
+560,560,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+561,561,Daily Herald,http://www.dailyherald.com/news/20170821/the-latest-the-sun-set-and-rose-within-about-3-minutes
+562,562,WRAL.com,http://www.wral.com/the-latest-clear-skies-predicted-for-most-of-eclipse-path/16895243/
+563,563,Daily Herald,http://www.dailyherald.com/news/20170821/the-latest--bonnie-tyler-performs-total-eclipse-of-the-heart-during-cruise
+564,564,Daily Herald,http://www.dailyherald.com/article/20170819/news/308199932
+565,565,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+566,566,WSOC,http://www.wsoctv.com/news/the-latest-clear-skies-predicted-for-most-of-eclipse-path/595967018
+567,567,The News-Press,http://www.news-press.com/story/news/2017/08/21/see-sights-eclipse-fort-myers-cape-coral-and-beyond/588084001/
+568,568,Miami Herald,http://www.miamiherald.com/news/article171696812.html
+569,569,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+570,570,WSOC,http://www.wsoctv.com/news/local/irma-prompts-1st-ever-tropical-storm-warning-for-atlantak/607278798
+571,571,WSOC,http://www.wsoctv.com/news/local/copy-of-south-carolina-wary-as-hurricane-irma-threatens/604589034
+572,572,WSOC,http://www.wsoctv.com/news/south-carolina/irma-prompts-1st-ever-tropical-storm-warning-for-atlanta/606767867
+573,573,WSOC,http://www.wsoctv.com/news/south-carolina/the-latest-georgias-oneway-irma-escape-route-shortlived/606124829
+574,574,WSOC,http://www.wsoctv.com/news/south-carolina/the-latest-irma-weakens-to-category-1-storm/607074970
+575,575,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+576,576,Miami Herald,http://www.miamiherald.com/news/business/article172528026.html
+577,577,Miami Herald,http://www.miamiherald.com/news/article172382607.html
+578,578,Miami Herald,http://www.miamiherald.com/entertainment/celebrities/article168358527.html
+579,579,realclearpolitics.com,https://www.realclearpolitics.com/articles/2017/08/20/mattis_tight-lipped_on_new_afghanistan_war_strategy_134793.html
+580,580,Central Maine,http://www.centralmaine.com/2017/09/10/the-latest-irma-weakens-to-category-2-as-it-smacks-naples/
+581,581,WVVA TV,http://www.wvva.com/story/36181235/the-latest-clouds-move-to-give-nashville-crowd-a-clear-view
+582,582,WVVA TV,http://www.wvva.com/story/36181235/the-latest-political-parties-try-to-capitalize-on-eclipse
+583,583,WVVA TV,http://www.wvva.com/story/36181235/the-latest-eclipse-a-hit-even-where-sun-not-totally-blocked
+584,584,WVVA TV,http://www.wvva.com/story/36330156/the-latest-irma-inland-near-tampa-still-category-2-storm
+585,585,WVVA TV,http://www.wvva.com/story/36333450/the-latest-irma-weakens-into-a-tropical-depression
+586,586,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+587,587,WVVA TV,http://www.wvva.com/story/36181235/the-latest-1st-us-coast-to-coast-total-eclipse-begins
+588,588,WVVA TV,http://www.wvva.com/story/36181235/the-latest-clear-skies-predicted-for-most-of-eclipse-path
+589,589,WVVA TV,http://www.wvva.com/story/36181235/the-latest-zoo-lets-fans-see-animals-reactions-to-eclipse
+590,590,WVVA TV,http://www.wvva.com/story/36181235/the-latest-couple-to-witness-their-13th-eclipse
+591,591,WVVA TV,http://www.wvva.com/story/36181235/the-latest-us-coast-to-coast-total-eclipse-comes-to-an-end
+592,592,NECN,http://www.necn.com/news/national-international/Hurricane-Irma-Florida-Assess-Damage-Flooding-Power-443880603.html
+593,593,Times Union,http://www.timesunion.com/news/science/article/The-Latest-Clear-skies-predicted-for-most-of-11947219.php
+594,594,The Weather Channel,https://weather.com/storms/hurricane/news/potential-tropical-depression-ten-tropical-storm-irma-southeast-coast-florida
+595,595,WXIA,http://www.11alive.com/news/eclipse/watch-international-space-station-solar-eclipse/466049453
+596,596,Twin Cities,http://www.twincities.com/2017/09/09/hurricane-irma-closes-in-on-florida-after-pounding-cuba/
+597,597,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+598,598,The Weather Channel,https://weather.com/storms/hurricane/news/hurricane-irma-north-carolina-south-carolina-preparations-2017-09-10
+599,599,Times Union,http://www.timesunion.com/news/crime/article/The-Latest-Irma-weakens-to-Category-1-storm-12187624.php
+600,600,wbrc.com,http://www.wbrc.com/story/36181236/the-latest-us-coast-to-coast-total-eclipse-comes-to-an-end
+601,601,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-weakens-into-a-tropical-depression
+602,602,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-irma-makes-landfall-on-marco-island
+603,603,wbrc.com,http://www.wbrc.com/story/36328057/the-latest-georgias-one-way-irma-escape-route-short-lived
+604,604,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-blamed-for-6-deaths-in-florida
+605,605,WDRB TV 41,http://www.wdrb.com/story/36308660/nearly-540000-ordered-to-flee-georgia-coast-ahead-of-irma
+606,606,wbrc.com,http://www.wbrc.com/story/36181236/the-latest-eclipse-a-hit-even-where-sun-not-totally-blocked
+607,607,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-irma-weakens-to-category-2-as-it-smacks-naples
+608,608,WLTX,http://www.wltx.com/news/eclipse/watch-international-space-station-solar-eclipse/466049120
+609,609,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-utility-says-it-will-take-weeks-to-restore-power
+610,610,wbrc.com,http://www.wbrc.com/story/36346919/back-to-back-storms-in-georgia-mean-doing-repairs-all-over
+611,611,wbrc.com,http://www.wbrc.com/story/36181236/the-latest-1st-us-coast-to-coast-total-eclipse-begins
+612,612,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-sc-island-firefighters-hunker-down-as-irma-hits
+613,613,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-georgia-coast-sees-extensive-flooding-from-irma
+614,614,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-nearly-45-million-without-power-in-florida
+615,615,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-irma-pushing-storm-surge-eye-near-fort-myers
+616,616,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-electric-companies-get-pollution-waivers
+617,617,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+618,618,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-people-save-manatees-marooned-in-drained-bay
+619,619,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-hurricane-irma-now-a-not-so-monstrous-category-2
+620,620,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-aircraft-carrier-to-assist-irma-florida-recovery
+621,621,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-schools-close-across-alabama-as-irma-approaches
+622,622,wbrc.com,http://www.wbrc.com/story/36181236/the-latest-political-parties-try-to-capitalize-on-eclipse
+623,623,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-us-works-to-fly-its-evacuees-from-sint-maarten
+624,624,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-prompts-flooding-fears-for-savannah
+625,625,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-knocks-out-power-to-7m-homes-businesses
+626,626,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-irma-inland-near-tampa-still-category-2-storm
+627,627,West Side Journal,https://www.abqjournal.com/1064759/us-coastal-growth-continues-despite-lessons-of-past-storms.html
+628,628,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-floridas-major-airports-assessing-damage
+629,629,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-knocks-out-power-to-55m-homes-businesses
+630,630,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-3rd-construction-crane-falls-to-irmas-winds
+631,631,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-damage-reported-on-georgias-tybee-island
+632,632,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-causes-a-tornado-in-coastal-georgia
+633,633,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-hurricane-irma-nears-populated-tampa-region
+634,634,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+635,635,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-causing-record-flooding-in-jacksonville
+636,636,West Side Journal,https://www.abqjournal.com/1061694/the-latest-irma-weakens-to-a-tropical-storm.html
+637,637,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-800-flights-canceled-at-atlanta-airport
+638,638,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-nearly-125-million-without-power-in-florida
+639,639,wbrc.com,http://www.wbrc.com/story/36181236/the-latest-clouds-move-to-give-nashville-crowd-a-clear-view
+640,640,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irmas-eye-leaves-florida-enters-georgia
+641,641,West Side Journal,https://www.abqjournal.com/1050504/gop-doubts-and-anxieties-about-trump-burst-into-the-open.html
+642,642,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-trump-us-may-have-gotten-a-little-bit-lucky
+643,643,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-road-into-keys-must-be-inspected-before-opening
+644,644,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-irma-weakens-to-a-tropical-storm
+645,645,wbrc.com,http://www.wbrc.com/story/36333451/the-latest-2nd-death-reported-in-georgia
+646,646,wbrc.com,http://www.wbrc.com/story/36330157/the-latest-fast-storm-surge-in-naples-as-irma-accelerates
+647,647,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+648,648,Mail Online,http://www.dailymail.co.uk/~/article-4892050/index.html
+649,649,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+650,650,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+651,651,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+652,652,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+653,653,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+654,654,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+655,655,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+656,656,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+657,657,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+658,658,The Kansas City Star,http://www.kansascity.com/news/nation-world/article173799046.html
+659,659,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+660,660,Portland Press Herald,http://www.pressherald.com/2017/09/16/u-s-population-grows-along-coasts-despite-storm-threat/
+661,661,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+662,662,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+663,663,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+664,664,Miami Herald,http://www.miamiherald.com/news/nation-world/article173799046.html
+665,665,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+666,666,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+667,667,Central Maine,http://www.centralmaine.com/2017/09/16/u-s-population-grows-along-coasts-despite-storm-threat/
+668,668,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+669,669,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+670,670,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+671,671,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+672,672,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+673,673,Seattle Pi,http://www.seattlepi.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+674,674,KHNL TV 8,http://www.hawaiinewsnow.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+675,675,The Sacramento Bee,http://www.sacbee.com/latest-news/article173700696.html
+676,676,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth.html
+677,677,Metro Toronto,http://www.metronews.ca/news/world/2017/09/17/ap-news-in-brief-at-12-04-a-m-edt.html
+678,678,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+679,679,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+680,680,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+681,681,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=TXMCA&SECTION=HOME&TEMPLATE=DEFAULT
+682,682,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+683,683,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+684,684,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+685,685,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+686,686,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+687,687,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+688,688,stamford advocate,http://www.stamfordadvocate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+689,689,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+690,690,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+691,691,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+692,692,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+693,693,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+694,694,"3TV, azfamily.com",http://www.azfamily.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+695,695,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173700696.html
+696,696,The Charlotte Observer,http://www.charlotteobserver.com/news/nation-world/national/article173799046.html
+697,697,MyMcMurray,http://www.mymcmurray.com/2017/09/16/ap-news-in-brief-at-1204-a-m-edt-37/
+698,698,Honolulu Star-Advertiser,http://www.staradvertiser.com/2017/09/16/business/business-breaking/u-s-coastal-growth-continues-despite-lessons-of-past-storms/
+699,699,Beaumont Enterprise,http://www.beaumontenterprise.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+700,700,nwi.com,http://www.nwitimes.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_40fe60ab-0617-599a-90c0-091c8b8eccf2.html
+701,701,MyMcMurray,http://www.mymcmurray.com/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+702,702,WFXG FOX54,http://www.wfxg.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+703,703,Bradenton Herald,http://www.bradenton.com/news/business/article173700696.html
+704,704,Bradenton Herald,http://www.bradenton.com/news/nation-world/national/article173672521.html
+705,705,NewsTimes,http://www.newstimes.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+706,706,Sun.Star,http://www.sunstar.com.ph/network/news/2017/09/17/us-coastal-growth-continues-despite-lessons-past-storms-564574
+707,707,WMC Action News 5,http://www.wmcactionnews5.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+708,708,greenwich time,http://www.greenwichtime.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+709,709,WMC Action News 5,http://www.wmcactionnews5.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+710,710,Aurora Sentinel,http://www.aurorasentinel.com/news/nation-world/us-coastal-growth-continues-despite-lessons-past-storms/
+711,711,star-telegram,http://www.star-telegram.com/news/nation-world/national/article173799046.html
+712,712,star-telegram,http://www.star-telegram.com/news/state/texas/article173700696.html
+713,713,Sun Herald,http://www.sunherald.com/news/business/article173700696.html
+714,714,Aiken Standard,http://www.aikenstandard.com/news/us-coastal-growth-continues-despite-lessons-of-past-storms/article_4f9b22ad-fbdf-5705-ae91-af649980c73b.html
+715,715,ktre.com,http://www.ktre.com/story/36381583/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+716,716,ktre.com,http://www.ktre.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+717,717,ktre.com,http://www.ktre.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+718,718,Idaho Statesman,http://www.idahostatesman.com/news/nation-world/article173672521.html
+719,719,The State,http://www.thestate.com/news/nation-world/national/article173672521.html
+720,720,missoulian.com,http://missoulian.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+721,721,missoulian.com,http://missoulian.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+722,722,WAFB,http://www.wafb.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+723,723,The News&Observer,http://www.newsobserver.com/news/nation-world/national/article173799046.html
+724,724,WAFB,http://www.wafb.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+725,725,The News&Observer,http://www.newsobserver.com/news/state/south-carolina/article173700696.html
+726,726,The News&Observer,http://www.newsobserver.com/news/business/article173700696.html
+727,727,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US-Hurricanes-Coastline-Growth/id-1c50c18ba80246efab0f665f1f8749dd
+728,728,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US--Hurricanes-Coastline%20Growth/id-664c3ecc200a42ffa9b0d8f96fd54e9b
+729,729,The Republic,http://www.therepublic.com/2017/09/16/us-hurricanes-coastline-growth/
+730,730,TimesDaily,http://www.timesdaily.com/news/nation/us-coastal-growth-continues-despite-lessons-of-past-storms/article_bc950ea6-5c39-5c33-b22d-eb9b96d58ef6.html
+731,731,WJAX,http://www.actionnewsjax.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299911
+732,732,Willoughby News-Herald,http://www.news-herald.com/article/HR/20170916/BUSINESS/170919523
+733,733,centredaily,http://www.centredaily.com/news/nation-world/article173799046.html
+734,734,The News Tribune,http://www.thenewstribune.com/news/business/article173700696.html
+735,735,Belleville News-Democrat,http://www.bnd.com/news/nation-world/national/article173672521.html
+736,736,Houston Chronicle,http://www.houstonchronicle.com/news/nation-world/nation/article/Coastal-growth-continues-undeterred-12203553.php
+737,737,Houston Chronicle,http://www.houstonchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+738,738,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article173700696.html
+739,739,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/nation-world/national/article173799046.html
+740,740,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/state/south-carolina/article173700696.html
+741,741,Daily Journal,http://www.dailyjournal.net/2017/09/16/us-hurricanes-coastline-growth/
+742,742,Muscatine Journal,http://muscatinejournal.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_c790f109-0789-5707-81b7-5b5cdc193043.html
+743,743,Owensboro Messenger-Inquirer,http://www.messenger-inquirer.com/news/national/u-s-coastal-growth-continues-despite-lessons-of-past-storms/article_f61819ed-3dec-5a24-b224-1de364c921a8.html
+744,744,WBOC TV 16,http://www.wboc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+745,745,The Tribune,http://www.sanluisobispo.com/news/nation-world/national/article173672521.html
+746,746,The  Olympian,http://www.theolympian.com/news/nation-world/article173799046.html
+747,747,Eagle-Tribune,http://www.eagletribune.com/region/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_cf864e7a-a817-5d6e-b9c9-61b01757753c.html
+748,748,Federal News Radio,https://federalnewsradio.com/u-s-news/2017/09/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+749,749,Post Register,http://www.postregister.com/articles/nation-world/2017/09/17/coastal-growth-continues-despite-lessons-storms
+750,750,Winston-Salem Journal,http://www.journalnow.com/news/nation_world_ap/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_7d9dca57-ee53-5b7c-b44f-7d4814e8c60f.html
+751,751,Anderson Observer,http://andersonobserver.com/news/2017/9/16/hurricanes-dont-deter-fast-growth-along-the-coast.html
+752,752,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+753,753,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+754,754,LasVegasSun.com,https://lasvegassun.com/news/2017/sep/16/us-coastal-growth-continues-despite-lessons-of-pas/
+755,755,PostBulletin.com,http://www.postbulletin.com/business/us-coastal-growth-continues-despite-lessons-of-past-storms/article_350f493b-e1eb-5c81-be9e-6a99ea0efce1.html
+756,756,East Oregonian,http://www.eastoregonian.com/us-coastal-growth-continues-despite-lessons-of-past-storms-eo-ap-webfeeds-news-nation-worldcd935bda33124a64a89f850483e935a3
+757,757,canada.com,http://www.canada.com/business/coastal+growth+continues+despite+lessons+past+storms/14713020/story.html
+758,758,Boston Herald,http://www.bostonherald.com/news/national/2017/09/us_coastal_growth_continues_despite_lessons_of_past_storms
+759,759,CTPost,http://www.ctpost.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+760,760,Republican American,http://www.rep-am.com/news/2017/09/16/hurricanes-what-hurricanes-coasts-see-massive-development/
+761,761,National Post,http://nationalpost.com/pmn/news-pmn/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+762,762,Fox News,http://www.foxnews.com/us/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth.html
+763,763,tristateupdate.com,http://www.tristateupdate.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+764,764,KIRO,http://www.kiro7.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/610406621
+765,765,HeraldNet.com,http://www.heraldnet.com/nation-world/us-coastal-growth-continues-despite-lessons-of-past-storms/
+766,766,The New York Times,https://www.nytimes.com/2017/09/11/travel/travel-companies-have-a-new-clientele-hurricane-evacuees.html
+767,767,The New York Times,https://www.nytimes.com/reuters/2017/09/10/us/10reuters-storm-irma-trump.html
+768,768,The New York Times,https://www.nytimes.com/2017/08/16/us/california-today-hamilton-los-angeles.html
+769,769,The New York Times,https://www.nytimes.com/2017/09/07/us/politics/house-committee-white-supremacy.html
+770,770,The New York Times,https://www.nytimes.com/2017/09/12/us/irma-storm-updates.html
+771,771,The New York Times,https://www.nytimes.com/2017/09/15/us/politics/tillerson-state-department-united-nations-general-assembly.html
+772,772,The New York Times,https://www.nytimes.com/2017/09/17/fashion/weddings/britt-haxton-brett-reynolds.html
+773,773,The New York Times,https://www.nytimes.com/2017/09/04/us/hurricane-irma.html
+774,774,The New York Times,https://www.nytimes.com/2017/08/22/us/politics/mitch-mcconnell-trump.html
+775,775,The New York Times,https://www.nytimes.com/2017/08/21/sports/ncaafootball/football-practice-or-the-eclipse-it-depends-on-the-coach.html
+776,776,The New York Times,https://www.nytimes.com/2017/09/16/opinion/sunday/statue-south-carolina-de-laine.html
+777,777,The New York Times,https://www.nytimes.com/2017/08/27/us/politics/trump-law-order-police-arpaio.html
+778,778,The New York Times,https://www.nytimes.com/2017/08/22/fashion/weddings/couple-marries-during-the-total-eclipse.html
+779,779,The New York Times,https://www.nytimes.com/2017/09/13/opinion/senators-lindsey-leahy-foreign-policy.html
+780,780,The New York Times,https://www.nytimes.com/2017/09/12/us/irma-jacksonville-florida.html
+781,781,The New York Times,https://www.nytimes.com/2017/08/21/business/jeep-fiat-chrysler-great-wall-china.html
+782,782,The New York Times,https://www.nytimes.com/2017/09/07/arts/e-b-white-house-charlottes-web.html
+783,783,The New York Times,https://www.nytimes.com/2017/09/10/us/crane-collapse-miami-irma.html
+784,784,The New York Times,https://www.nytimes.com/2017/08/23/sports/billy-payne-who-allowed-women-to-join-augusta-national-retires.html
+785,785,The New York Times,https://www.nytimes.com/2017/08/18/arts/television/ready-for-the-solar-eclipse-nova-on-pbs-has-you-covered.html
+786,786,The New York Times,https://www.nytimes.com/2017/09/02/sports/tennis/karolina-pliskova-jennifer-brady-us-open.html
+787,787,The New York Times,https://www.nytimes.com/aponline/2017/09/10/us/ap-us-hurricane-irma-the-latest.html
+788,788,The New York Times,https://www.nytimes.com/2017/09/16/us/south-carolina-georgia-irma.html
+789,789,The New York Times,https://www.nytimes.com/aponline/2017/09/09/world/americas/ap-hurricane-irma-the-latest.html
+790,790,The New York Times,https://www.nytimes.com/2017/08/22/us/california-today-berkeley-chancellor-free-speech.html
+791,791,The New York Times,https://www.nytimes.com/2017/09/14/world/australia/clown-craze-australia.html
+792,792,The New York Times,https://www.nytimes.com/2017/09/14/us/politics/trump-visits-florida-to-assess-hurricane-irma-damage.html
+793,793,The New York Times,https://www.nytimes.com/2017/08/28/science/dna-tests-ancestry.html
+794,794,The New York Times,https://www.nytimes.com/2017/09/11/travel/road-trip-books.html
+795,795,The New York Times,https://www.nytimes.com/2017/09/11/travel/chuck-berry-road-trip.html
+796,796,The New York Times,https://www.nytimes.com/2017/08/21/science/solar-eclipse.html
+797,797,The New York Times,https://www.nytimes.com/2017/08/30/business/harvey-recovery-houston-businesses.html
+798,798,The New York Times,https://www.nytimes.com/2017/09/06/upshot/how-to-follow-hurricane-irma.html
+799,799,The New York Times,https://www.nytimes.com/2017/08/19/us/politics/arthur-finkelstein-innovative-influential-conservative-strategist-dies-at-72.html
+800,800,The New York Times,https://www.nytimes.com/2017/08/28/business/dealbook/flood-insurance-harvey.html
+801,801,The New York Times,https://www.nytimes.com/2017/09/05/business/college-campus-parking.html
+802,802,The New York Times,https://www.nytimes.com/2017/09/12/books/review/katy-tur-memior-unbelievable.html
+803,803,The New York Times,https://www.nytimes.com/2017/09/07/us/politics/governors-obamacare-fixes-trump-repeal.html
+804,804,The New York Times,https://www.nytimes.com/2017/08/28/us/politics/harvey-congress-aid-trump-cruz-sandy.html
+805,805,The New York Times,https://www.nytimes.com/2017/08/28/us/politics/trump-police-military-surplus-equipment.html
+806,806,The New York Times,https://www.nytimes.com/2017/08/17/world/controversial-statues-monuments-destroyed.html
+807,807,The New York Times,https://www.nytimes.com/2017/08/28/science/dna-tests-genetics-ancestry-23andme.html
+808,808,The New York Times,https://www.nytimes.com/2017/08/25/us/politics/bob-corker-often-an-ally-of-trump-is-latest-republican-to-be-attacked-by-him.html
+809,809,The New York Times,https://www.nytimes.com/2017/08/19/us/politics/charlottesville-trump-virginia-gubernatorial-campaign-race-confederate-statues.html
+810,810,The New York Times,https://www.nytimes.com/2017/09/05/us/politics/dream-act-daca-trump-congress-dreamers.html
+811,811,The New York Times,https://www.nytimes.com/2017/09/07/us/daca-losses-immigration.html
+812,812,The New York Times,https://www.nytimes.com/2017/09/07/us/destruction-caribbean-irma-florida.html
+813,813,The New York Times,https://www.nytimes.com/2017/08/25/us/monuments-confederacy-remove-rename.html
+814,814,The New York Times,https://www.nytimes.com/2017/09/15/opinion/trump-daca-immigration-morality.html
+815,815,The New York Times,https://www.nytimes.com/2017/08/16/business/trump-chief-executives-companies.html
+816,816,The New York Times,https://www.nytimes.com/2017/08/23/sports/golf/billy-payne-augusta-national-masters.html
+817,817,The New York Times,https://www.nytimes.com/2017/09/07/learning/should-the-government-allow-dreamers-to-stay-in-the-us-without-fear-of-being-deported.html
+818,818,The New York Times,https://www.nytimes.com/interactive/2017/08/17/science/total-eclipse-where-are-you-watching.html
+819,819,The New York Times,https://www.nytimes.com/2017/08/22/briefing/afghanistan-solar-eclipse-charlottesville.html
+820,820,The New York Times,https://www.nytimes.com/2017/08/21/science/the-moon-cloaks-the-sun-and-a-nation-is-awed.html
+821,821,The New York Times,https://www.nytimes.com/2017/08/17/us/politics/republicans-congress-trump.html
+822,822,The New York Times,https://www.nytimes.com/2017/08/22/us/politics/trump-black-republicans-moral-dilemma-charlottesville.html
+823,823,The New York Times,https://www.nytimes.com/2017/09/03/sports/baseball/arizona-extends-its-streak-and-its-wild-card-edge.html
+824,824,The New York Times,https://www.nytimes.com/2017/09/13/us/politics/trump-tim-scott-charlottesville-race.html
+825,825,The New York Times,https://www.nytimes.com/2017/08/26/us/south-carolina-santee-cooper-ceo-nuclear.html
+826,826,The New York Times,https://www.nytimes.com/2017/09/12/climate/florida-power-outages.html
+827,827,The New York Times,https://www.nytimes.com/2017/09/08/us/politics/brock-long-fema-harvey-irma.html
+828,828,The New York Times,https://www.nytimes.com/2017/08/20/science/solar-eclipse.html
+829,829,The New York Times,https://www.nytimes.com/2017/08/31/business/georgia-vogtle-nuclear-reactors.html
+830,830,The New York Times,https://www.nytimes.com/2017/08/31/business/consumer-financial-protection-bureau.html
+831,831,The New York Times,https://www.nytimes.com/2017/08/18/learning/a-total-solar-eclipse-from-space.html
+832,832,The New York Times,https://www.nytimes.com/2017/09/13/opinion/trumpcare-health-care-cassidy-graham.html
+833,833,The New York Times,https://www.nytimes.com/aponline/2017/09/13/us/ap-us-hurricane-irma.html
+834,834,The New York Times,https://www.nytimes.com/2017/09/08/sports/ncaafootball/ncaa-coaches-salary.html
+835,835,The New York Times,https://www.nytimes.com/2017/08/22/fashion/ultimate-fighting-championship-mcgregor-mayweather-rousey-wme-img.html
+836,836,The New York Times,https://www.nytimes.com/2017/09/15/sports/football/josh-mccown-jets.html
+837,837,The New York Times,https://www.nytimes.com/2017/08/16/upshot/political-migration-a-new-business-of-moving-out-to-fit-in.html
+838,838,The New York Times,https://www.nytimes.com/2017/08/15/world/asia/trump-korea-iran-venezuela.html
+839,839,The New York Times,https://www.nytimes.com/2017/08/20/us/preparing-for-solar-eclipse.html
+840,840,The New York Times,https://www.nytimes.com/reuters/2017/09/09/world/americas/09reuters-storm-irma.html
+841,841,The New York Times,https://www.nytimes.com/2017/09/11/us/irma-jacksonville-naples.html
+842,842,The Guardian,http://www.theguardian.com/us-news/2017/aug/18/mitt-romney-donald-trump-charlottesville-comments
+843,843,The Guardian,http://www.theguardian.com/science/2017/aug/20/solar-eclipse-america-citizen-scientists-unlock-mysteries
+844,844,The Guardian,http://www.theguardian.com/commentisfree/2017/aug/22/confederate-statues-monuments-sidney-blumenthal
+845,845,The Guardian,http://www.theguardian.com/us-news/2017/aug/16/confederate-monuments-civil-war-history-trump
+846,846,The Guardian,http://www.theguardian.com/us-news/2017/sep/05/daca-congress-dreamers-trump-republicans
+847,847,The Guardian,http://www.theguardian.com/film/2017/sep/03/the-leisure-seeker-review-helen-mirren-donald-sutherland-venice-film-2017
+848,848,The Guardian,http://www.theguardian.com/sport/2017/aug/23/billy-payne-resigns-augusta-national-masters-pga-golf
+849,849,The Guardian,http://www.theguardian.com/australia-news/2017/aug/18/morning-mail-13-dead-in-spain-attack
+850,850,The Guardian,http://www.theguardian.com/us-news/2017/sep/04/donald-trump-daca-dreamers-repeal-announcement
+851,851,The Guardian,http://www.theguardian.com/us-news/2017/sep/13/florida-nursing-home-hurricane-irma
+852,852,The Guardian,http://www.theguardian.com/world/2017/sep/08/turks-and-caicos-islands-hit-by-hurricane-irma
+853,853,The Guardian,http://www.theguardian.com/commentisfree/2017/sep/12/leave-britney-alone-prototype-viral-hit-chris-crocker
+854,854,The Guardian,http://www.theguardian.com/us-news/2017/aug/22/trump-immigration-us-schools-education-undocumented-migrants
+855,855,The Guardian,http://www.theguardian.com/world/2017/sep/12/tuesday-briefing-brexit-bill-backed-but-amendments-pile-up
+856,856,The Guardian,http://www.theguardian.com/us-news/2017/aug/17/donald-trump-support-base-pennsylvania-voters
+857,857,The Guardian,http://www.theguardian.com/world/2017/sep/13/how-are-you-dealing-with-the-aftermath-of-hurricane-irma
+858,858,The Guardian,http://www.theguardian.com/us-news/2017/aug/16/black-women-violated-us-policing-racial-profiling
+859,859,The Guardian,http://www.theguardian.com/commentisfree/2017/aug/21/us-government-ku-klux-klan-charlottesville
+860,860,The Guardian,http://www.theguardian.com/us-news/2017/aug/26/donald-trumps-attacks-on-republican-politicians
+861,861,The Guardian,http://www.theguardian.com/us-news/2017/aug/16/republicans-charlottesville-trump-response-for-against
+862,862,The Guardian,http://www.theguardian.com/world/2017/sep/10/what-we-know-so-far-about-hurricane-irma
+863,863,The Guardian,http://www.theguardian.com/science/2017/aug/21/share-your-photos-and-videos-of-the-total-solar-eclipse
+864,864,The Guardian,http://www.theguardian.com/us-news/2017/aug/16/george-w-hw-bush-statement-bigotry-antisemitism-trump
+865,865,The Guardian,http://www.theguardian.com/us-news/2017/sep/08/congress-hurricane-relief-deal-budget
+866,866,The Guardian,http://www.theguardian.com/us-news/2017/sep/05/donald-trump-dreamers-program-young-immigrants
+867,867,The Guardian,http://www.theguardian.com/science/live/2017/aug/21/solar-eclipse-live-map-route
+868,868,The Guardian,http://www.theguardian.com/environment/2017/aug/31/us-risk-flooding-harvey-boston-new-york-miami-beach
+869,869,The Guardian,http://www.theguardian.com/us-news/2017/aug/22/donald-trump-transgender-military-ban-albert-cashier
+870,870,The Guardian,http://www.theguardian.com/commentisfree/2017/sep/04/labor-movement-civil-rights-seiu
+871,871,The Guardian,http://www.theguardian.com/world/2017/sep/01/timeline-billion-dollar-weather-disasters-us-2007-2016
+872,872,The Guardian,http://www.theguardian.com/us-news/2017/sep/04/donald-trump-what-is-daca-dreamers
+873,873,The Guardian,http://www.theguardian.com/commentisfree/2017/aug/25/not-crap-turn-faeces-urine-treasure-astronauts-recycle-bodily-waste
+874,874,The Guardian,http://www.theguardian.com/world/2017/sep/05/us-ambassador-to-the-un-nuclear-deal-with-iran-in-congresss-hands
+875,875,The Guardian,http://www.theguardian.com/science/2017/aug/22/srecycled-astronaut-urine-could-make-nutrients-and-tools
+876,876,The Guardian,http://www.theguardian.com/science/2017/aug/17/total-solar-eclipse-small-town-preparation-weiser-idaho
+877,877,The Guardian,http://www.theguardian.com/world/2017/sep/11/florida-keys-facing-potential-humanitarian-crisis-in-irma-aftermath
+878,878,The Guardian,http://www.theguardian.com/world/2017/aug/17/donald-trump-barcelona-reaction-general-pershing-myth
+879,879,The Guardian,http://www.theguardian.com/sport/2017/sep/16/newcastle-saracens-premiership-match-report
+880,880,The Guardian,http://www.theguardian.com/us-news/2017/sep/13/tim-scott-senator-donald-trump-meeting-race-charlottesville
+881,881,The Guardian,http://www.theguardian.com/commentisfree/2017/aug/23/loan-sharks-eradicated-wall-street
+882,882,The Guardian,http://www.theguardian.com/world/2017/sep/01/hurricane-harvey-us-billion-dollar-weather-disasters-2017
+883,883,The Guardian,http://www.theguardian.com/sport/2017/sep/10/climbing-el-capitan-alex-honnold-yosemite
+884,884,The Guardian,http://www.theguardian.com/us-news/2017/sep/11/revolutionary-not-a-liberal-radical-black-mayor-mississippi-chokwe-lumumba
+885,885,The Guardian,http://www.theguardian.com/us-news/2017/aug/17/trump-neo-nazis-antifa-moral-equivalence-tweets-charlottesville
+886,886,The Guardian,http://www.theguardian.com/us-news/2017/aug/24/charleston-shooting-south-carolina-king-street
+887,887,The Guardian,http://www.theguardian.com/cities/2017/aug/21/portland-oregon-spotlight-great-american-eclipse
+888,888,The Guardian,http://www.theguardian.com/world/2017/aug/16/why-is-the-us-still-fighting-the-civil-war
+889,889,The Guardian,http://www.theguardian.com/uk-news/2017/aug/17/muslim-radio-host-sues-daily-stormer-manchester-bombing-ariana-grande
+890,890,Mail Online,http://www.dailymail.co.uk/~/article-4873880/index.html
+891,891,Mail Online,http://www.dailymail.co.uk/~/article-4873628/index.html
+892,892,Mail Online,http://www.dailymail.co.uk/~/article-4881178/index.html
+893,893,The Huffington Post,http://www.huffingtonpost.com/entry/duke-university-is-removing-the-robert-e-lee-statue-from-its-chapel_us_5998346ce4b0e8cc855df9f9
+894,894,Mail Online,http://www.dailymail.co.uk/~/article-4805052/index.html
+895,895,Mail Online,http://www.dailymail.co.uk/~/article-4875406/index.html
+896,896,Mail Online,http://www.dailymail.co.uk/~/article-4871894/index.html
+897,897,Mail Online,http://www.dailymail.co.uk/~/article-4856540/index.html
+898,898,Mail Online,http://www.dailymail.co.uk/~/article-4864670/index.html
+899,899,Mail Online,http://www.dailymail.co.uk/~/article-4883810/index.html
+900,900,BBC News,http://www.bbc.co.uk/news/world-us-canada-41153609
+901,901,Mail Online,http://www.dailymail.co.uk/~/article-4815180/index.html
+902,902,Mail Online,http://www.dailymail.co.uk/~/article-4877354/index.html
+903,903,Mail Online,http://www.dailymail.co.uk/~/article-4823470/index.html
+904,904,The Huffington Post,http://www.huffingtonpost.com/entry/couple-sues-amazon-over-defective-eclipse-glasses_us_59a839a7e4b0a8d14573ecae
+905,905,Mail Online,http://www.dailymail.co.uk/~/article-4805420/index.html
+906,906,The Huffington Post,http://www.huffingtonpost.com/entry/anti-immigration-conservatives-daca_us_59ba36d6e4b02da0e13f440a
+907,907,Mail Online,http://www.dailymail.co.uk/~/article-4877122/index.html
+908,908,Mail Online,http://www.dailymail.co.uk/~/article-4800960/index.html
+909,909,Mail Online,http://www.dailymail.co.uk/~/article-4883626/index.html
+910,910,Mail Online,http://www.dailymail.co.uk/~/article-4797120/index.html
+911,911,BBC News,http://www.bbc.co.uk/news/world-us-canada-40941341
+912,912,Mail Online,http://www.dailymail.co.uk/~/article-4823912/index.html
+913,913,Mail Online,http://www.dailymail.co.uk/~/article-4867774/index.html
+914,914,Mail Online,http://www.dailymail.co.uk/~/article-4804428/index.html
+915,915,BBC News,http://www.bbc.co.uk/news/world-us-canada-41262866
+916,916,Mail Online,http://www.dailymail.co.uk/~/article-4841822/index.html
+917,917,The Huffington Post,http://www.huffingtonpost.com/entry/america-days-without-the-president-implicitly-endorsing-nazism-1_us_5994b5a7e4b0acc593e4e9b7
+918,918,Mail Online,http://www.dailymail.co.uk/~/article-4882078/index.html
+919,919,Mail Online,http://www.dailymail.co.uk/~/article-4813472/index.html
+920,920,BBC News,http://www.bbc.co.uk/news/world-us-canada-40952797
+921,921,Mail Online,http://www.dailymail.co.uk/~/article-4824260/index.html
+922,922,Mail Online,http://www.dailymail.co.uk/~/article-4886198/index.html
+923,923,The Huffington Post,http://www.huffingtonpost.com/entry/people-are-losing-their-minds-over-this-solar-eclipse_us_599ad98de4b0a2608a6d64e7
+924,924,Mail Online,http://www.dailymail.co.uk/~/article-4814840/index.html
+925,925,Mail Online,http://www.dailymail.co.uk/~/article-4843864/index.html
+926,926,Mail Online,http://www.dailymail.co.uk/~/article-4814054/index.html
+927,927,Mail Online,http://www.dailymail.co.uk/~/article-4825970/index.html
+928,928,Mail Online,http://www.dailymail.co.uk/~/article-4814010/index.html
+929,929,Mail Online,http://www.dailymail.co.uk/~/article-4890130/index.html
+930,930,Mail Online,http://www.dailymail.co.uk/~/article-4890126/index.html
+931,931,Mail Online,http://www.dailymail.co.uk/~/article-4804652/index.html
+932,932,Mail Online,http://www.dailymail.co.uk/~/article-4813546/index.html
+933,933,Mail Online,http://www.dailymail.co.uk/~/article-4843032/index.html
+934,934,Mail Online,http://www.dailymail.co.uk/~/article-4857760/index.html
+935,935,Mail Online,http://www.dailymail.co.uk/~/article-4809620/index.html
+936,936,Mail Online,http://www.dailymail.co.uk/~/article-4804376/index.html
+937,937,Mail Online,http://www.dailymail.co.uk/~/article-4809606/index.html
+938,938,Mail Online,http://www.dailymail.co.uk/~/article-4868446/index.html
+939,939,Mail Online,http://www.dailymail.co.uk/~/article-4857730/index.html
+940,940,Mail Online,http://www.dailymail.co.uk/~/article-4842720/index.html
+941,941,Mail Online,http://www.dailymail.co.uk/~/article-4804598/index.html
+942,942,Mail Online,http://www.dailymail.co.uk/~/article-4804600/index.html
+943,943,Mail Online,http://www.dailymail.co.uk/~/article-4813716/index.html
+944,944,Mail Online,http://www.dailymail.co.uk/~/article-4804602/index.html
+945,945,Mail Online,http://www.dailymail.co.uk/~/article-4842330/index.html
+946,946,Mail Online,http://www.dailymail.co.uk/~/article-4825608/index.html
+947,947,Mail Online,http://www.dailymail.co.uk/~/article-4875338/index.html
+948,948,Mail Online,http://www.dailymail.co.uk/~/article-4809390/index.html
+949,949,Mail Online,http://www.dailymail.co.uk/~/article-4868552/index.html
+950,950,Mail Online,http://www.dailymail.co.uk/~/article-4804512/index.html
+951,951,Mail Online,http://www.dailymail.co.uk/~/article-4875328/index.html
+952,952,Mail Online,http://www.dailymail.co.uk/~/article-4804526/index.html
+953,953,Mail Online,http://www.dailymail.co.uk/~/article-4858520/index.html
+954,954,Mail Online,http://www.dailymail.co.uk/~/article-4871644/index.html
+955,955,Mail Online,http://www.dailymail.co.uk/~/article-4797394/index.html
+956,956,Mail Online,http://www.dailymail.co.uk/~/article-4814624/index.html
+957,957,Mail Online,http://www.dailymail.co.uk/~/article-4824358/index.html
+958,958,Mail Online,http://www.dailymail.co.uk/~/article-4844110/index.html
+959,959,Mail Online,http://www.dailymail.co.uk/~/article-4797134/index.html
+960,960,Mail Online,http://www.dailymail.co.uk/~/article-4797262/index.html
+961,961,Mail Online,http://www.dailymail.co.uk/~/article-4809716/index.html
+962,962,The Huffington Post,http://www.huffingtonpost.com/entry/floating-the-solar-eclipse_us_59a1bdd6e4b0a62d0987af9f
+963,963,Mail Online,http://www.dailymail.co.uk/~/article-4871880/index.html
+964,964,Mail Online,http://www.dailymail.co.uk/~/article-4804926/index.html
+965,965,Mail Online,http://www.dailymail.co.uk/~/article-4890664/index.html
+966,966,NOLA.com,http://www.nola.com/environment/index.ssf/2017/09/us_coastal_population_growth.html
+967,967,San Francisco Gate,http://www.sfgate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+968,968,The Seattle Times,http://www.seattletimes.com/nation-world/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+969,969,Boston.com,https://www.boston.com/news/national-news/2017/09/16/us-coastal-growth-continues-despite-lessons-of-past-storms
+970,970,mySA,http://www.mysanantonio.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+971,971,The Kansas City Star,http://www.kansascity.com/news/business/national-international/article173700696.html
+972,972,WFTV,http://www.wftv.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299985
+973,973,The Denver Post,http://www.denverpost.com/2017/09/16/us-coastal-population-growth/
+974,974,Star Tribune,http://www.startribune.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/444848483/
+975,975,WRAL.com,http://www.wral.com/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth/16952667/
+976,976,Daily Herald,http://www.dailyherald.com/article/20170916/news/309169966
+977,977,WSOC,http://www.wsoctv.com/news/south-carolina/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610298959
+978,978,Fox Business,http://www.foxbusiness.com/markets/2017/09/16/us-coastal-growth-continues-despite-lessons-past-storms.html
+979,979,Miami Herald,http://www.miamiherald.com/news/article173700696.html
+980,980,WVVA TV,http://www.wvva.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+981,981,Times Union,http://www.timesunion.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+982,982,West Side Journal,https://www.abqjournal.com/1064759/us-coastal-growth-continues-despite-lessons-of-past-storms.html
+983,983,wbrc.com,http://www.wbrc.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+984,984,wbrc.com,http://www.wbrc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+985,985,The Bangor Daily News,http://bangordailynews.com/2017/09/16/news/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+986,986,Seattle Pi,http://www.seattlepi.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+987,987,KHNL TV 8,http://www.hawaiinewsnow.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+988,988,The Sacramento Bee,http://www.sacbee.com/latest-news/article173700696.html
+989,989,Metro Toronto,http://www.metronews.ca/news/world/2017/09/16/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal-growth.html
+990,990,stamford advocate,http://www.stamfordadvocate.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+991,991,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=COCOL&SECTION=HOME&TEMPLATE=DEFAULT
+992,992,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=ORCOO&SECTION=HOME&TEMPLATE=DEFAULT
+993,993,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=TXMCA&SECTION=HOME&TEMPLATE=DEFAULT
+994,994,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+995,995,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+996,996,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=CAANR&SECTION=HOME&TEMPLATE=DEFAULT
+997,997,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=FLSTU&SECTION=HOME&TEMPLATE=DEFAULT
+998,998,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+999,999,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+1000,1000,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=PASTR&SECTION=HOME&TEMPLATE=DEFAULT
+1001,1001,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=INELK&SECTION=HOME&TEMPLATE=DEFAULT
+1002,1002,Associated Press,http://hosted.ap.org/dynamic/stories/U/US_HURRICANES_COASTLINE_GROWTH_TXOL-?SITE=AZMES&SECTION=HOME&TEMPLATE=DEFAULT
+1003,1003,nwi.com,http://www.nwitimes.com/news/local/govt-and-politics/fema-calls-a-regional-ambulance-service-to-the-aid-of/article_522b5083-8cb0-55a2-9c96-8c01a82ae672.html
+1004,1004,The Charlotte Observer,http://www.charlotteobserver.com/news/state/south-carolina/article173700696.html
+1005,1005,Honolulu Star-Advertiser,http://www.staradvertiser.com/2017/09/16/business/business-breaking/u-s-coastal-growth-continues-despite-lessons-of-past-storms/
+1006,1006,nwi.com,http://www.nwitimes.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_40fe60ab-0617-599a-90c0-091c8b8eccf2.html
+1007,1007,"3TV, azfamily.com",http://www.azfamily.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+1008,1008,MyMcMurray,http://www.mymcmurray.com/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/
+1009,1009,Beaumont Enterprise,http://www.beaumontenterprise.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+1010,1010,NewsTimes,http://www.newstimes.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+1011,1011,WFXG FOX54,http://www.wfxg.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+1012,1012,Sun.Star,http://www.sunstar.com.ph/network/news/2017/09/17/us-coastal-growth-continues-despite-lessons-past-storms-564574
+1013,1013,Bradenton Herald,http://www.bradenton.com/news/business/article173700696.html
+1014,1014,WMC Action News 5,http://www.wmcactionnews5.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+1015,1015,greenwich time,http://www.greenwichtime.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+1016,1016,Aurora Sentinel,http://www.aurorasentinel.com/news/nation-world/us-coastal-growth-continues-despite-lessons-past-storms/
+1017,1017,WMC Action News 5,http://www.wmcactionnews5.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+1018,1018,star-telegram,http://www.star-telegram.com/news/state/texas/article173700696.html
+1019,1019,Sun Herald,http://www.sunherald.com/news/business/article173700696.html
+1020,1020,Aiken Standard,http://www.aikenstandard.com/news/us-coastal-growth-continues-despite-lessons-of-past-storms/article_4f9b22ad-fbdf-5705-ae91-af649980c73b.html
+1021,1021,ktre.com,http://www.ktre.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+1022,1022,ktre.com,http://www.ktre.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+1023,1023,missoulian.com,http://missoulian.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+1024,1024,missoulian.com,http://missoulian.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_d5e814ee-4ec0-53f3-bc8e-5cc29ccf16a7.html
+1025,1025,The News&Observer,http://www.newsobserver.com/news/business/article173700696.html
+1026,1026,WAFB,http://www.wafb.com/story/36382596/us-coastal-growth-continues-despite-lessons-of-past-storms
+1027,1027,WAFB,http://www.wafb.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+1028,1028,The News&Observer,http://www.newsobserver.com/news/state/south-carolina/article173700696.html
+1029,1029,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US-Hurricanes-Coastline-Growth/id-1c50c18ba80246efab0f665f1f8749dd
+1030,1030,Associated Press,http://hosted2.ap.org/CARIE/6b85546689744819aa7a64cd3ca6cee6/Article_2017-09-16-US--Hurricanes-Coastline%20Growth/id-664c3ecc200a42ffa9b0d8f96fd54e9b
+1031,1031,San Francisco Chronicle,http://www.sfchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+1032,1032,TimesDaily,http://www.timesdaily.com/news/nation/us-coastal-growth-continues-despite-lessons-of-past-storms/article_bc950ea6-5c39-5c33-b22d-eb9b96d58ef6.html
+1033,1033,The Republic,http://www.therepublic.com/2017/09/16/us-hurricanes-coastline-growth/
+1034,1034,WJAX,http://www.actionnewsjax.com/news/florida/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth/610299911
+1035,1035,Willoughby News-Herald,http://www.news-herald.com/article/HR/20170916/BUSINESS/170919523
+1036,1036,The News Tribune,http://www.thenewstribune.com/news/business/article173700696.html
+1037,1037,Houston Chronicle,http://www.houstonchronicle.com/news/nation-world/nation/article/Coastal-growth-continues-undeterred-12203553.php
+1038,1038,Houston Chronicle,http://www.houstonchronicle.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php
+1039,1039,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/business/national-business/article173700696.html
+1040,1040,MyrtleBeachOnline,http://www.myrtlebeachonline.com/news/state/south-carolina/article173700696.html
+1041,1041,Daily Journal,http://www.dailyjournal.net/2017/09/16/us-hurricanes-coastline-growth/
+1042,1042,Muscatine Journal,http://muscatinejournal.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_c790f109-0789-5707-81b7-5b5cdc193043.html
+1043,1043,WBOC TV 16,http://www.wboc.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+1044,1044,Owensboro Messenger-Inquirer,http://www.messenger-inquirer.com/news/national/u-s-coastal-growth-continues-despite-lessons-of-past-storms/article_f61819ed-3dec-5a24-b224-1de364c921a8.html
+1045,1045,Eagle-Tribune,http://www.eagletribune.com/region/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_cf864e7a-a817-5d6e-b9c9-61b01757753c.html
+1046,1046,Post Register,http://www.postregister.com/articles/nation-world/2017/09/17/coastal-growth-continues-despite-lessons-storms
+1047,1047,Winston-Salem Journal,http://www.journalnow.com/news/nation_world_ap/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_7d9dca57-ee53-5b7c-b44f-7d4814e8c60f.html
+1048,1048,LasVegasSun.com,https://lasvegassun.com/news/2017/sep/16/us-coastal-growth-continues-despite-lessons-of-pas/
+1049,1049,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/us-coastal-growth-continues-despite-lessons-of-past-storms/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+1050,1050,Dothan Eagle,http://www.dothaneagle.com/news/ap/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_10741488-9ea5-587f-94db-6e8fbaaa68af.html
+1051,1051,PostBulletin.com,http://www.postbulletin.com/business/us-coastal-growth-continues-despite-lessons-of-past-storms/article_350f493b-e1eb-5c81-be9e-6a99ea0efce1.html
+1052,1052,Brownsville Herald,http://www.brownsvilleherald.com/news/texas/article_a0f51431-9761-56a2-be6c-bfb46f3041f3.html
+1053,1053,Thegardenisland.com,http://thegardenisland.com/business/national-and-international/us-coastal-growth-continues-despite-lessons-of-past-storms/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+1054,1054,Thegardenisland.com,http://thegardenisland.com/news/national/what-hurricanes-don-t-teach-us-ap-finds-fast-coastal/article_8083cf48-4d55-55ea-9ec6-de80425f8688.html
+1055,1055,East Oregonian,http://www.eastoregonian.com/us-coastal-growth-continues-despite-lessons-of-past-storms-eo-ap-webfeeds-news-nation-worldcd935bda33124a64a89f850483e935a3
+1056,1056,canada.com,http://www.canada.com/business/coastal+growth+continues+despite+lessons+past+storms/14713020/story.html
+1057,1057,Boston Herald,http://www.bostonherald.com/news/national/2017/09/us_coastal_growth_continues_despite_lessons_of_past_storms
+1058,1058,HeraldNet.com,http://www.heraldnet.com/nation-world/us-coastal-growth-continues-despite-lessons-of-past-storms/
+1059,1059,KIRO,http://www.kiro7.com/news/national/us-coastal-growth-continues-despite-lessons-of-past-storms/610406621
+1060,1060,tristateupdate.com,http://www.tristateupdate.com/story/36382595/us-coastal-growth-continues-despite-lessons-of-past-storms
+1061,1061,National Post,http://nationalpost.com/pmn/news-pmn/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth
+1062,1062,Republican American,http://www.rep-am.com/news/2017/09/16/hurricanes-what-hurricanes-coasts-see-massive-development/
+1063,1063,Fox News,http://www.foxnews.com/us/2017/09/16/what-hurricanes-dont-teach-us-ap-finds-fast-coastal-growth.html
+1064,1064,CTPost,http://www.ctpost.com/news/texas/article/What-hurricanes-don-t-teach-us-AP-finds-fast-12202754.php

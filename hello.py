@@ -14,8 +14,8 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 # INIT ALL ML
-# print("loading tensorflow  model")
-# sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer = ourModel.loadML()
+print("loading tensorflow  model")
+sess, keep_prob_pl, predict, features_pl, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer = ourModel.loadML()
 
 @app.route("/")
 def hello():
@@ -30,8 +30,8 @@ def foo():
     if isURL:
         print("Calling webscraper!")
         # sources = webscraper.web_scrape(userInput)
-        result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
-        print(result)
+        # result = execnet.call_python_version("2.7", "webscraper", "web_scrape", [userInput])
+        # print(result)
 
         ############# ALL ML #############
         arg1 = userInput
@@ -56,12 +56,14 @@ def foo():
             'Stances': Stances,
             'SourceName': SourceName,
             'URL': URLs
-            })
-        print(Stances)
+        })
+
+        response = ml_output.reset_index(drop=True)
+        response = response.to_dict(orient='records')
 
     # data = [{'name': "CLAIM!!!", 'agree': "99%", 'disagree': "1%" }, { 'name': "Response #2", 'agree': "55%", 'disagree': "45%"}]
     response = app.response_class(
-        response=json.dumps(sources),
+        response=json.dumps(response),
         status=200,
         mimetype='application/json'
     )

@@ -118,4 +118,4 @@ def writeToDisk():
             writer.writerow({'source': k, 'reputation': v.reputation})
 
 loadRepsFromDisk(FILEPATH)
-print(globals.sources)
+# print(globals.sources)
