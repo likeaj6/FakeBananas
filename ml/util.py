@@ -212,7 +212,7 @@ def pipeline_train(train, test, lim_unigram):
             tfidf_cos = cos_track[(head, body_id)]
         feat_vec = np.squeeze(np.c_[head_tf, body_tf, tfidf_cos])
         train_set.append(feat_vec)
-        train_stances.append(label_ref[instance['Stance']])
+        train_stances.append(label_ref[instance['Stances']])
 
     return train_set, train_stances, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer
 
@@ -299,9 +299,9 @@ def save_predictions(pred, file):
     """
 
     with open(file, 'w') as csvfile:
-        fieldnames = ['Stance']
+        fieldnames = ['Stances']
         writer = DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
         for instance in pred:
-            writer.writerow({'Stance': label_ref_rev[instance]})
+            writer.writerow({'Stances': label_ref_rev[instance]})
