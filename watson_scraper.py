@@ -29,7 +29,7 @@ def get_articles(keywords):
 
     res = er.execQuery(q)
     for article in res['articles']['results']:
-        if x is 0:
+        if x == 0:
             global_claim = article['title'].encode('utf-8')
         data = {
             'source': article['source']['title'].encode('utf-8'),
@@ -117,7 +117,7 @@ def watson_azure_scrape(keywords):
 # Call this function with a claim to query event registry
 def run_azure(claim):
     claim_tokens = nltk.word_tokenize(claim)
-    if len(claim_tokens) is 3:
+    if len(claim_tokens) == 3:
         # Go straight to event registry with claim
         watson_azure_scrape(claim)
     else:
