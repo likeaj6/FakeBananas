@@ -102,4 +102,4 @@ def web_scrape(url):
         thread.join()
 
     global_df = global_df.reset_index(drop=True)
-#     df.to_json(orient='index')
+    return global_df.to_json(orient='index')
