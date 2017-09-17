@@ -30,6 +30,7 @@ def mlToOut(mlOut):
     """takes the output of our ml and turns it into a final stances
     :param mlOut: a panda dataframe
     """
+    loadRepsFromDisk(reputationDict)
     for index, row in mlOut.iterrows():
         stance = row['Stances']
         articleId = row['BodyID']
@@ -41,6 +42,7 @@ def mlToOut(mlOut):
             opinions.append(op)
     stance = avgStance(opinions)
     updateRep(opinions)
+    writeToDisk()
     return stance
 
 def avgStance(opinions):
