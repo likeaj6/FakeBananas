@@ -77,7 +77,7 @@ class SearchBar extends Component {
         sources.forEach(source => {
             const clickCallback = () => this.handleRowClick(source.source);
             if (first) {
-                var row = <Table.Row key={source.uid} onClick={clickCallback}>
+                var row = <Table.Row key={source.id} onClick={clickCallback}>
                       <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
                       <Table.Cell>{source.agree}</Table.Cell>
                       <Table.Cell>{source.disagree}</Table.Cell>
@@ -86,7 +86,7 @@ class SearchBar extends Component {
                 first = false
             } else {
                 if (expandedRows.contains(source.source)) {
-                    let row = <Table.Row key={source.uid} onClick={clickCallback}>
+                    let row = <Table.Row key={source.id} onClick={clickCallback}>
                           <Table.Cell><a href={source.url} target="_blank">{source.source}</a></Table.Cell>
                           <Table.Cell>test</Table.Cell>
                           <Table.Cell>test</Table.Cell>
@@ -238,7 +238,7 @@ class SearchBar extends Component {
         <br/>
         <br/>
         <Label><Icon name="newspaper"/>Sources we used to predict your article:</Label>
-        <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Agree:</Segment><Segment color="red" compact>Disagree:</Segment></Segment.Group>
+        <Segment.Group horizontal><Segment color="grey" compact>Sources:</Segment><Segment color="green" compact>Agree:</Segment><Segment color="red" compact>Sentiment:</Segment></Segment.Group>
         </div>
 
         let allBodyRows = [];
