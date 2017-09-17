@@ -49,6 +49,7 @@ def mlPred():
     raw_train = FNCData(file_train_instances, file_train_bodies)
     raw_test = FNCData(file_test_instances, file_test_bodies)
     n_train = len(raw_train.instances)
+    print(type(raw_test))
 
 
     # Process data sets
