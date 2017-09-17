@@ -8,10 +8,8 @@ def loadML():
     # Set file names
     file_train_instances = "ml/train_stances.csv"
     file_train_bodies = "ml/train_bodies.csv"
-    # file_test_instances = "ml/test_stances_unlabeled.csv"
-    # file_test_bodies = "ml/test_bodies.csv"
-    file_test_instances = "ml/claims2.csv"
-    file_test_bodies = "ml/bodies.csv"
+    file_test_instances = "ml/test_stances_unlabeled.csv"
+    file_test_bodies = "ml/test_bodies.csv"
     file_predictions = 'ml/ML_predictions.csv'
 
     # Initialise hyperparameters
@@ -33,7 +31,8 @@ def loadML():
     n_train = len(raw_train.instances)
 
 
-    # Process data sets
+    # Process data sets <-- this is a real time succ?
+    # TODO RUN TIME TRIAL ON THIS
     train_set, train_stances, bow_vectorizer, tfreq_vectorizer, tfidf_vectorizer = \
         util.pipeline_train(raw_train, raw_test, lim_unigram=lim_unigram)
     feature_size = len(train_set[0])
@@ -69,6 +68,11 @@ def loadML():
     return sess, test_set, keep_prob_pl, predict, features_pl
 
 def runModel(sess, test_set, keep_prob_pl, predict, features_pl):
+    # set file names
+    file_test_instances = "ml/claims2.csv"
+    file_test_bodies = "ml/bodies.csv"
+
+
     print("Now running predictions...")
     # idk what this does really
     test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
