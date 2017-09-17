@@ -1,7 +1,9 @@
 from eventregistry import *
 from threading import Thread, Lock
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
+from py_ms_cognitive import PyMsCognitiveWebSearch
 import watson_developer_cloud.natural_language_understanding.features.v1 as Features
+import nltk
 import pandas as pd
 import json
 
@@ -62,6 +64,7 @@ def watson(user_url):
             keywords.append(keyword['text'].encode('utf-8'))
     return keywords
 
+# Worker thread class override
 class myThread(threading.Thread):
     def __init__(self, query):
         threading.Thread.__init__(self)
@@ -70,26 +73,7 @@ class myThread(threading.Thread):
     def run(self):
         get_articles(self.query)
 
-def watson_scrape(url):
-    global global_df
-    keywords = watson(url)
 
-    index = 0
-    threads = []
-
-    for query in keywords:
-        threads.append(myThread(query))
-        threads[index].start()
-        index += 1
-    for thread in threads:
-        thread.join()
-    global_df = global_df.reset_index(drop=True)
-    # global_df.to_csv('watson_articles.csv')
-    global_df['uid'] = range(len(global_df.index))
-    return global_df.to_dict(orient='records')
-
-from py_ms_cognitive import PyMsCognitiveWebSearch
-import nltk
 
 def azure_search(claim):
     search_term = claim
@@ -101,6 +85,13 @@ def azure_search(claim):
     for i in first_three_result:
         urls.append(i.url.encode('utf-8'))
     return urls
+
+# given a list of urls, this function returns all related keywords for the urls
+def azure_claim(urls):
+    keywords = []
+    for url in urls:
+        keywords.append(watson(url))
+    return keywords
 
 def watson_azure_scrape(keywords):
     global global_df
@@ -127,16 +118,31 @@ def run_azure(claim):
     else:
         watson_azure_scrape(azure_claim(azure_search(claim)))
 
-def azure_claim(urls):
-    keywords = []
-    for url in urls:
-        keywords.append(watson(url))
-    return keywords
+# Call this function with a url to query event registry
+def watson_scrape(url):
+    global global_df
+    keywords = watson(url)
+
+    index = 0
+    threads = []
+
+    for query in keywords:
+        threads.append(myThread(query))
+        threads[index].start()
+        index += 1
+    for thread in threads:
+        thread.join()
+    global_df = global_df.reset_index(drop=True)
+    # global_df.to_csv('watson_articles.csv')
+    global_df['uid'] = range(len(global_df.index))
+    return global_df.to_dict(orient='records')
+
+
 
 def main(args):
-    if args[1] is 'url':
-        watson_scrape(args[2])
+    if args[0] is 'url':
+        watson_scrape(args[1])
     else:
-        run_azure(args[2])
+        run_azure(args[1])
 if __name__ == '__main__':
     main(sys.argv)
