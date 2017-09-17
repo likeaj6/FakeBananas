@@ -79,7 +79,8 @@ def mlToOut(mlOut):
     """
     """opinions #list of type opinion"""
     for count, element in enumerate(mlOut.size):
-        int stance = mlOut.loc[count, 'Stances']
+        stance = mlOut.loc[count, 'Stances']
+        print stance
         articleId = mlOut.loc[count, 'BodyID']
         sourceName = mlOut.loc[count, 'SourceName']
         opinions.append(opinion(sourceName, articleId, stance))
