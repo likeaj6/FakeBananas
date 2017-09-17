@@ -80,7 +80,6 @@ def mlToOut(mlOut):
     """opinions #list of type opinion"""
     for row in mlOut.rows:
         stance = row['Stances']
-        print(stance)
         articleId = row['BodyID']
         sourceName = row['SourceName']
         opinions.append(opinion(sourceName, articleId, stance))
@@ -93,7 +92,7 @@ def avgStance(opinions):
     :param opinions: a list<opinion> of all opinions to average
     """
     """finalStance #to hold our final stance"""
-    for op in opinions:
+    for op in opinions.items():
         #disagree
         if op.stance == 0:
             if reputations.contains(op.sourceName):
