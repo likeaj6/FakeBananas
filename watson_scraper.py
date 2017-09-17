@@ -73,8 +73,7 @@ class myThread(threading.Thread):
     def run(self):
         get_articles(self.query)
 
-
-
+# given claim, azure returns related urls using bing searches
 def azure_search(claim):
     search_term = claim
     search_service = PyMsCognitiveWebSearch('75d1a40af4bf4ba4bdf561ae25b5db5c', claim)
@@ -93,6 +92,7 @@ def azure_claim(urls):
         keywords.append(watson(url))
     return keywords
 
+# given keywords, query event registry and append to global dataframe
 def watson_azure_scrape(keywords):
     global global_df
 
@@ -110,6 +110,7 @@ def watson_azure_scrape(keywords):
 #     global_df['uid'] = range(len(global_df.index))
 #     return global_df.to_dict(orient='records')
 
+# Call this function with a claim to query event registry
 def run_azure(claim):
     claim_tokens = nltk.word_tokenize(claim)
     if len(claim_tokens) is 3:
@@ -136,8 +137,6 @@ def watson_scrape(url):
     # global_df.to_csv('watson_articles.csv')
     global_df['uid'] = range(len(global_df.index))
     return global_df.to_dict(orient='records')
-
-
 
 def main(args):
     if args[0] is 'url':
