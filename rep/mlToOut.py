@@ -133,12 +133,12 @@ def compareStance(opinion, opinions):
 def update(opinions):
     for op in opinions:
         if not globals.sources.contains(op.sourceName):
-            globals.sources.add(op.sourceName, source(op.sourceName, 0))
+            globals.sources.update(op.sourceName, source(op.sourceName, 0))
         globals.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
 def loadReputations(reputations):
     for k,v in reputations.items():
-        globals.sources.add(k, source(k, v))
+        globals.sources.update(k, source(k, v))
 
 def loadDefaultReputations():
     loadReputations(globals.defaultReputations)
