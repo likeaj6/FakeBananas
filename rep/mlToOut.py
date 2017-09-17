@@ -82,7 +82,8 @@ def mlToOut(mlOut):
         stance = row['Stances']
         articleId = row['BodyID']
         sourceName = row['SourceName']
-        opinions.append(opinion(sourceName, articleId, stance))
+        op = opinion(sourceName, articleId, stance)
+        opinions.append(op)
     stance = avgStance(opinions)
     reputations.updateRep(opinions)
     return stance
