@@ -78,11 +78,11 @@ def mlToOut(mlOut):
     :param mlOut: a panda dataframe
     """
     """opinions #list of type opinion"""
-    for count, element in enumerate(mlOut.size):
-        stance = mlOut.loc[count, 'Stances']
+    for row in mlOut.rows:
+        stance = row['Stances']
         print(stance)
-        articleId = mlOut.loc[count, 'BodyID']
-        sourceName = mlOut.loc[count, 'SourceName']
+        articleId = row['BodyID']
+        sourceName = row['SourceName']
         opinions.append(opinion(sourceName, articleId, stance))
     stance = avgStance(opinions)
     reputations.updateRep(opinions)
