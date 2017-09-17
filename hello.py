@@ -67,8 +67,9 @@ def foo():
     )
 
     ########### Josh's Algs ############
-    # returns a final confidence between -1 and 1
     final_score = mlToOut.mlToOut(ml_output)
+    final_score = (final_score + 1)/2
+    # outputs final confidence from 0 to 1
     print("final score: %d", final_score)
 
     return response
