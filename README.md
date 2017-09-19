@@ -79,6 +79,9 @@ Some teams try to granularly check the truth of each fact in an article. This is
 ### Acknowledgements
 [The Fake News Challenge](fakenewschallenge.com) provided great inspiration for our project and guiding principles for tackling the task.
 
+[EventRegistry](eventregistry.org):
+
+We want to thank EventRegistry for their awesome work and generous support in providing us a trial account to their service. We couldn't have done this without their amazing database of articles.
 
 The University of College London's short paper on the topic:
 ```latex
