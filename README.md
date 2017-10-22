@@ -1,6 +1,8 @@
 # Fake Bananas
 Fake news detection made simple and scalable for real people. 
 
+_Fake Bananas finished top 10 at HackMIT 2017 and won awards for 'best use of data' and 'best use of machine learning for the common good.'_ 
+
 ![alt](https://user-images.githubusercontent.com/13607221/30521745-822c4900-9b92-11e7-9fcf-d8ec6ad4a186.png)
 ![alt](https://user-images.githubusercontent.com/13268856/30573916-92d96c82-9cc4-11e7-83fc-83e1750916c2.png)
 ![alt](https://user-images.githubusercontent.com/13268856/30573915-92d92ab0-9cc4-11e7-84e6-7db34b932dc3.png)
