@@ -1,6 +1,12 @@
 import csv
+import time
+import pandas as pd
 
-FILEPATH = "rep/reputationDict.csv"
+DEFAULTSFILEPATH = '/Users/Joshua_Freier/hackMIT/FakeBananas/rep/reputationDict.csv'
+NORMALFILEPATH = '/Users/Joshua_Freier/hackMIT/FakeBananas/rep/reputations.csv'
+
+class globals:
+    sources = {}
 
 class opinion:
     def __init__(self, sourceName, articleId, stance):
@@ -12,25 +18,22 @@ class source:
     """articles #list of strings
     size #int
     reputation #number between -1 and 1 inclusive"""
-    def __init__(self, sourceName, reputation):
+    def __init__(self, sourceName, reputation, articles, size):
         self.sourceName = sourceName
         self.reputation = reputation
-        self.size = 0
-        self.articles = []
+        self.articles = articles
+        self.size = size
     def addArticle(self, articleId, articleValidity):
         if not articleId in self.articles:
             self.reputation = (self.reputation*self.size+articleValidity)/(self.size+1)
             self.articles.append(articleId)
             self.size += 1
 
-class globals:
-    sources = {'New York Times' : source('New York Times', 1)}
-
 def returnOutput(mlOut):
     """takes the output of our ml and turns it into a final stances
     :param mlOut: a panda dataframe
     """
-    loadRepsFromDisk(FILEPATH)
+    loadReputations(NORMALFILEPATH)
     for index, row in mlOut.iterrows():
         stance = row['Stances']
         articleId = row['BodyID']
@@ -42,7 +45,7 @@ def returnOutput(mlOut):
             opinions.append(op)
     stance = avgStance(opinions)
     updateRep(opinions)
-    # writeToDisk()
+    writeToDisk(NORMALFILEPATH)
     return stance
 
 def avgStance(opinions):
@@ -96,28 +99,38 @@ def compareStance(opinion, opinions):
 def updateRep(opinions):
     for op in opinions:
         if not op.sourceName in globals.sources:
-            globals.sources.update({op.sourceName : source(op.sourceName, 0)})
+            globals.sources.update({op.sourceName : source(op.sourceName, 0, [], 1)})
         globals.sources.get(op.sourceName).addArticle(op.articleId, compareStance(op, opinions))
 
-def loadReputations(reputations):
-    for k,v in reputations.items():
-        globals.sources.update({k : source(k, v)})
-
-def loadRepsFromDisk(filepath):
-    with open('rep/reputationDict.csv') as csvfile:
-        reader = csv.DictReader(csvfile)
+def loadReputations(filepath):
+    with open(filepath) as csvfile:
+        fieldnames = ['source', 'reputation', 'articles', 'size']
+        reader = csv.DictReader(csvfile, fieldnames = fieldnames)
         for row in reader:
-            globals.sources.update({row['source'] : row['reputation']})
+            print(row['source'])
+            globals.sources[row['source']] = source(row['source'], row['reputation'], row['articles'], row['size'])
+            globals.sources[row['source']].size = 100 #Only for defaults
 
-def writeToDisk():
-    with open('rep/reputationDict.csv', 'w') as csvfile:
+def loadDefaultRepsFromDisk(filepath):
+    with open(filepath) as csvfile:
         fieldnames = ['source', 'reputation']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        for k in globals.sources.keys():
-            writer.writerow({'source': k, 'reputation':
-            globals.sources.get(k).reputation})
+        reader = csv.DictReader(csvfile, fieldnames = fieldnames)
+        for row in reader:
+#            print(row['source'])
+            globals.sources[row['source']] = source(row['source'], row['reputation'], [], 100)
 
-#loadRepsFromDisk(FILEPATH)
-#writeToDisk()
-# print(globals.sources)
+def writeToDisk(filepath):
+    with open(filepath, 'w') as csvfile:
+        fieldnames = ['source', 'reputation', 'articles', 'size']
+        writer = csv.DictWriter(csvfile, fieldnames = fieldnames)
+        writer.writeheader()
+        for k, v in globals.sources.items():
+            if(type(v) == source):
+                writer.writerow({'source': k, 'reputation': v.reputation, 'articles' : v.articles, 'size' : v.size})
+            else:
+                print(source)
+
+
+
+loadDefaultRepsFromDisk(DEFAULTSFILEPATH)
+writeToDisk(NORMALFILEPATH)
